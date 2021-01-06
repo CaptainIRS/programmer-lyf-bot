@@ -1,0 +1,685 @@
+{
+    "subreddits": [
+        {
+            "category": "fun",
+            "frequency": "daily",
+            "posts": [
+                {
+                    "comments": 27,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/li4gqfmv0n961.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 06 Jan 2021 04:13:59 UTC",
+                    "selftext": "",
+                    "title": "Idiot proofing is a necessity",
+                    "upvotes": 1890,
+                    "url": "https://www.reddit.com/r/ProgrammerHumor/comments/krg1ag/idiot_proofing_is_a_necessity/"
+                },
+                {
+                    "comments": 16,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/tbfuix9o0r961.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 06 Jan 2021 17:40:04 UTC",
+                    "selftext": "",
+                    "title": "There is no such thing as a well written documentation",
+                    "upvotes": 1929,
+                    "url": "https://www.reddit.com/r/ProgrammerHumor/comments/krssm3/there_is_no_such_thing_as_a_well_written/"
+                },
+                {
+                    "comments": 66,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/tsnaysc51o961.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 06 Jan 2021 07:37:40 UTC",
+                    "selftext": "",
+                    "title": "Does this fit here?",
+                    "upvotes": 995,
+                    "url": "https://www.reddit.com/r/ProgrammerHumor/comments/krj4gz/does_this_fit_here/"
+                },
+                {
+                    "comments": 28,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/8mr4hmnp2r961.png"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 06 Jan 2021 17:51:28 UTC",
+                    "selftext": "",
+                    "title": "oursql > mysql",
+                    "upvotes": 1200,
+                    "url": "https://www.reddit.com/r/ProgrammerHumor/comments/krt1ua/oursql_mysql/"
+                },
+                {
+                    "comments": 59,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/4ydmodf8wl961.png"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 06 Jan 2021 00:26:38 UTC",
+                    "selftext": "",
+                    "title": "If C was a car...",
+                    "upvotes": 709,
+                    "url": "https://www.reddit.com/r/ProgrammerHumor/comments/krbvdg/if_c_was_a_car/"
+                }
+            ],
+            "subreddit": "ProgrammerHumor",
+            "subreddit_icon": "https://b.thumbs.redditmedia.com/Qj8PVGSQ_B_3JjNCeE-bxz-RVokmZQ23i8cNGRw7Nhc.png",
+            "subreddit_url": "https://www.reddit.com/r/ProgrammerHumor/"
+        },
+        {
+            "category": "fun",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 18,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/hqckeok573961.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Sun, 03 Jan 2021 19:41:35 UTC",
+                    "selftext": "",
+                    "title": ".window:nth-child( 10 ) { transform: rotate( 30deg ); transform-origin: bottom left }",
+                    "upvotes": 508,
+                    "url": "https://www.reddit.com/r/css_irl/comments/kprcei/windownthchild_10_transform_rotate_30deg/"
+                },
+                {
+                    "comments": 4,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://imgur.com/241SRvb.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Fri, 01 Jan 2021 23:13:56 UTC",
+                    "selftext": "",
+                    "title": ".sticker{ position: relative; left: -10px; }",
+                    "upvotes": 368,
+                    "url": "https://www.reddit.com/r/css_irl/comments/kolg8u/sticker_position_relative_left_10px/"
+                }
+            ],
+            "subreddit": "css_irl",
+            "subreddit_icon": "",
+            "subreddit_url": "https://www.reddit.com/r/css_irl/"
+        },
+        {
+            "category": "fun",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 61,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/kqho3s/declaring_a_war_using_js/"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 20:53:10 UTC",
+                    "selftext": " I\u2019m declaring a war.\n\nvar war;",
+                    "title": "declaring a war using js",
+                    "upvotes": 206,
+                    "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/kqho3s/declaring_a_war_using_js/"
+                },
+                {
+                    "comments": 13,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/kr546b/apples_switch_to_their_own_silicon_was_a_hard/"
+                    },
+                    "over_18": false,
+                    "posted": "Tue, 05 Jan 2021 19:01:43 UTC",
+                    "selftext": "It was courageous, bold, and really RISCy.",
+                    "title": "Apple's switch to their own silicon was a hard decision",
+                    "upvotes": 247,
+                    "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/kr546b/apples_switch_to_their_own_silicon_was_a_hard/"
+                },
+                {
+                    "comments": 14,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/koctty/whats_a_midwesterns_favorite_programming_paradigm/"
+                    },
+                    "over_18": false,
+                    "posted": "Fri, 01 Jan 2021 15:16:17 UTC",
+                    "selftext": "OOP",
+                    "title": "Whats a midwesterns favorite programming paradigm?",
+                    "upvotes": 150,
+                    "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/koctty/whats_a_midwesterns_favorite_programming_paradigm/"
+                }
+            ],
+            "subreddit": "ProgrammerDadJokes",
+            "subreddit_icon": "",
+            "subreddit_url": "https://www.reddit.com/r/ProgrammerDadJokes/"
+        },
+        {
+            "category": "fun",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 493,
+                    "downvotes": 0,
+                    "is_video": true,
+                    "media": {
+                        "medium": "video",
+                        "url": "https://v.redd.it/hinlr5fwmk861"
+                    },
+                    "over_18": false,
+                    "posted": "Thu, 31 Dec 2020 19:08:22 UTC",
+                    "selftext": "",
+                    "title": "I wasn\u2019t expecting the whole screen!",
+                    "upvotes": 24984,
+                    "url": "https://www.reddit.com/r/softwaregore/comments/knvz9t/i_wasnt_expecting_the_whole_screen/"
+                },
+                {
+                    "comments": 225,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/vvrfcetr6d961.png"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 19:10:05 UTC",
+                    "selftext": "",
+                    "title": "2020 didn't end in Romania.",
+                    "upvotes": 21796,
+                    "url": "https://www.reddit.com/r/softwaregore/comments/kqfglp/2020_didnt_end_in_romania/"
+                },
+                {
+                    "comments": 176,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/ln7r54o7zo861.png"
+                    },
+                    "over_18": false,
+                    "posted": "Fri, 01 Jan 2021 09:44:26 UTC",
+                    "selftext": "",
+                    "title": "BUT IT DIED ON NEW YEAR",
+                    "upvotes": 14566,
+                    "url": "https://www.reddit.com/r/softwaregore/comments/ko8qgu/but_it_died_on_new_year/"
+                },
+                {
+                    "comments": 107,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/drdrbafcb6961.png"
+                    },
+                    "over_18": false,
+                    "posted": "Sun, 03 Jan 2021 20:05:48 UTC",
+                    "selftext": "",
+                    "title": "My internet speed is so bad it's off the charts",
+                    "upvotes": 13510,
+                    "url": "https://www.reddit.com/r/softwaregore/comments/kprufe/my_internet_speed_is_so_bad_its_off_the_charts/"
+                },
+                {
+                    "comments": 493,
+                    "downvotes": 0,
+                    "is_video": true,
+                    "media": {
+                        "medium": "video",
+                        "url": "https://v.redd.it/os4td6up1s861"
+                    },
+                    "over_18": false,
+                    "posted": "Fri, 01 Jan 2021 20:03:48 UTC",
+                    "selftext": "",
+                    "title": "This mobile game completely broke itself",
+                    "upvotes": 13286,
+                    "url": "https://www.reddit.com/r/softwaregore/comments/kohxrn/this_mobile_game_completely_broke_itself/"
+                }
+            ],
+            "subreddit": "softwaregore",
+            "subreddit_icon": "https://b.thumbs.redditmedia.com/9U-qUTJiLUfoCCngBZLWZaLzA5pQyMadfaNMwLq9mhE.png",
+            "subreddit_url": "https://www.reddit.com/r/softwaregore/"
+        },
+        {
+            "category": "fun",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 108,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/79nqminwdl861.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Thu, 31 Dec 2020 21:39:19 UTC",
+                    "selftext": "",
+                    "title": "This popped into my Facebook feed, and idk what to think of it",
+                    "upvotes": 1211,
+                    "url": "https://www.reddit.com/r/badcode/comments/knynfy/this_popped_into_my_facebook_feed_and_idk_what_to/"
+                },
+                {
+                    "comments": 140,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/4o14mzn32s861.png"
+                    },
+                    "over_18": false,
+                    "posted": "Fri, 01 Jan 2021 20:08:46 UTC",
+                    "selftext": "",
+                    "title": "Guess the language of this monstrosity",
+                    "upvotes": 1181,
+                    "url": "https://www.reddit.com/r/badcode/comments/koi0zk/guess_the_language_of_this_monstrosity/"
+                },
+                {
+                    "comments": 90,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/9aihqoy7xd961.png"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 21:37:32 UTC",
+                    "selftext": "",
+                    "title": "oh god",
+                    "upvotes": 811,
+                    "url": "https://www.reddit.com/r/badcode/comments/kqim93/oh_god/"
+                },
+                {
+                    "comments": 37,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/s7ohnf1042961.png"
+                    },
+                    "over_18": false,
+                    "posted": "Sun, 03 Jan 2021 05:54:41 UTC",
+                    "selftext": "",
+                    "title": "setTimeoutception",
+                    "upvotes": 692,
+                    "url": "https://www.reddit.com/r/badcode/comments/kpexrj/settimeoutception/"
+                },
+                {
+                    "comments": 47,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/fcmq2t4wvy861.png"
+                    },
+                    "over_18": false,
+                    "posted": "Sat, 02 Jan 2021 19:04:16 UTC",
+                    "selftext": "",
+                    "title": "I saw this in a YouTube tutorial. Because sure, `ull` and `long int` are basically the same right?",
+                    "upvotes": 667,
+                    "url": "https://www.reddit.com/r/badcode/comments/kp3dr9/i_saw_this_in_a_youtube_tutorial_because_sure_ull/"
+                }
+            ],
+            "subreddit": "badcode",
+            "subreddit_icon": "",
+            "subreddit_url": "https://www.reddit.com/r/badcode/"
+        },
+        {
+            "category": "serious",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 124,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/olr2g2eddb961.gif"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 13:05:09 UTC",
+                    "selftext": "",
+                    "title": "[OC] Lighthouse shows an animation when reaching 100% \ud83c\udf86",
+                    "upvotes": 1497,
+                    "url": "https://www.reddit.com/r/webdev/comments/kq8do3/oc_lighthouse_shows_an_animation_when_reaching_100/"
+                },
+                {
+                    "comments": 276,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/webdev/comments/kqtwf7/is_it_normal_to_feel_like_complete_trash_after/"
+                    },
+                    "over_18": false,
+                    "posted": "Tue, 05 Jan 2021 08:12:35 UTC",
+                    "selftext": "I\u2019m a self taught front end focused dev (no degree or any sort), and my portfolio has been able to land me a few callbacks from employers. \n\nunfortunately, I\u2019ve failed the technical aspect of the last few interviews. \n\nI\u2019ve received questions like \u201cis sass case sensitive? true or false\u201d. the question itself is so easy, and i\u2019ve built pretty complex projects, I\u2019ve just never really thought about whether it\u2019s actually case sensitive.. \n\nto summarize, I feel like garbage (I\u2019m not looking for sympathy of any sort) after the technical interviews.. I\u2019m wondering if this is a normal way to feel, when applying for your first role\n\n*** \n\nupdate below:\n\nI did not expect this post to blow up the way it did, I simply needed to let off some post interview steam and make sure I wasn\u2019t alone. The interview made me feel as if I was very inadequate as a dev due to the pop quiz kind of questions, so for those of you who took the time to respond I genuinely appreciate every one of you. It\u2019s made me feel much better about myself and future as a dev. Sorry for not getting back to everyone, but I genuinely can\u2019t thank you guys enough.. month made for sure!",
+                    "title": "Is it normal to feel like complete trash after failing a technical interview?",
+                    "upvotes": 882,
+                    "url": "https://www.reddit.com/r/webdev/comments/kqtwf7/is_it_normal_to_feel_like_complete_trash_after/"
+                },
+                {
+                    "comments": 129,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/tu3pgj5edx861.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Sat, 02 Jan 2021 13:57:49 UTC",
+                    "selftext": "",
+                    "title": "Each time I plan to buy a course and find this advertising strategy, I realize that probably the course is not worth it, and may be up just for the money with no effort put in it.",
+                    "upvotes": 601,
+                    "url": "https://www.reddit.com/r/webdev/comments/koxv7y/each_time_i_plan_to_buy_a_course_and_find_this/"
+                },
+                {
+                    "comments": 156,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.imgur.com/aZXfwlQ.jpg"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 06 Jan 2021 03:01:04 UTC",
+                    "selftext": "",
+                    "title": "White text on white background for SEO in 2021... don\u2019t do this",
+                    "upvotes": 936,
+                    "url": "https://www.reddit.com/r/webdev/comments/krercw/white_text_on_white_background_for_seo_in_2021/"
+                },
+                {
+                    "comments": 61,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/webdev/comments/kq0nl2/contentvisibility_is_a_very_impressive_css/"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 03:57:33 UTC",
+                    "selftext": "[Here is the article explaining it](https://web.dev/content-visibility/) \n\nif you hate reading \n\n[here's the video explaining it](https://youtu.be/Z6wjUOSh9Tk?t=20)",
+                    "title": "\"content-visibility\" is a very impressive CSS property that can boost the rendering performance.",
+                    "upvotes": 342,
+                    "url": "https://www.reddit.com/r/webdev/comments/kq0nl2/contentvisibility_is_a_very_impressive_css/"
+                }
+            ],
+            "subreddit": "webdev",
+            "subreddit_icon": "https://b.thumbs.redditmedia.com/vk8EAqzcLRGYh_Yisi68CglMMuheNEFKNaDLZy7h2ZE.png",
+            "subreddit_url": "https://www.reddit.com/r/webdev/"
+        },
+        {
+            "category": "serious",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 621,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/sysadmin/comments/koicev/to_the_younger_people_here_your_career_goal/"
+                    },
+                    "over_18": false,
+                    "posted": "Fri, 01 Jan 2021 20:25:42 UTC",
+                    "selftext": "A lot of younger people who find themselves doing desktop support, perhaps at a small company, often post about how their goal is to eventually work in a data center.\n\nI think they often know what they want, but they're not expressing it well. What they really want is to be in a higher level position where they can play with and manage bigger more complex systems.\n\nThe thing is, none of this actually happens *IN* a data center.\n\nI think however they believe that this is where all the magic happens and where they want to be.\n\nYes, you want to work for a company that has all that gear but you don't want to be physically there.\n\nYou actually want to be as far from a data center as possible. They're noisy and loud and not particularly hospitable environments for humans.\n\nUsually if a company is large enough to have one or more data centers (as opposed to a server room) they're large enough to staff the data centers.\n\nThe people who actually staff the data centers generally are there to maintain the facility and the physical side of the equipment. They rack stuff, they run all the cables, they often use automated procedures to get an OS on the hardware. They also do daily audits, monitor the HVAC equipment, sign visitors in and out, provide escorts, deal with power, work with outside vendors, test the generator once a month, do maintenance on the UPS units or work with vendors to do so, etc.\n\nIt's a decent job, but it's probably not what most of you want.\n\nThe sysadmins/engineers/whatever you call them generally aren't anywhere near the data centers. At my company (and similar at many others) the sysadmins aren't even allowed in the building without an escort from one of the data center technicians. \n\nThe really big boys like Google and Amazon and others have datacenters all over the world, but the good jobs are not there. Their good jobs are in office buildings in major cities.\n\nSo, long story short, think about what you really want. It might be that what you're actually saying when you say \"i want to work in a data center\" is that you want to work for a company big enough that they have dedicated people working on vmware, linux, storage, exchange, whatever but you just don't quite know how to express it.\n\nDatacenters may look cool to those early in their careers, but the people doing the type of sysadmin work you likely want to do are not actually in those data centers, at least not on a daily basis.\n\nI haven't physically been in one of our data centers in like 2 years.",
+                    "title": "To the younger people here - your career goal should not be to work *IN* a data center",
+                    "upvotes": 2179,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/koicev/to_the_younger_people_here_your_career_goal/"
+                },
+                {
+                    "comments": 275,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/sysadmin/comments/kps5dv/reminder_your_job_is_not_worth_your_health/"
+                    },
+                    "over_18": false,
+                    "posted": "Sun, 03 Jan 2021 20:21:02 UTC",
+                    "selftext": "Repost as I correct the title... Not enough coffee this morning. \n\nJust a friendly reminder. Your job is not worth your health. I say this as I am sitting at work in an empty office wondering if I should go to the ER in between vertigo spells that keep coming and going as I wait for my ISP to repair some fiber that was cut in the previous night due to a construction screw up.\n\nIf you are having a medical emergency during an outage. It's ok to drop what you're doing and go get help. I needed to hear this last night.",
+                    "title": "Reminder: Your job is not worth your health.",
+                    "upvotes": 1544,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/kps5dv/reminder_your_job_is_not_worth_your_health/"
+                },
+                {
+                    "comments": 248,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/sysadmin/comments/kp2i1x/you_know_youve_been_a_sysadmin_too_long_when/"
+                    },
+                    "over_18": false,
+                    "posted": "Sat, 02 Jan 2021 18:19:40 UTC",
+                    "selftext": "Watching a 10/15 year TV programme last night, there was a scene when someone opened a picture on a PC and I spent the first 5 seconds trying to identify the OS from the version of MSPaint that the pictured opened in. This was despite the picture being a semi-clad woman.\n\n&#x200B;\n\nHelp me!",
+                    "title": "You know you've been a Sysadmin too long when....",
+                    "upvotes": 1166,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/kp2i1x/you_know_youve_been_a_sysadmin_too_long_when/"
+                },
+                {
+                    "comments": 432,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/sysadmin/comments/kqcfup/hundreds_of_google_employees_unionize_culminating/"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 16:46:16 UTC",
+                    "selftext": "[NY Times article link](https://www.nytimes.com/2021/01/04/technology/google-employees-union.html?action=click&module=Top%20Stories&pgtype=Homepage)\n\nI assume Google is just going to find creative ways to fire these people, but this was a surprising article to read in the Times this morning. \n\nIt gives me hope that tech employment might be reaching a stage where we can at least look into something like a professional organization. I doubt a traditional union would work or be workable for technology workers (prima donna egos, rugged individualism, I'm too smart and good to associate with others, etc.) But the interesting thing at that this is happening at one of the FAANGs, which are supposed to be magical chocolate factories of employment happiness. Maybe this signals that enough people don't like 90 hour weeks and being guilted into not taking time off in exchange for living at an all-inclusive workplace like Google. I think it's a good thing because it shows people are realizing that there will come a point where the standard \"just quit and walk across the street for a 20% raise\" won't be possible anymore.\n\nI'm sure this will get crushed into dust by the tech companies...look at how hard Uber fought the California independent contractor status change. But I personally think that some form of professional org/guild is a very important step to turning the tech landscape closer to a traditional branch of engineering or a licensed profession and away from the Wild West we see today. The key in my opinion would be to find a way to establish a (very low) bar to ensure people have a tiny bit of basic knowledge, then find a way to allow innovation through while cementing some more useful concepts as standards when building out systems. Not easy, but it sure beats nothing or a traditional union.",
+                    "title": "\"Hundreds of Google Employees Unionize, Culminating Years of Activism\"",
+                    "upvotes": 940,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/kqcfup/hundreds_of_google_employees_unionize_culminating/"
+                },
+                {
+                    "comments": 149,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "/r/Showerthoughts/comments/kpgpc5/the_entire_fiasco_of_jurassic_park_could_have/"
+                    },
+                    "over_18": false,
+                    "posted": "Sun, 03 Jan 2021 08:05:43 UTC",
+                    "selftext": "",
+                    "title": "For all the solo it guys...",
+                    "upvotes": 847,
+                    "url": "https://www.reddit.com/r/sysadmin/comments/kpgqp3/for_all_the_solo_it_guys/"
+                }
+            ],
+            "subreddit": "sysadmin",
+            "subreddit_icon": "",
+            "subreddit_url": "https://www.reddit.com/r/sysadmin/"
+        },
+        {
+            "category": "serious",
+            "frequency": "monthly",
+            "posts": [
+                {
+                    "comments": 37,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/androiddev/comments/k928n5/totally_wtf_play_store_rejection/"
+                    },
+                    "over_18": false,
+                    "posted": "Tue, 08 Dec 2020 10:56:13 UTC",
+                    "selftext": "Hello guys, I'm posting another \"playstore rejected my app\" story because ... I really need to share this guys... for my mental health, and hopefully it will help some of you in a future playstore rejection journey.\n\nOk so, 4 days ago we received a lovely email from google playstore:\"Action Required: Your app is not compliant with Google Play Policies\"\n\nThe mail mention the following issue:\n\nhttps://preview.redd.it/zjg5go7txx361.png?width=1142&format=png&auto=webp&s=96ab7a47015d7d31440f70371ee2bb1655b81b7c\n\nWhich is quite weird because there is no text like this in our description, we double checked, we triple checked, I mean ... not even close... neither in english, nor in french.\n\nWe decided to release another version of the app just to try, thinking that the validator (if it was human) was maybe drunk or something...And of course we received the same email, (almost):\n\nhttps://preview.redd.it/qjycacuuxx361.png?width=1190&format=png&auto=webp&s=0bbde5ec04b4e019e69d051a8952f3f57831fdfb\n\n(Of course the screenshot linked in the mail is not accessible and redirect to \\`[login.corp.google.com](https://login.corp.google.com)\\`... otherwise it would have been easy ... LOL)\n\n(really modern UI BTW, I think we should all display random photos on our login page)\n\nhttps://preview.redd.it/gex7rny9yx361.png?width=2828&format=png&auto=webp&s=f73d768cd3cf3c71602661ddb572d27d3802d824\n\nWe had one last idea: since the problem seems to be in english in our french description (fr\\_FR), we tried to use google translate on our own french description to see what the result is gonna be.\n\nAND SURPRISE :\n\n&#x200B;\n\nhttps://preview.redd.it/cf6lcdn1zx361.png?width=2496&format=png&auto=webp&s=e3448fb282ed5bf0b237fe1268696ea33265463e\n\nYou don't need to talk french to understand that there is only ONE sentence on the left side and 3 on the right.\n\nWhat's even funnier is that we can extract the character that cause this to happen: If we copy the left content to any notepad or console we got this:\n\nhttps://preview.redd.it/jzunjhl20y361.png?width=484&format=png&auto=webp&s=8e57993a6f0a26100fb1235b7a6f4fa8858fdb75\n\nIt turns out that this little \"red dot\" here mean in english \"In addition to this, you need to know more about it.\" ( Didn't know that french was that powerfull and concise)\n\nYou can try it by yourself:\n\n[https://translate.google.fr/?hl=fr&sl=fr&tl=en&text=%E2%80%8B%0A&op=translate](https://translate.google.fr/?hl=fr&sl=fr&tl=en&text=%E2%80%8B%0A&op=translate)\n\n&#x200B;\n\nThank you.",
+                    "title": "Totally WTF Play store rejection",
+                    "upvotes": 361,
+                    "url": "https://www.reddit.com/r/androiddev/comments/k928n5/totally_wtf_play_store_rejection/"
+                },
+                {
+                    "comments": 98,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://i.redd.it/8rv0ad6a7e461.png"
+                    },
+                    "over_18": false,
+                    "posted": "Thu, 10 Dec 2020 17:13:42 UTC",
+                    "selftext": "",
+                    "title": "Warning! Don't rate us badly if you have nothing to say, else we will expose you! :D",
+                    "upvotes": 333,
+                    "url": "https://www.reddit.com/r/androiddev/comments/kajcn7/warning_dont_rate_us_badly_if_you_have_nothing_to/"
+                },
+                {
+                    "comments": 80,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/androiddev/comments/kphfnh/google_should_stop_lifetime_ban_for_developers/"
+                    },
+                    "over_18": false,
+                    "posted": "Sun, 03 Jan 2021 09:04:40 UTC",
+                    "selftext": "Google should stop Lifetime ban for developers account. You can ban for 6 months, 1 year or 5 years.\nBut why lifetime? People make mistakes and learn from their mistakes.Now I feel like I killed someone and they gave me death penalty.",
+                    "title": "Google should stop Lifetime ban for developers account.",
+                    "upvotes": 305,
+                    "url": "https://www.reddit.com/r/androiddev/comments/kphfnh/google_should_stop_lifetime_ban_for_developers/"
+                },
+                {
+                    "comments": 33,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://github.com/MaxKeppeler/bottom-sheets"
+                    },
+                    "over_18": false,
+                    "posted": "Wed, 09 Dec 2020 16:33:51 UTC",
+                    "selftext": "",
+                    "title": "I published a library which offers a range of beautiful and quick to use Bottom Sheets like Calendar Date and Range, Time Clock Time, Options and more.",
+                    "upvotes": 246,
+                    "url": "https://www.reddit.com/r/androiddev/comments/k9v2xo/i_published_a_library_which_offers_a_range_of/"
+                },
+                {
+                    "comments": 17,
+                    "downvotes": 0,
+                    "is_video": true,
+                    "media": {
+                        "medium": "video",
+                        "url": "https://v.redd.it/xlfbyyjn5b561"
+                    },
+                    "over_18": false,
+                    "posted": "Tue, 15 Dec 2020 08:03:30 UTC",
+                    "selftext": "",
+                    "title": "A small AR Pokedex project using ARCore, Hilt, Motion animations, Jetpack based on MVVM architecture.",
+                    "upvotes": 201,
+                    "url": "https://www.reddit.com/r/androiddev/comments/kdhn32/a_small_ar_pokedex_project_using_arcore_hilt/"
+                }
+            ],
+            "subreddit": "androiddev",
+            "subreddit_icon": "https://b.thumbs.redditmedia.com/ZULq8SFqJMtVQvcmDYcMqEmKr-cpsnqIEomHpOAgrTk.png",
+            "subreddit_url": "https://www.reddit.com/r/androiddev/"
+        },
+        {
+            "category": "life",
+            "frequency": "weekly",
+            "posts": [
+                {
+                    "comments": 202,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ITCareerQuestions/comments/knh5wy/stop_shitting_on_earning_certs_and_get_on_board/"
+                    },
+                    "over_18": false,
+                    "posted": "Thu, 31 Dec 2020 02:47:52 UTC",
+                    "selftext": "TLDR: Go get that cert, you will learn a bunch in the process!\n\nWe have all seen that post. The sysadmin griping about that sucky teammate who got hired because they had a wall full of certifications, but cant do anything safely. That person is real. That person exists. BUT. That person is only one slice of the pie. Prior to earning my latest Cert (RHCSA) I had about 10 years of general Linux exposure (Homelab/hobby/daily driver) and about 3 years of professional experience with Linux. A good chunk of the RHCSA was remedial. But a good chunk of it wasn't. You dont know what you dont know. There were lots of things I know how to do with Linux, but not WHY to do them. The RHCSA gave me a lot of additional insight I was previously lacking. \n\nThe issue is that people are not learning the \"why\" behind the \"what\" when they are sitting for their certification exam. They know how to turn on SELinux, but they don't understand why SELinux exists and the risk associated with a non enforcement policy. I can attest that when I was studying for my RHCSA, I learned a TON. If nothing else, the Cert process provided a tangible goal to orient my learning process around and it focused my attention.\n\nThose are my two cents. Thoughts and experiences are appreciated.",
+                    "title": "Stop Shitting on Earning Certs and Get on Board the Education Train",
+                    "upvotes": 507,
+                    "url": "https://www.reddit.com/r/ITCareerQuestions/comments/knh5wy/stop_shitting_on_earning_certs_and_get_on_board/"
+                },
+                {
+                    "comments": 53,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ITCareerQuestions/comments/komtda/frequent_it_career_path_roadmaps_for_you_to/"
+                    },
+                    "over_18": false,
+                    "posted": "Sat, 02 Jan 2021 00:29:48 UTC",
+                    "selftext": "[https://i.imgur.com/a/Uf6Y4io](https://i.imgur.com/a/Uf6Y4io)  \n\n\nSome people don't know how to get started in IT, read the entry level jobs, see what you can start out in and what you like to do. Then see where you can grow or feel comfortable in. Maybe you want to STAY as helpdesk cuz you're a chill person and the job takes care of your family. Maybe you constantly want to learn and grow, that is okay too. Here is a general path and just know as exp and certs will mean you get more pay as you go usually.",
+                    "title": "Frequent IT career path roadmaps for you to ponder and research",
+                    "upvotes": 347,
+                    "url": "https://www.reddit.com/r/ITCareerQuestions/comments/komtda/frequent_it_career_path_roadmaps_for_you_to/"
+                },
+                {
+                    "comments": 197,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ITCareerQuestions/comments/kqfwt7/please_help_me_i_am_struggling_and_drowning_i/"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 19:31:50 UTC",
+                    "selftext": "EDIT: MY RESUME --> [IT Support Specialist (Google drive -- commentor)](https://drive.google.com/file/d/1dxSH_HObI3TdJTIDCjCX6vnMwSWENoLR/view?usp=drivesdk)\n\nI am 25 years old.\n\nI took classes at a local college of mine to get Vouchers for the CompTIA A+ Certification and Network+ Cert.\n\nI finished the cohort training at my college and took the first two exams. I passed in November.\n\nI know its been the holidays and all, but I've been applying to at least 100 jobs every 2 weeks. So I've had 5 interviews with companies for Help Desk position.... I've gotten to a 3rd interview with an awesome company named Lloyd Group. But still rejected.\n\nI have my CompTIA A+\nI have work experience at a office as an admin assistant\nI have customer service experience at a car dealership\n\nI don't know what I am doing wrong.\n\nIt might be who I am as a person, but idk I'm a really friendly guy married to my lovely wife and also have a 2 year old boy, I have at least 3 close friends, live in NYC area, and LOVE COMPUTERS, NETWORKING, SOFTWARE, and have ambitions to do Cybersec. Why won't people hire me. FUCK!\n\nI'm just super depressed at this point. Honestly any advice or just a little push from you IT Professionals in this community can help me feel better.\n\nThanks for your time, sorry to rant about my life situation on my job search in this Pandemic. Tbh it SUCKS ASS.\n\nI can post my resume if you guys think it's my resume. But idk",
+                    "title": "Please Help Me I am Struggling and Drowning. I need to get an Entry Level Job in NYC and it's been so hard, I feel like breaking down, crying, and screaming at the world.",
+                    "upvotes": 271,
+                    "url": "https://www.reddit.com/r/ITCareerQuestions/comments/kqfwt7/please_help_me_i_am_struggling_and_drowning_i/"
+                },
+                {
+                    "comments": 34,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ITCareerQuestions/comments/kqzv77/what_is_the_best_job_search_websites_for_remote/"
+                    },
+                    "over_18": false,
+                    "posted": "Tue, 05 Jan 2021 14:52:47 UTC",
+                    "selftext": "Hi,\n\nI live in a remote area in Canada and finding a IT job is very slim to none. Looking for entry level with a few years experience in IT. \n\nQ1)\nAre there any hidden gem websites to search for Remote IT jobs besides the obvious (LinkedIn, indeed, glassdoor, zip recruiter)\n\nQ2)\nCan I work for a company that is outside of Canada if it\u2019s remote work?\n\nQ3)\nWhat key words do you use when looking for jobs? I\u2019ve done IT help desk, information technology, IT support, IT specialist, comptia.\n\nQ4)\nAre there any good head hunter companies out there for IT industry?\n\nCheers!\nTyson",
+                    "title": "What is the Best job search websites for remote work in IT",
+                    "upvotes": 247,
+                    "url": "https://www.reddit.com/r/ITCareerQuestions/comments/kqzv77/what_is_the_best_job_search_websites_for_remote/"
+                },
+                {
+                    "comments": 59,
+                    "downvotes": 0,
+                    "is_video": false,
+                    "media": {
+                        "medium": "image",
+                        "url": "https://www.reddit.com/r/ITCareerQuestions/comments/kq2jkt/what_valuable_outside_it_books_have_helped_you/"
+                    },
+                    "over_18": false,
+                    "posted": "Mon, 04 Jan 2021 05:54:42 UTC",
+                    "selftext": "Hello, I\u2019m looking for some book recommendations that aren\u2019t IT-related. I prefer self-help books and workplace-related stuff. Thank you!\n\nEdit: Here are some books that helped me:\n\n* [**Stop Getting Fd By Technical Recruiters \u2013 A Nerd\u2019s Guide to Negotiating Salary, Benefits, and Raises**](https://www.amazon.com/dp/173578611X) **-**  It\u2019s like an HR for dummies made specifically for IT and CS professionals. As someone who has social anxiety and zero knowledge about negotiating salaries, doing taxes, etc, it\u2019s very helpful for me. \n* [Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?crid=3NKKUHU9EX6I2&dchild=1&keywords=atomic+habits&qid=1609733105&sprefix=atomic+habits%2Caps%2C358&sr=8-1) \\- this helped me break my bad habits (work and personal) and this is honestly one of the very few realistic self-help books out there. Every progress matters!\n* [The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living](https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736/ref=sr_1_1?crid=3LUUB7GD8POWF&dchild=1&keywords=the+daily+stoic&qid=1609733596&s=books&sprefix=the+daily+stoic%2Cstripbooks-intl-ship%2C365&sr=1-1) \\- If you want to go back to reading, I highly recommend this book. Reading one page a day is better than nothing. The philosophies aren\u2019t really life changing, but it\u2019s a good starting point from a reading slump.",
+                    "title": "What valuable outside IT books have helped you navigate through this career?",
+                    "upvotes": 175,
+                    "url": "https://www.reddit.com/r/ITCareerQuestions/comments/kq2jkt/what_valuable_outside_it_books_have_helped_you/"
+                }
+            ],
+            "subreddit": "ITCareerQuestions",
+            "subreddit_icon": "",
+            "subreddit_url": "https://www.reddit.com/r/ITCareerQuestions/"
+        }
+    ]
+}
