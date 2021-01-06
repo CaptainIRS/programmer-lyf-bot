@@ -1,3 +1,4 @@
+from os.path import dirname, realpath
 from praw import Reddit
 from datetime import datetime
 import json
@@ -88,12 +89,14 @@ def main():
                     password='PASSWORD',
                     user_agent='USER_AGENT')
 
-    with open('./config.json') as infile:
+    pwd = dirname(realpath(__file__))
+
+    with open(f'{pwd}/config.json') as infile:
         subreddits = json.load(infile)['subreddits']
 
     result = do_the_magic(reddit, subreddits)
 
-    with open(f'./result.json', 'w') as outfile:
+    with open(f'{pwd}/result.json', 'w') as outfile:
         outfile.write(json.dumps(result, sort_keys=True, indent=4))
 
 
