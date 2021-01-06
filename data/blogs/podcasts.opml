@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <opml version="2.0">
+        <head>
+            <title>Castbox Subscriptions</title>
+        </head>
+        <body>
+        <outline text="Podcasts" title="Podcasts">
+        <outline text="7 Minute Security" title="7 Minute Security" type="rss" htmlUrl="https://media.zencast.fm/7-minute-security-podcast-podcast/rss" xmlUrl="https://media.zencast.fm/7-minute-security-podcast-podcast/rss" />
+        <outline text="AWS Podcast" title="AWS Podcast" type="rss" htmlUrl="https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss" xmlUrl="https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss" />
+        <outline text="AWS TechChat" title="AWS TechChat" type="rss" htmlUrl="http://feeds.feedburner.com/soundcloud/cyBy" xmlUrl="http://feeds.feedburner.com/soundcloud/cyBy" />
+        <outline text="AWS TechChat" title="AWS TechChat" type="rss" htmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:228283955/sounds.rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:228283955/sounds.rss" />
+        <outline text="All JavaScript Podcasts by Devchat.tv" title="All JavaScript Podcasts by Devchat.tv" type="rss" htmlUrl="https://feeds.feedwrench.com/JavaScriptJabber.rss" xmlUrl="https://feeds.feedwrench.com/JavaScriptJabber.rss" />
+        <outline text="Application Security Weekly (Audio)" title="Application Security Weekly (Audio)" type="rss" htmlUrl="http://aswaudio.swsgtv.libsynpro.com/rss" xmlUrl="http://aswaudio.swsgtv.libsynpro.com/rss" />
+        <outline text="Arrested DevOps" title="Arrested DevOps" type="rss" htmlUrl="https://www.arresteddevops.com/episode/index.xml" xmlUrl="https://www.arresteddevops.com/episode/index.xml" />
+        <outline text="Azure DevOps Podcast" title="Azure DevOps Podcast" type="rss" htmlUrl="http://azuredevopspodcast.clear-measure.com/rss" xmlUrl="http://azuredevopspodcast.clear-measure.com/rss" />
+        <outline text="CRYPTO 101" title="CRYPTO 101" type="rss" htmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:321065874/sounds.rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:321065874/sounds.rss" />
+        <outline text="Cloud Engineering – Software Engineering Daily" title="Cloud Engineering – Software Engineering Daily" type="rss" htmlUrl="https://softwareengineeringdaily.com/category/cloud-engineering/feed/" xmlUrl="https://softwareengineeringdaily.com/category/cloud-engineering/feed/" />
+        <outline text="Cloud Native Security Podcast" title="Cloud Native Security Podcast" type="rss" htmlUrl="https://feeds.buzzsprout.com/248393.rss" xmlUrl="https://feeds.buzzsprout.com/248393.rss" />
+        <outline text="CodeNewbie" title="CodeNewbie" type="rss" htmlUrl="http://feeds.codenewbie.org/cnpodcast.xml" xmlUrl="http://feeds.codenewbie.org/cnpodcast.xml" />
+        <outline text="Coding Blocks" title="Coding Blocks" type="rss" htmlUrl="http://feeds.podtrac.com/tBPkjrcL0_m0" xmlUrl="http://feeds.podtrac.com/tBPkjrcL0_m0" />
+        <outline text="Command Line Heroes" title="Command Line Heroes" type="rss" htmlUrl="https://feeds.pacific-content.com/commandlineheroes" xmlUrl="https://feeds.pacific-content.com/commandlineheroes" />
+        <outline text="Cyber Security Interviews" title="Cyber Security Interviews" type="rss" htmlUrl="http://cybersecurityinterviews.com/feed/podcast" xmlUrl="http://cybersecurityinterviews.com/feed/podcast" />
+        <outline text="Cyber Security Weekly Podcast" title="Cyber Security Weekly Podcast" type="rss" htmlUrl="https://feeds.blubrry.com/feeds/mysecurity.xml" xmlUrl="https://feeds.blubrry.com/feeds/mysecurity.xml" />
+        <outline text="DataFramed" title="DataFramed" type="rss" htmlUrl="https://feeds.buzzsprout.com/147669.rss" xmlUrl="https://feeds.buzzsprout.com/147669.rss" />
+        <outline text="Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec" title="Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec" type="rss" htmlUrl="https://defensivesecurity.org/feed/podcast/" xmlUrl="https://defensivesecurity.org/feed/podcast/" />
+        <outline text="Destination Linux" title="Destination Linux" type="rss" htmlUrl="https://destinationlinux.org/feed/mp3/" xmlUrl="https://destinationlinux.org/feed/mp3/" />
+        <outline text="DevOps Chat" title="DevOps Chat" type="rss" htmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:166581385/sounds.rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:166581385/sounds.rss" />
+        <outline text="DevOps Radio" title="DevOps Radio" type="rss" htmlUrl="http://devopsradio.libsyn.com/rss" xmlUrl="http://devopsradio.libsyn.com/rss" />
+        <outline text="DevOps and Docker Talk" title="DevOps and Docker Talk" type="rss" htmlUrl="https://feeds.transistor.fm/devops-and-docker-talk" xmlUrl="https://feeds.transistor.fm/devops-and-docker-talk" />
+        <outline text="Developer Tea" title="Developer Tea" type="rss" htmlUrl="https://rss.simplecast.com/podcasts/363/rss" xmlUrl="https://rss.simplecast.com/podcasts/363/rss" />
+        <outline text="Epicenter - Learn about Blockchain, Ethereum, Bitcoin and Distributed Technologies" title="Epicenter - Learn about Blockchain, Ethereum, Bitcoin and Distributed Technologies" type="rss" htmlUrl="https://feeds.simplecast.com/lKmQDG9R" xmlUrl="https://feeds.simplecast.com/lKmQDG9R" />
+        <outline text="FLOSS Weekly (MP3)" title="FLOSS Weekly (MP3)" type="rss" htmlUrl="http://feeds.twit.tv/floss.xml" xmlUrl="http://feeds.twit.tv/floss.xml" />
+        <outline text="Full Stack Radio" title="Full Stack Radio" type="rss" htmlUrl="https://rss.simplecast.com/podcasts/279/rss" xmlUrl="https://rss.simplecast.com/podcasts/279/rss" />
+        <outline text="Google Cloud Platform Podcast" title="Google Cloud Platform Podcast" type="rss" htmlUrl="https://feeds.feedburner.com/GcpPodcast" xmlUrl="https://feeds.feedburner.com/GcpPodcast" />
+        <outline text="Hacker Public Radio" title="Hacker Public Radio" type="rss" htmlUrl="http://hackerpublicradio.org/hpr_rss.php" xmlUrl="http://hackerpublicradio.org/hpr_rss.php" />
+        <outline text="Hackers Podcast" title="Hackers Podcast" type="rss" htmlUrl="http://aglogic.net/hdx/feed/" xmlUrl="http://aglogic.net/hdx/feed/" />
+        <outline text="Hak5 - Trust your Technolust" title="Hak5 - Trust your Technolust" type="rss" htmlUrl="https://feeds2.feedburner.com/hak5hd" xmlUrl="https://feeds2.feedburner.com/hak5hd" />
+        <outline text="Herding Code" title="Herding Code" type="rss" htmlUrl="http://feeds.feedburner.com/herdingcode" xmlUrl="http://feeds.feedburner.com/herdingcode" />
+        <outline text="How I Built It" title="How I Built It" type="rss" htmlUrl="https://howibuilt.it/feed/podcast/" xmlUrl="https://howibuilt.it/feed/podcast/" />
+        <outline text="How To Code Well" title="How To Code Well" type="rss" htmlUrl="https://howtocodewell.libsyn.com/rss" xmlUrl="https://howtocodewell.libsyn.com/rss" />
+        <outline text="Industrial IoT Spotlight" title="Industrial IoT Spotlight" type="rss" htmlUrl="http://iiotspotlight.libsyn.com/rss" xmlUrl="http://iiotspotlight.libsyn.com/rss" />
+        <outline text="IoT For All Podcast" title="IoT For All Podcast" type="rss" htmlUrl="https://feeds.simplecast.com/sy3_u_Jy" xmlUrl="https://feeds.simplecast.com/sy3_u_Jy" />
+        <outline text="JS Party" title="JS Party" type="rss" htmlUrl="https://changelog.com/jsparty/feed" xmlUrl="https://changelog.com/jsparty/feed" />
+        <outline text="Kubernetes Podcast from Google" title="Kubernetes Podcast from Google" type="rss" htmlUrl="https://kubernetespodcast.com/feeds/audio.xml" xmlUrl="https://kubernetespodcast.com/feeds/audio.xml" />
+        <outline text="LINUX Unplugged" title="LINUX Unplugged" type="rss" htmlUrl="https://feeds.fireside.fm/linuxunplugged/rss" xmlUrl="https://feeds.fireside.fm/linuxunplugged/rss" />
+        <outline text="Laravel News Podcast" title="Laravel News Podcast" type="rss" htmlUrl="https://rss.simplecast.com/podcasts/1356/rss" xmlUrl="https://rss.simplecast.com/podcasts/1356/rss" />
+        <outline text="Late Night Linux" title="Late Night Linux" type="rss" htmlUrl="https://latenightlinux.com/feed/mp3" xmlUrl="https://latenightlinux.com/feed/mp3" />
+        <outline text="Learn to Code With Me" title="Learn to Code With Me" type="rss" htmlUrl="http://learntocodewithme.libsyn.com/rss" xmlUrl="http://learntocodewithme.libsyn.com/rss" />
+        <outline text="Making Sense with Sam Harris" title="Making Sense with Sam Harris" type="rss" htmlUrl="http://wakingup.libsyn.com/rss" xmlUrl="http://wakingup.libsyn.com/rss" />
+        <outline text="Material" title="Material" type="rss" htmlUrl="https://www.relay.fm/material/feed" xmlUrl="https://www.relay.fm/material/feed" />
+        <outline text="Microsoft Cloud Show" title="Microsoft Cloud Show" type="rss" htmlUrl="http://feeds.microsoftcloudshow.com/MicrosoftCloudShowEpisodes" xmlUrl="http://feeds.microsoftcloudshow.com/MicrosoftCloudShowEpisodes" />
+        <outline text="Naked Security Podcast" title="Naked Security Podcast" type="rss" htmlUrl="http://feeds.podtrac.com/sXqBmsxMrHix" xmlUrl="http://feeds.podtrac.com/sXqBmsxMrHix" />
+        <outline text="OWASP" title="OWASP" type="rss" htmlUrl="https://podsync.net/0WGmwzZp0" xmlUrl="https://podsync.net/0WGmwzZp0" />
+        <outline text="Open Source Security Podcast" title="Open Source Security Podcast" type="rss" htmlUrl="http://opensourcesecuritypodcast.libsyn.com/rss" xmlUrl="http://opensourcesecuritypodcast.libsyn.com/rss" />
+        <outline text="Packet Pushers - Heavy Networking" title="Packet Pushers - Heavy Networking" type="rss" htmlUrl="https://feeds.packetpushers.net/PacketPushersWeeklyPodcast" xmlUrl="https://feeds.packetpushers.net/PacketPushersWeeklyPodcast" />
+        <outline text="Paul&apos;s Security Weekly TV" title="Paul&apos;s Security Weekly TV" type="rss" htmlUrl="http://securityweeklytv.swsgtv.libsynpro.com/rss" xmlUrl="http://securityweeklytv.swsgtv.libsynpro.com/rss" />
+        <outline text="Paul&apos;s Security Weekly" title="Paul&apos;s Security Weekly" type="rss" htmlUrl="http://podcast.securityweekly.com/rss" xmlUrl="http://podcast.securityweekly.com/rss" />
+        <outline text="Programming Throwdown" title="Programming Throwdown" type="rss" htmlUrl="http://feeds.feedburner.com/ProgrammingThrowdown" xmlUrl="http://feeds.feedburner.com/ProgrammingThrowdown" />
+        <outline text="Purple Squad Security" title="Purple Squad Security" type="rss" htmlUrl="https://feeds.feedburner.com/PurpleSquadSec" xmlUrl="https://feeds.feedburner.com/PurpleSquadSec" />
+        <outline text="Python Bytes" title="Python Bytes" type="rss" htmlUrl="https://pythonbytes.fm/episodes/rss" xmlUrl="https://pythonbytes.fm/episodes/rss" />
+        <outline text="Rational Security" title="Rational Security" type="rss" htmlUrl="http://rationalsecurity.libsyn.com/rss" xmlUrl="http://rationalsecurity.libsyn.com/rss" />
+        <outline text="Recode Decode" title="Recode Decode" type="rss" htmlUrl="https://feeds.megaphone.fm/recodedecode" xmlUrl="https://feeds.megaphone.fm/recodedecode" />
+        <outline text="SANS Internet Stormcenter Daily Network/Cyber Security and Information Security Stormcast" title="SANS Internet Stormcenter Daily Network/Cyber Security and Information Security Stormcast" type="rss" htmlUrl="https://isc.sans.edu/dailypodcast.xml" xmlUrl="https://isc.sans.edu/dailypodcast.xml" />
+        <outline text="SECTION 9 Cyber Security" title="SECTION 9 Cyber Security" type="rss" htmlUrl="https://section9.us/podcast?format=rss" xmlUrl="https://section9.us/podcast?format=rss" />
+        <outline text="Security In Five Podcast" title="Security In Five Podcast" type="rss" htmlUrl="https://securityinfive.libsyn.com/rss" xmlUrl="https://securityinfive.libsyn.com/rss" />
+        <outline text="Security Now (MP3)" title="Security Now (MP3)" type="rss" htmlUrl="http://feeds.twit.tv/sn.xml" xmlUrl="http://feeds.twit.tv/sn.xml" />
+        <outline text="Simple Programmer Podcast" title="Simple Programmer Podcast" type="rss" htmlUrl="http://simpleprogrammer.libsyn.com/rss" xmlUrl="http://simpleprogrammer.libsyn.com/rss" />
+        <outline text="Smashing Security" title="Smashing Security" type="rss" htmlUrl="https://www.smashingsecurity.com/rss" xmlUrl="https://www.smashingsecurity.com/rss" />
+        <outline text="Software Engineering Daily" title="Software Engineering Daily" type="rss" htmlUrl="http://softwareengineeringdaily.com/feed/" xmlUrl="http://softwareengineeringdaily.com/feed/" />
+        <outline text="Software Engineering Daily" title="Software Engineering Daily" type="rss" htmlUrl="https://softwareengineeringdaily.com/feed/podcast/" xmlUrl="https://softwareengineeringdaily.com/feed/podcast/" />
+        <outline text="Software Engineering Radio - The Podcast for Professional Software Developers" title="Software Engineering Radio - The Podcast for Professional Software Developers" type="rss" htmlUrl="http://feeds.feedburner.com/se-radio" xmlUrl="http://feeds.feedburner.com/se-radio" />
+        <outline text="Stackify Developer Things" title="Stackify Developer Things" type="rss" htmlUrl="http://stackify.libsyn.com/rss" xmlUrl="http://stackify.libsyn.com/rss" />
+        <outline text="Syntax - Tasty Web Development Treats" title="Syntax - Tasty Web Development Treats" type="rss" htmlUrl="https://feed.syntax.fm/rss" xmlUrl="https://feed.syntax.fm/rss" />
+        <outline text="Talk Python To Me - Python conversations for passionate developers" title="Talk Python To Me - Python conversations for passionate developers" type="rss" htmlUrl="https://talkpython.fm/episodes/rss" xmlUrl="https://talkpython.fm/episodes/rss" />
+        <outline text="Talks at Google" title="Talks at Google" type="rss" htmlUrl="http://talksatgoogle.libsyn.com/rss" xmlUrl="http://talksatgoogle.libsyn.com/rss" />
+        <outline text="Tenable Network Security Podcast" title="Tenable Network Security Podcast" type="rss" htmlUrl="https://www.tenable.com/TenablePodcast.xml" xmlUrl="https://www.tenable.com/TenablePodcast.xml" />
+        <outline text="Test &amp; Code: Python Software Testing &amp; Engineering" title="Test &amp; Code: Python Software Testing &amp; Engineering" type="rss" htmlUrl="https://feeds.fireside.fm/testandcode/rss" xmlUrl="https://feeds.fireside.fm/testandcode/rss" />
+        <outline text="The Building Automation Monthly Podcast | Teaching You Building Automation, Systems Integration, and Information Technology" title="The Building Automation Monthly Podcast | Teaching You Building Automation, Systems Integration, and Information Technology" type="rss" htmlUrl="https://buildingautomationmonthly.libsyn.com/rss" xmlUrl="https://buildingautomationmonthly.libsyn.com/rss" />
+        <outline text="The Changelog" title="The Changelog" type="rss" htmlUrl="https://changelog.com/podcast/feed" xmlUrl="https://changelog.com/podcast/feed" />
+        <outline text="The Cloudcast - Cloud Computing" title="The Cloudcast - Cloud Computing" type="rss" htmlUrl="https://feeds.buzzsprout.com/3195.rss" xmlUrl="https://feeds.buzzsprout.com/3195.rss" />
+        <outline text="The Cryptoshow - blockchain, cryptocurrencies, Bitcoin and decentralization simply explained" title="The Cryptoshow - blockchain, cryptocurrencies, Bitcoin and decentralization simply explained" type="rss" htmlUrl="http://tenxwallet.libsyn.com/rss" xmlUrl="http://tenxwallet.libsyn.com/rss" />
+        <outline text="The Cryptoverse" title="The Cryptoverse" type="rss" htmlUrl="https://feeds.buzzsprout.com/49549.rss" xmlUrl="https://feeds.buzzsprout.com/49549.rss" />
+        <outline text="The CyberWire" title="The CyberWire" type="rss" htmlUrl="http://thecyberwire.libsyn.com/rss" xmlUrl="http://thecyberwire.libsyn.com/rss" />
+        <outline text="The Cynical Developer" title="The Cynical Developer" type="rss" htmlUrl="https://cynicaldeveloper.com/feed/podcast/" xmlUrl="https://cynicaldeveloper.com/feed/podcast/" />
+        <outline text="The DevOps Lab  - Channel 9" title="The DevOps Lab  - Channel 9" type="rss" htmlUrl="http://s.ch9.ms/Shows/DevOps-Lab/feed" xmlUrl="http://s.ch9.ms/Shows/DevOps-Lab/feed" />
+        <outline text="The Internet of Things (IoT) Show with Bruce Sinclair" title="The Internet of Things (IoT) Show with Bruce Sinclair" type="rss" htmlUrl="http://iotbiz.libsyn.com/rss" xmlUrl="http://iotbiz.libsyn.com/rss" />
+        <outline text="The Internet of Things Podcast - Stacey On IoT" title="The Internet of Things Podcast - Stacey On IoT" type="rss" htmlUrl="https://iotpodcast.com/feed/podcast/" xmlUrl="https://iotpodcast.com/feed/podcast/" />
+        <outline text="The Laracasts Snippet" title="The Laracasts Snippet" type="rss" htmlUrl="https://rss.simplecast.com/podcasts/1486/rss" xmlUrl="https://rss.simplecast.com/podcasts/1486/rss" />
+        <outline text="The Laravel Podcast" title="The Laravel Podcast" type="rss" htmlUrl="https://feeds.simplecast.com/fESDtfGs" xmlUrl="https://feeds.simplecast.com/fESDtfGs" />
+        <outline text="The Laravel Snippet" title="The Laravel Snippet" type="rss" htmlUrl="https://feeds.transistor.fm/laravel-snippet" xmlUrl="https://feeds.transistor.fm/laravel-snippet" />
+        <outline text="The Linux Link Tech Show Itunes Feed" title="The Linux Link Tech Show Itunes Feed" type="rss" htmlUrl="http://feeds.feedburner.com/TheLinuxLinkTechShowItunesFeed" xmlUrl="http://feeds.feedburner.com/TheLinuxLinkTechShowItunesFeed" />
+        <outline text="The Privacy, Security, &amp; OSINT Show" title="The Privacy, Security, &amp; OSINT Show" type="rss" htmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss" />
+        <outline text="The Python Podcast.__init__" title="The Python Podcast.__init__" type="rss" htmlUrl="https://www.podcastinit.com/feed/mp3/" xmlUrl="https://www.podcastinit.com/feed/mp3/" />
+        <outline text="The Stack Overflow Podcast" title="The Stack Overflow Podcast" type="rss" htmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:4273388/sounds.rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:4273388/sounds.rss" />
+        <outline text="The Upgrade by Lifehacker" title="The Upgrade by Lifehacker" type="rss" htmlUrl="https://rss.art19.com/the-upgrade-by-lifehacker" xmlUrl="https://rss.art19.com/the-upgrade-by-lifehacker" />
+        <outline text="This Week in Google (MP3)" title="This Week in Google (MP3)" type="rss" htmlUrl="http://feeds.twit.tv/twig.xml" xmlUrl="http://feeds.twit.tv/twig.xml" />
+        <outline text="Views on Vue" title="Views on Vue" type="rss" htmlUrl="https://feeds.feedwrench.com/views-on-vue.rss" xmlUrl="https://feeds.feedwrench.com/views-on-vue.rss" />
+        <outline text="WIRED Security – Spoken Edition" title="WIRED Security – Spoken Edition" type="rss" htmlUrl="http://api.spokenlayer.com/feed/channel/v1-wired-security-ext/3c9929b72538c12bd92ac6762f8d798b9d4e8cdca7692ea74f466061d01816cb" xmlUrl="http://api.spokenlayer.com/feed/channel/v1-wired-security-ext/3c9929b72538c12bd92ac6762f8d798b9d4e8cdca7692ea74f466061d01816cb" />
+        <outline text="kubernetes via myPod" title="kubernetes via myPod" type="rss" htmlUrl="https://prod.mypod.online/feed?q=kubernetes" xmlUrl="https://prod.mypod.online/feed?q=kubernetes" />
+        </outline>
+        </body>
+    </opml>
