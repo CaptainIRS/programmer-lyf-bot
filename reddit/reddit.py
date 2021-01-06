@@ -91,7 +91,7 @@ def main():
 
     pwd = dirname(realpath(__file__))
 
-    with open(f'{pwd}/config.json') as infile:
+    with open(f'{pwd}/../config/reddit.json') as infile:
         subreddits = json.load(infile)['subreddits']
 
     result = do_the_magic(reddit, subreddits)
