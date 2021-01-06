@@ -79,14 +79,14 @@ def do_the_magic(reddit, subreddits):
 
 def main():
 
-    client_id = '8-vcJfTwkfFq4Q'
-    client_secret = 'JMaRi5KcdHZ-LyLn6gvDd71U-tg9hQ'
+    client_id = 'CLIENT_ID'
+    client_secret = 'CLIENT_SECRET'
 
     reddit = Reddit(client_id=client_id,
                     client_secret=client_secret,
-                    username='anuraggoyalawr',
-                    password='CR237ZAG20',
-                    user_agent='mybot-v1')
+                    username='USERNAME',
+                    password='PASSWORD',
+                    user_agent='USER_AGENT')
 
     with open('./config.json') as infile:
         subreddits = json.load(infile)['subreddits']
