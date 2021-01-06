@@ -1,0 +1,38 @@
+name: lint
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9
+    - name: Attempt to use cached dependencies
+      id: cache-python
+      uses: actions/cache@v2
+      with:
+        path: ${{ env.pythonLocation }}
+        key: ${{ env.pythonLocation }}-${{ hashFiles('requirements-dev.txt') }}
+    - name: Install dependencies
+      if: steps.cache-python.outputs.cache-hit != 'true'
+      run: pip install -r requirements-dev.txt
+    - name: Running autopep8
+      run: autopep8 --exit-code -ra --diff feeds/ devrant/ forums/ reddit/ util/ ./bot.py
+    - name: Running isort
+      run: isort .
+    - name: Analysing the code with pylint
+      run: |
+        pylint feeds/ devrant/ forums/ reddit/ util/ ./bot.py
+    - name: Analysing the code with pycodestyle (pep-8)
+      run: |
+        pycodestyle --show-source --show-pep8 feeds/ devrant/ forums/ reddit/ util/ ./bot.py
