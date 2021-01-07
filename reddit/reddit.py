@@ -33,7 +33,7 @@ def create_post_list(selected_posts):
             data['media']['url'] = post.secure_media['reddit_video']['fallback_url']
             data['media']['medium'] = 'video'
 
-        elif post.url.split('.')[-1] in image_formats:
+        elif post.url.split('.')[-1].lower() in image_formats:
             data['media'] = {'url': post.url, 'medium': 'image'}
 
         posts.append(data)
