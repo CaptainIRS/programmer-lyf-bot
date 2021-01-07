@@ -1,8 +1,11 @@
 from os.path import dirname, realpath
 from praw import Reddit
 from datetime import datetime
+from dotenv import load_dotenv
 import json
+import os
 
+load_dotenv()
 
 def create_post_list(selected_posts):
 
@@ -78,27 +81,19 @@ def do_the_magic(reddit, subreddits):
     return result
 
 
-def main():
 
-    client_id = 'CLIENT_ID'
-    client_secret = 'CLIENT_SECRET'
+client_id = os.getenv('CLIENT_ID')
+client_secret = os.getenv('CLIENT_SECRET')
 
-    reddit = Reddit(client_id=client_id,
-                    client_secret=client_secret,
-                    username='USERNAME',
-                    password='PASSWORD',
-                    user_agent='USER_AGENT')
+reddit = Reddit(client_id=client_id,
+                client_secret=client_secret,
+                username=os.getenv('USERNAME'),
+                password=os.getenv('PASSWORD'),
+                user_agent=os.getenv('USER_AGENT'))
 
-    pwd = dirname(realpath(__file__))
+pwd = dirname(realpath(__file__))
 
-    with open(f'{pwd}/../config/reddit.json') as infile:
-        subreddits = json.load(infile)['subreddits']
+with open(f'{pwd}/../config/reddit.json') as infile:
+    subreddits = json.load(infile)['subreddits']
 
-    result = do_the_magic(reddit, subreddits)
-
-    with open(f'{pwd}/result.json', 'w') as outfile:
-        outfile.write(json.dumps(result, sort_keys=True, indent=4))
-
-
-if __name__ == '__main__':
-    main()
+result = do_the_magic(reddit, subreddits)
