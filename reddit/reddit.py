@@ -1,17 +1,19 @@
-from os.path import dirname, realpath
-from praw import Reddit
 from datetime import datetime
+from praw import Reddit
 from dotenv import load_dotenv
 import json
 import os
 
 load_dotenv()
 
+
 def create_post_list(selected_posts):
 
     posts = []
+    image_formats = ['jpg', 'jpeg', 'png', 'gif']
 
     for post in selected_posts:
+
         data = {}
         data['title'] = post.title
         data['selftext'] = post.selftext
@@ -22,7 +24,17 @@ def create_post_list(selected_posts):
         data['is_video'] = post.is_video
         data['over_18'] = post.over_18
         data['url'] = 'https://www.reddit.com' + post.permalink
-        data['media'] = {'url': post.url, 'medium': 'video' if post.is_video else 'image'}
+        data['media'] = {}
+
+        if post.is_self:  # if post is text-only
+            data['media'] = {'url': '', 'medium': 'text'}
+
+        elif post.is_video:
+            data['media']['url'] = post.secure_media['reddit_video']['fallback_url']
+            data['media']['medium'] = 'video'
+
+        elif post.url.split('.')[-1] in image_formats:
+            data['media'] = {'url': post.url, 'medium': 'image'}
 
         posts.append(data)
 
@@ -35,21 +47,19 @@ def fetch_top_posts(subreddit, unwanted_flairs, frequency, limit):
     selected_posts = []
 
     selected = 0
-    total = 0
 
     for post in posts:
-        if selected >= limit or total >= 100:
+        if selected >= limit:
             break
         if not post.stickied:
             if post.link_flair_text not in unwanted_flairs:
                 selected_posts.append(post)
                 selected += 1
-        total += 1
 
     return create_post_list(selected_posts)
 
 
-def do_the_magic(reddit, subreddits):
+def do_the_magic(reddit, subreddits, limit):
 
     frequency_map = {
         'hourly': 'hour',
@@ -65,14 +75,14 @@ def do_the_magic(reddit, subreddits):
     for obj in subreddits:
 
         subreddit = reddit.subreddit(obj['subreddit'])
-        unwanted_flairs = obj['unwanted_flairs']
+        flairs = obj['unwanted_flairs']
         frequency = frequency_map[obj['frequency']]
 
         data = {}
         data['subreddit'] = obj['subreddit']
         data['category'] = obj['category']
         data['frequency'] = obj['frequency']
-        data['posts'] = fetch_top_posts(subreddit, unwanted_flairs, frequency, 5)
+        data['posts'] = fetch_top_posts(subreddit, flairs, frequency, limit)
         data['subreddit_url'] = 'https://www.reddit.com' + subreddit.url
         data['subreddit_icon'] = subreddit.icon_img
 
@@ -81,19 +91,22 @@ def do_the_magic(reddit, subreddits):
     return result
 
 
-
 client_id = os.getenv('CLIENT_ID')
 client_secret = os.getenv('CLIENT_SECRET')
+username = os.getenv('USERNAME')
+password = os.getenv('PASSWORD')
+user_agent = os.getenv('USER_AGENT')
 
 reddit = Reddit(client_id=client_id,
                 client_secret=client_secret,
-                username=os.getenv('USERNAME'),
-                password=os.getenv('PASSWORD'),
-                user_agent=os.getenv('USER_AGENT'))
+                username=username,
+                password=password,
+                user_agent=user_agent)
 
-pwd = dirname(realpath(__file__))
+pwd = os.path.dirname(os.path.realpath(__file__))
 
 with open(f'{pwd}/../config/reddit.json') as infile:
     subreddits = json.load(infile)['subreddits']
 
-result = do_the_magic(reddit, subreddits)
+max_posts_to_fetch = 5
+result = do_the_magic(reddit, subreddits, max_posts_to_fetch)
