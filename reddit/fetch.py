@@ -1,13 +1,11 @@
+'''
+Contains functions to fetch reddit posts
+'''
+
 from datetime import datetime
-from praw import Reddit
-from dotenv import load_dotenv
-import json
-import os
-
-load_dotenv()
 
 
-def create_post_list(selected_posts):
+def _create_post_list(selected_posts):
 
     posts = []
     image_formats = ['jpg', 'jpeg', 'png', 'gif']
@@ -41,7 +39,7 @@ def create_post_list(selected_posts):
     return posts
 
 
-def fetch_top_posts(subreddit, unwanted_flairs, frequency, limit):
+def _fetch_top_posts(subreddit, unwanted_flairs, frequency, limit):
 
     posts = subreddit.top(time_filter=frequency)
     selected_posts = []
@@ -56,10 +54,13 @@ def fetch_top_posts(subreddit, unwanted_flairs, frequency, limit):
                 selected_posts.append(post)
                 selected += 1
 
-    return create_post_list(selected_posts)
+    return _create_post_list(selected_posts)
 
 
-def do_the_magic(reddit, subreddits, limit):
+def fetch_reddit_posts(reddit, subreddits, limit):
+    '''
+    Fetches Reddit posts
+    '''
 
     frequency_map = {
         'hourly': 'hour',
@@ -75,38 +76,18 @@ def do_the_magic(reddit, subreddits, limit):
     for obj in subreddits:
 
         subreddit = reddit.subreddit(obj['subreddit'])
-        flairs = obj['unwanted_flairs']
+
+        unwanted_flairs = obj['unwanted_flairs']
         frequency = frequency_map[obj['frequency']]
 
         data = {}
         data['subreddit'] = obj['subreddit']
         data['category'] = obj['category']
         data['frequency'] = obj['frequency']
-        data['posts'] = fetch_top_posts(subreddit, flairs, frequency, limit)
+        data['posts'] = _fetch_top_posts(subreddit, unwanted_flairs, frequency, limit)
         data['subreddit_url'] = 'https://www.reddit.com' + subreddit.url
         data['subreddit_icon'] = subreddit.icon_img
 
         result['subreddits'].append(data)
 
     return result
-
-
-client_id = os.getenv('CLIENT_ID')
-client_secret = os.getenv('CLIENT_SECRET')
-username = os.getenv('USERNAME')
-password = os.getenv('PASSWORD')
-user_agent = os.getenv('USER_AGENT')
-
-reddit = Reddit(client_id=client_id,
-                client_secret=client_secret,
-                username=username,
-                password=password,
-                user_agent=user_agent)
-
-pwd = os.path.dirname(os.path.realpath(__file__))
-
-with open(f'{pwd}/../config/reddit.json') as infile:
-    subreddits = json.load(infile)['subreddits']
-
-max_posts_to_fetch = 5
-result = do_the_magic(reddit, subreddits, max_posts_to_fetch)
