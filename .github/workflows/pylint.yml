@@ -24,7 +24,7 @@ jobs:
         pip install pylint pycodestyle
     - name: Analysing the code with pylint
       run: |
-        pylint blogs/ devrant/ forums/ reddit/ util/
+        pylint blogs/ devrant/ forums/ reddit/ util/ ./bot.py
     - name: Analysing the code with pycodestyle (pep-8)
       run: |
-        pycodestyle --show-source --show-pep8 blogs/ devrant/ forums/ reddit/ util/
+        pycodestyle --show-source --show-pep8 blogs/ devrant/ forums/ reddit/ util/ ./bot.py
