@@ -5,19 +5,19 @@ Bot functions
 import asyncio
 import logging
 import os
+from concurrent.futures import ThreadPoolExecutor
 
 import aioschedule as schedule
 from discord.ext import commands
 from dotenv import load_dotenv
 
-import reddit
 import blogs
 import devrant
 import forums
-
+import reddit
+from util.embed_utils import (create_blog_embed, create_devrant_embed,
+                              create_forum_embed, create_reddit_embed)
 from util.load_config import load_config
-from util.embed_utils import create_devrant_embed, create_reddit_embed, \
-                                create_blog_embed, create_forum_embed
 
 logging.basicConfig(level=logging.INFO)
 
@@ -26,13 +26,17 @@ load_dotenv(override=True)
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 reddit_channels = {
-    "fun": int(os.getenv('FUN')),
-    "serious": int(os.getenv('WEBDEV')),
-    "life": int(os.getenv('ANDROID')),
+    "fun": int(os.getenv('FUN_REDDIT')),
+    "serious": int(os.getenv('SERIOUS_REDDIT')),
+    "life": int(os.getenv('LIFE_REDDIT')),
 }
-blog_channel = int(os.getenv('BLOGS'))
-rant_channel = int(os.getenv('DEVRANT'))
-forum_channel = int(os.getenv('FORUM'))
+blog_channels = {
+    "company": int(os.getenv('COMPANY_BLOGS')),
+    "individual": int(os.getenv('INDIVIDUAL_BLOGS')),
+    "product": int(os.getenv('PRODUCT_BLOGS'))
+}
+rant_channel = int(os.getenv('RANTS'))
+forum_channel = int(os.getenv('FORUMS'))
 
 
 async def _reddit_updater(frequency: str):
@@ -42,19 +46,36 @@ async def _reddit_updater(frequency: str):
     for subreddit in posts['subreddits']:
         for post in subreddit['posts']:
             embed = create_reddit_embed(subreddit, post)
-            channel = bot.get_channel(int(reddit_channels[subreddit['category']]))
-            await channel.send(embed=embed)
+            channel = bot.get_channel(reddit_channels[subreddit['category']])
+            message = await channel.send(embed=embed)
+            await message.add_reaction('⬆')
+            await message.add_reaction('⬇')
             await asyncio.sleep(1)
 
 
 async def _blog_updater(frequency: str):
-    logging.info('Running %s blog update', frequency)
-    async for posts in blogs.get_blog_posts():
-        for post in posts:
-            embed = create_blog_embed(post)
-            channel = bot.get_channel(blog_channel)
-            await channel.send(embed=embed)
-            await asyncio.sleep(1)
+    config = load_config('blogs.json')
+    for blog in config.keys():
+        logging.info('Running %s %s blog update', frequency, blog)
+        blog_config = config[blog]
+        if frequency == blog_config['frequency']:
+            loop = asyncio.get_event_loop()
+            posts = await loop.run_in_executor(
+                ThreadPoolExecutor(),
+                blogs.get_blog_posts,
+                blog_config['data_file'],
+                blog_config['limit_per_blog'],
+                frequency
+            )
+            for post in posts:
+                embed = create_blog_embed(post)
+                channel = bot.get_channel(blog_channels[blog])
+                message = await channel.send(embed=embed)
+                await message.add_reaction('👏')
+                await message.add_reaction('😍')
+                await message.add_reaction('🔥')
+                await message.add_reaction('👀')
+                await asyncio.sleep(1)
 
 
 async def _devrant_updater(frequency: str):
@@ -65,7 +86,11 @@ async def _devrant_updater(frequency: str):
         for rant in rants:
             embed = create_devrant_embed(rant)
             channel = bot.get_channel(int(rant_channel))
-            await channel.send(embed=embed)
+            message = await channel.send(embed=embed)
+            await message.add_reaction('🔥')
+            await message.add_reaction('😍')
+            await message.add_reaction('😂')
+            await message.add_reaction('👀')
             await asyncio.sleep(1)
 
 
@@ -79,14 +104,18 @@ async def _forum_updater(frequency: str):
             for post in posts:
                 embed = create_forum_embed(forum, post)
                 channel = bot.get_channel(int(forum_channel))
-                await channel.send(embed=embed)
+                message = await channel.send(embed=embed)
+                await message.add_reaction('👍')
+                await message.add_reaction('😍')
+                await message.add_reaction('👀')
+                await message.add_reaction('😮')
                 await asyncio.sleep(1)
 
 
 async def _update_posts(period):
-    await _reddit_updater(period)
-    await _blog_updater(period)
-    await _devrant_updater(period)
+    # await _reddit_updater(period)
+    # await _blog_updater(period)
+    # await _devrant_updater(period)
     await _forum_updater(period)
 
 
@@ -103,8 +132,8 @@ async def start():
     Start running the scheduled tasks
     '''
     logging.info("Tasks have started running")
-    schedule.every().day.at("00:00").do(_update_daily_posts)
-    schedule.every().friday.at("02:00").do(_update_weekly_posts)
+    schedule.every().day.at("17:13").do(_update_daily_posts)
+    schedule.every().sunday.at("17:11").do(_update_weekly_posts)
 
     while 1:
         await schedule.run_pending()

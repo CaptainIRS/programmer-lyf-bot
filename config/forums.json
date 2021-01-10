@@ -5,6 +5,14 @@
         "publisher_url": "https://slashdot.org/",
         "icon_url": "https://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Slashdot-icon.png",
         "color": 1752220,
-        "limit": 100
+        "limit": 10
+    },
+    "hackernews": {
+        "frequency": "daily",
+        "publisher": "HackerNews",
+        "publisher_url": "https://news.ycombinator.com/",
+        "icon_url": "https://news.ycombinator.com/y18.gif",
+        "color": 16606720,
+        "limit": 10
     }
 }

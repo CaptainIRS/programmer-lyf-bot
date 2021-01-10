@@ -24,10 +24,7 @@ def _create_post_list(selected_posts):
         data['url'] = 'https://www.reddit.com' + post.permalink
         data['media'] = {}
 
-        if post.is_self:  # if post is text-only
-            data['media'] = {'url': '', 'medium': 'text'}
-
-        elif post.is_video:
+        if post.is_video:
             data['media']['url'] = post.secure_media['reddit_video']['fallback_url']
             data['media']['medium'] = 'video'
 

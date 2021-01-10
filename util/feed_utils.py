@@ -23,8 +23,6 @@ def _feed_to_post(feed, feed_entry, details):
 
     data['title'] = feed_entry.title
     description = markdownify(feed_entry.summary)
-    if len(description) > 1000:
-        description = f'{description[:1000]}...'
     data['description'] = description
     data['url'] = feed_entry.link
 
@@ -50,17 +48,25 @@ def transform_feed(feed_data, details, limit, time_delta=timedelta(1)):
     Function to transform feed to required json format
     '''
 
-    _, publisher_url, feed_data = details
+    _, publisher_url, feed_url = details
 
     if not feed_data:
         return []
-
-    feed = feedparser.parse(feed_data)
+    try:
+        feed = feedparser.parse(feed_data)
+    except Exception as exception:  # pylint: disable=broad-except
+        logging.error(
+            'Error when parsing feed from %s.\nFeed data: %s\nException: %s',
+            feed_url,
+            feed_data,
+            exception
+        )
+        return []
     feed_entries = feed.entries[:limit]
     if time_delta:
         feed_entries = [
             entry for entry in feed_entries
-            if hasattr(entry, 'published_parsed')
+            if hasattr(entry, 'published_parsed') and entry.published_parsed
             and datetime.fromtimestamp(mktime(entry.published_parsed))
             > datetime.utcnow() - time_delta
         ]

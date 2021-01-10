@@ -5,25 +5,30 @@ Blog fetch
 import concurrent.futures as futures
 import logging
 import time
+from datetime import timedelta
 
 import opml
-
 from util.feed_utils import transform_feed
 from util.requests import fetch_from_server
-
 
 logging.basicConfig(level=logging.INFO)
 
 
-def _process_feed(details):
+def _process_feed(details, limit, frequency):
 
     _, __, feed_url = details
     feed_data = fetch_from_server(feed_url)
+    if frequency == 'daily':
+        day_delta = timedelta(1)
+    elif frequency == 'weekly':
+        day_delta = timedelta(7)
+    else:
+        day_delta = None
 
-    return transform_feed(feed_data, details, 3)
+    return transform_feed(feed_data, details, limit, day_delta)
 
 
-async def get_blog_posts():
+def get_blog_posts(data_file, limit, frequency):
     '''
     Fetch blog posts from collection
     '''
@@ -32,17 +37,20 @@ async def get_blog_posts():
 
     feed_details = []
 
-    outlines = opml.parse('data/engineering_blogs.opml')[0]
+    outlines = opml.parse(data_file)[0]
     for outline in outlines:
         feed_details.append((outline.text, outline.htmlUrl, outline.xmlUrl))
 
     processes = []
-    executor = futures.ThreadPoolExecutor(max_workers=200)
+    executor = futures.ThreadPoolExecutor(max_workers=30)
     for feed_detail in feed_details:
-        processes.append(executor.submit(_process_feed, feed_detail))
+        processes.append(executor.submit(_process_feed, feed_detail, limit, frequency))
 
+    posts = []
     for process in futures.as_completed(processes):
         if process.result():
-            yield process.result()
+            posts.extend(process.result())
 
-    logging.info('Blog posts fetched in %ss', (time.time() - start))
+    logging.info('Blog posts from %s fetched in %ss', data_file, (time.time() - start))
+
+    return posts
