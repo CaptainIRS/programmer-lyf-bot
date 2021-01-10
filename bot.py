@@ -132,8 +132,8 @@ async def start():
     Start running the scheduled tasks
     '''
     logging.info("Tasks have started running")
-    schedule.every().day.at("17:13").do(_update_daily_posts)
-    schedule.every().sunday.at("17:11").do(_update_weekly_posts)
+    schedule.every().day.at("00:00").do(_update_daily_posts)
+    schedule.every().friday.at("22:00").do(_update_weekly_posts)
 
     while 1:
         await schedule.run_pending()
