@@ -14,7 +14,7 @@ feedparser==6.0.2
 idna==2.10
 isort==5.7.0
 lazy-object-proxy==1.4.3
-lxml==4.6.2
+lxml==4.6.3
 markdownify==0.6.1
 mccabe==0.6.1
 multidict==4.7.6
