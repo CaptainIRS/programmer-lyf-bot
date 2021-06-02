@@ -32,7 +32,7 @@ six==1.15.0
 soupsieve==2.1
 toml==0.10.2
 update-checker==0.18.0
-urllib3==1.26.4
+urllib3==1.26.5
 websocket-client==0.57.0
 wrapt==1.12.1
 yarl==1.5.1
