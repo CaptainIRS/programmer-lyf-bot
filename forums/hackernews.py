@@ -15,11 +15,12 @@ def _fetch_hackernews_story(story_id):
     )
     story = {
         'title': story_json["title"],
-        'description': f'{story_json["score"]} points',
-        'url': story_json["url"] or 'https://news.ycombinator.com/',
-        'comments_link': f'[{story_json["descendants"]}\
+        'description': f'{story_json["score"] if "score" in story_json else 0} points',
+        'url': story_json["url"] if 'url' in story_json else 'https://news.ycombinator.com/',
+        'comments_link': f'[{story_json["descendants"] if "descendants" in story_json else 0}\
              comments](https://news.ycombinator.com/item?id={story_id})',
-        'author_name': story_json["by"] or '*Not Available*'
+        'author_name': story_json["by"] if 'by' in story_json else '*Not Available*',
+        'points': story_json["score"] if 'score' in story_json else 0,
     }
     return story
 
@@ -34,10 +35,8 @@ def fetch_hackernews_posts(limit: int):
         )
     )
 
-    top_stories = top_stories[:limit]
-
     processes = []
-    executor = futures.ThreadPoolExecutor(max_workers=30)
+    executor = futures.ThreadPoolExecutor(max_workers=10)
     for story_id in top_stories:
         processes.append(executor.submit(_fetch_hackernews_story, story_id))
 
@@ -46,4 +45,5 @@ def fetch_hackernews_posts(limit: int):
         if process.result():
             posts.append(process.result())
 
-    return posts
+    posts.sort(key=lambda p: p['points'], reverse=True)
+    return posts[:limit]

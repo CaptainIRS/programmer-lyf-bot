@@ -1,4 +1,4 @@
-﻿aiohttp==3.7.4
+aiohttp==3.7.4
 aiojobs==0.3.0
 aioschedule==0.5.2
 astroid==2.4.2
@@ -15,6 +15,7 @@ idna==2.10
 isort==5.7.0
 lazy-object-proxy==1.4.3
 lxml==4.6.3
+Markdown==3.3.4
 markdownify==0.6.1
 mccabe==0.6.1
 multidict==4.7.6
@@ -31,6 +32,7 @@ sgmllib3k==1.0.0
 six==1.15.0
 soupsieve==2.1
 toml==0.10.2
+typing-extensions==3.7.4.3
 update-checker==0.18.0
 urllib3==1.26.4
 websocket-client==0.57.0

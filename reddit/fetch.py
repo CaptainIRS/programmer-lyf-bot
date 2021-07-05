@@ -4,17 +4,23 @@ Contains functions to fetch reddit posts
 
 from datetime import datetime
 
+from markdown import Markdown
+
+from util.markdown import markdownify
+
 
 def _create_post_list(selected_posts):
 
     posts = []
     image_formats = ['jpg', 'jpeg', 'png', 'gif']
 
+    markdown = Markdown()
+
     for post in selected_posts:
 
         data = {}
         data['title'] = post.title
-        data['selftext'] = post.selftext
+        data['selftext'] = markdownify(markdown.convert(post.selftext))
         data['posted'] = datetime.utcfromtimestamp(post.created_utc).strftime('%a, %d %b %Y %X UTC')
         data['upvotes'] = post.ups
         data['downvotes'] = post.downs

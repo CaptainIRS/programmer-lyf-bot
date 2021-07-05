@@ -14,8 +14,8 @@ class ValidEmbed():
     '''
 
     def __init__(self, **kwargs):
-        title = self._truncate(kwargs.get('title', ''), 250)
-        description = self._truncate(kwargs.get('description', ''), 2000)
+        title = self._truncate(kwargs.get('title', '').strip(), 250)
+        description = self._truncate(kwargs.get('description', '').strip(), 2000)
         url = self._validate_url(kwargs.get('url', ''))
         colour = kwargs.get('colour', Colour.purple())
         self.embed = embeds.Embed(
@@ -27,9 +27,18 @@ class ValidEmbed():
 
     def set_author(self, **kwargs):
         '''Set valid author parameters'''
-        name = self._truncate(kwargs.get('name', ''), 250)
+        name = self._truncate(kwargs.get('name', '').strip(), 250)
         url = self._validate_url(kwargs.get('url', ''))
-        icon_url = self._validate_url(kwargs.get('icon_url', ''))
+        icon_url = self._validate_url(
+            kwargs.get(
+                'icon_url',
+                'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pan_Blue_Circle.png/30px-Pan_Blue_Circle.png'
+            )
+        )
+        if icon_url == '':
+            icon_url = 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Article_Clayton.png'
+        icon_url = 'https://images.weserv.nl/?url=' + icon_url + \
+            '&output=png&bg=black&w=100&h=100&fit=contain&cbg=black'
         self.embed.set_author(
             name=name,
             url=url,
@@ -38,10 +47,14 @@ class ValidEmbed():
 
     def set_footer(self, **kwargs):
         '''Set valid footer parameters'''
-        text = self._truncate(kwargs.get('text', '-'), 2000)
+        text = self._truncate(kwargs.get('text', '-').strip(), 2000)
         if text == '':
             text = '-'
-        icon_url = self._validate_url(kwargs.get('icon_url', ''))
+        icon_url = self._validate_url(kwargs.get('icon_url', '')).strip()
+        if icon_url == '':
+            icon_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/' \
+                'Ic_account_circle_48px.svg/200px-Ic_account_circle_48px.svg.png'
+        icon_url = f'https://images.weserv.nl/?url={icon_url}&output=png&bg=white&w=100&h=100&fit=contain&cbg=white'
         self.embed.set_footer(
             text=text,
             icon_url=icon_url
@@ -49,10 +62,10 @@ class ValidEmbed():
 
     def add_field(self, **kwargs):
         '''Set valid field parameters'''
-        name = self._truncate(kwargs.get('name', ''), 250)
+        name = self._truncate(kwargs.get('name', '').strip(), 250)
         if name == '':
             name = '-----'
-        value = self._truncate(kwargs.get('value', ''), 1000)
+        value = self._truncate(kwargs.get('value', '').strip(), 1000)
         if value == '':
             value = '*Description not available*'
         self.embed.add_field(
@@ -64,9 +77,10 @@ class ValidEmbed():
     def set_image(self, **kwargs):
         '''Set valid image parameters'''
         url = self._validate_url(kwargs.get('url', ''))
-        self.embed.set_image(
-            url=url
-        )
+        if url != '':
+            self.embed.set_image(
+                url=url
+            )
 
     def valid_embed(self):
         '''Return valid discord embed'''
@@ -84,7 +98,7 @@ class ValidEmbed():
     @staticmethod
     def _truncate(string, limit):
         if len(string) > limit:
-            string = f'{string[:limit]}...'
+            string = f'{string[:limit]}[...]'
         return string
 
 
@@ -100,7 +114,7 @@ def create_blog_embed(post):
     )
 
     if 'image' in post:
-        embed.set_image(url=post["image"][0]["url"])
+        embed.set_image(url=post["image"])
 
     embed.set_author(
         name=post['publisher'],
@@ -110,7 +124,7 @@ def create_blog_embed(post):
 
     embed.set_footer(
         text=post["author_name"] or post['publisher'],
-        icon_url=(post["author_icon"][0]["url"] if 'author_icon' in post else ''),
+        icon_url=(post["author_icon"][0]["url"] if 'author_icon' in post else post['publisher_image']),
     )
 
     embed.add_field(
@@ -137,10 +151,11 @@ def create_devrant_embed(rant):
         icon_url='https://devrant.com/static/devrant/img/favicon32.png'
     )
 
-    embed.set_footer(
-        text=f'By {rant["user_username"]}',
-        icon_url=f'https://avatars.devrant.com/{rant["user_avatar"]["i"]}'
-    )
+    if 'user_avatar' in rant and 'i' in rant['user_avatar']:
+        embed.set_footer(
+            text=f'By {rant["user_username"]}',
+            icon_url=f'https://avatars.devrant.com/{rant["user_avatar"]["i"]}'
+        )
 
     if 'attached_image' in rant and 'url' in rant['attached_image']:
         embed.set_image(url=rant["attached_image"]["url"])
@@ -156,7 +171,7 @@ def create_reddit_embed(subreddit, post):
 
     embed = ValidEmbed(
         title=post["title"],
-        description=selftext or "\u200b",
+        description=selftext or "-----",
         url=post["url"],
         colour=Colour.red()
     )
@@ -185,7 +200,7 @@ def create_forum_embed(forum, post):
         colour=config['color']
     )
 
-    if 'image' in post:
+    if 'image' in post and len(post['image']) > 0 and 'url' in post['image'][0]:
         embed.set_image(url=post["image"][0]["url"])
 
     embed.set_author(

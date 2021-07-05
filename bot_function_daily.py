@@ -11,7 +11,7 @@ import aioschedule as schedule
 from discord.ext import commands
 from dotenv import load_dotenv
 
-import blogs
+import feeds
 import devrant
 import forums
 import reddit
@@ -62,7 +62,7 @@ async def _blog_updater(frequency: str):
             loop = asyncio.get_event_loop()
             posts = await loop.run_in_executor(
                 ThreadPoolExecutor(),
-                blogs.get_blog_posts,
+                feeds.get_blog_posts,
                 blog_config['data_file'],
                 blog_config['limit_per_blog'],
                 frequency
@@ -111,23 +111,6 @@ async def _update_daily_posts():
     await _update_posts("daily")
 
 
-async def _update_weekly_posts():
-    await _update_posts("weekly")
-
-
-async def start():
-    '''
-    Start running the scheduled tasks
-    '''
-    logging.info("Tasks have started running")
-    schedule.every().day.at("00:00").do(_update_daily_posts)
-    schedule.every().friday.at("22:00").do(_update_weekly_posts)
-
-    while 1:
-        await schedule.run_pending()
-        await asyncio.sleep(1)
-
-
 bot = commands.Bot(command_prefix='./')
 
 
@@ -137,8 +120,9 @@ async def on_ready():
     Fired when bot is ready
     '''
     logging.info('Bot is ready!')
+    await _update_daily_posts()
 
+    exit()
 
-bot.loop.create_task(start())
 
 bot.run(TOKEN)
