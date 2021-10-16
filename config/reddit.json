@@ -10,49 +10,53 @@
         {
             "subreddit": "css_irl",
             "category": "fun",
-            "frequency": "weekly",
+            "frequency": "daily",
             "unwanted_flairs": []
         },
         {
             "subreddit": "ProgrammerDadJokes",
             "category": "fun",
-            "frequency": "weekly",
+            "frequency": "daily",
             "unwanted_flairs": []
         },
         {
             "subreddit": "softwaregore",
             "category": "fun",
-            "frequency": "weekly",
+            "frequency": "daily",
             "unwanted_flairs": []
         },
         {
             "subreddit": "badcode",
             "category": "fun",
-            "frequency": "weekly",
+            "frequency": "daily",
             "unwanted_flairs": []
         },
         {
             "subreddit": "webdev",
             "category": "serious",
-            "frequency": "weekly",
-            "unwanted_flairs": ["Showoff Saturday"]
+            "frequency": "daily",
+            "unwanted_flairs": [
+                "Showoff Saturday"
+            ]
         },
         {
             "subreddit": "sysadmin",
             "category": "serious",
-            "frequency": "weekly",
-            "unwanted_flairs": ["Rant"]
+            "frequency": "daily",
+            "unwanted_flairs": [
+                "Rant"
+            ]
         },
         {
             "subreddit": "androiddev",
             "category": "serious",
-            "frequency": "monthly",
+            "frequency": "daily",
             "unwanted_flairs": []
         },
         {
             "subreddit": "ITCareerQuestions",
             "category": "life",
-            "frequency": "weekly",
+            "frequency": "daily",
             "unwanted_flairs": []
         }
     ]

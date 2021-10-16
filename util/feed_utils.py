@@ -4,11 +4,12 @@ Utilities for parsing feeds
 
 import collections
 import logging
+import re
 from datetime import datetime, timedelta
 from time import mktime
-import re
 
 import feedparser
+
 from util.markdown import markdownify
 
 
@@ -35,14 +36,14 @@ def _get_image(feed_entry):
                 feed_entry.content[0].value
             ):
         return re.search(
-                r'(?P<url>http.?://[^\s]+(png|jpeg|jpg))',
-                feed_entry.content[0].value
-            ).group("url") or ''
+            r'(?P<url>http.?://[^\s]+(png|jpeg|jpg))',
+            feed_entry.content[0].value
+        ).group("url") or ''
 
     return ''
 
 
-def _feed_to_post(feed, feed_entry, details, type):
+def _feed_to_post(feed, feed_entry, details):
     publisher, publisher_url, _ = details
 
     data = collections.defaultdict(str)
@@ -84,7 +85,7 @@ def _check_if_within_time(published_time, time_delta):
         return False
 
 
-def transform_feed(feed_data, details, limit, type, time_delta=timedelta(1)):
+def transform_feed(feed_data, details, limit, time_delta=timedelta(1)):
     '''
     Function to transform feed to required json format
     '''
@@ -95,6 +96,7 @@ def transform_feed(feed_data, details, limit, type, time_delta=timedelta(1)):
         return []
     try:
         feed_object = feedparser.parse(feed_data)
+        print(feed_object)
     except Exception as exception:  # pylint: disable=broad-except
         logging.error(
             'Error when parsing feed from %s.\nFeed data: %s\nException: %s',
@@ -118,7 +120,7 @@ def transform_feed(feed_data, details, limit, type, time_delta=timedelta(1)):
     posts = []
 
     for feed_entry in feed_entries:
-        post = _feed_to_post(feed_object.feed, feed_entry, details, type)
+        post = _feed_to_post(feed_object.feed, feed_entry, details)
         posts.append(post)
 
     return posts

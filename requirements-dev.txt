@@ -5,3 +5,9 @@ opml==0.5
 feedparser==6.0.2
 discord==1.7.3
 python-dotenv==0.19.1
+
+# Dev dependencies
+isort==5.7.0
+pycodestyle==2.7.0
+pylint==2.6.0
+flake8==3.9.2

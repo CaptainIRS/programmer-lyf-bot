@@ -12,6 +12,7 @@ This bot brings in the latest news, the latest memes, the latest rants and every
 1. Copy `.env.example` to `.env`
 2. Fill out the required tokens in `.env`
 3. Change the config files in `config/` as required
-4. `virtualenv venv && source venv/bin/activate`
-5. `pip3 install -r requirements.txt`
-4. Good to go!
+4. `python3 -m venv venv && source venv/bin/activate`
+5. `pip3 install -r requirements-dev.txt`
+6. `pre-commit install`
+7. `python3 bot.py daily` or `python3 bot.py weekly`

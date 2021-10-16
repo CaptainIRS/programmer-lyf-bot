@@ -8,6 +8,7 @@ import dotenv
 from praw import Reddit
 
 from util.load_config import load_config
+
 from .fetch import fetch_reddit_posts
 
 

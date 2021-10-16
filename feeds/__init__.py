@@ -2,12 +2,11 @@
 APIs for getting feeds
 '''
 
-from .fetch import *
+from .fetch import fetch_feed
 
 
-def get_blog_posts(data_file, limit, frequency):
-    return fetch_feed(data_file, limit, frequency, "blog")
-
-
-def get_podcasts(data_file, limit, frequency):
-    return fetch_feed(data_file, limit, frequency, "podcasts")
+def get_feed(data_file, limit, frequency):
+    '''
+    Get feed
+    '''
+    return fetch_feed(data_file, limit, frequency)

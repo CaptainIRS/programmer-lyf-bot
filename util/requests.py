@@ -26,7 +26,7 @@ def fetch_from_server(url: str):
             verify=False
         )
         if response.status_code == 200:
-            return response.content.decode("utf-8", "ignore")
+            return response.content.decode('utf-8', 'ignore')
         logging.error(
             'Request to %s failed - %d: %s', url, response.status_code, response.reason
         )

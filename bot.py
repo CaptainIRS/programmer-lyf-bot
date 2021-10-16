@@ -5,14 +5,14 @@ Bot functions
 import asyncio
 import logging
 import os
+import sys
 from concurrent.futures import ThreadPoolExecutor
 
-import aioschedule as schedule
 from discord.ext import commands
 from dotenv import load_dotenv
 
-import blogs
 import devrant
+import feeds
 import forums
 import reddit
 from util.embed_utils import (create_blog_embed, create_devrant_embed,
@@ -26,16 +26,16 @@ load_dotenv(override=True)
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 reddit_channels = {
-    "fun": int(os.getenv('FUN_REDDIT')),
-    "serious": int(os.getenv('SERIOUS_REDDIT')),
-    "life": int(os.getenv('LIFE_REDDIT')),
+    'fun': int(os.getenv('FUN_REDDIT')),
+    'serious': int(os.getenv('SERIOUS_REDDIT')),
+    'life': int(os.getenv('LIFE_REDDIT')),
 }
 blog_channels = {
-    "company": int(os.getenv('COMPANY_BLOGS')),
-    "individual": int(os.getenv('INDIVIDUAL_BLOGS')),
-    "product": int(os.getenv('PRODUCT_BLOGS')),
-    "infosec": int(os.getenv('INFOSEC_BLOGS')),
-    "podcasts": int(os.getenv('PODCASTS')),
+    'company': int(os.getenv('COMPANY_BLOGS')),
+    'individual': int(os.getenv('INDIVIDUAL_BLOGS')),
+    'product': int(os.getenv('PRODUCT_BLOGS')),
+    'infosec': int(os.getenv('INFOSEC_BLOGS')),
+    'podcasts': int(os.getenv('PODCASTS')),
 }
 rant_channel = int(os.getenv('RANTS'))
 forum_channel = int(os.getenv('FORUMS'))
@@ -62,7 +62,7 @@ async def _blog_updater(frequency: str):
             loop = asyncio.get_event_loop()
             posts = await loop.run_in_executor(
                 ThreadPoolExecutor(),
-                blogs.get_blog_posts,
+                feeds.get_feed,
                 blog_config['data_file'],
                 blog_config['limit_per_blog'],
                 frequency
@@ -108,27 +108,14 @@ async def _update_posts(period):
 
 
 async def _update_daily_posts():
-    await _update_posts("daily")
+    await _update_posts('daily')
 
 
 async def _update_weekly_posts():
-    await _update_posts("weekly")
-
-
-async def start():
-    '''
-    Start running the scheduled tasks
-    '''
-    logging.info("Tasks have started running")
-    schedule.every().day.at("00:00").do(_update_daily_posts)
-    schedule.every().friday.at("22:00").do(_update_weekly_posts)
-
-    while 1:
-        await schedule.run_pending()
-        await asyncio.sleep(1)
-
+    await _update_posts('weekly')
 
 bot = commands.Bot(command_prefix='./')
+update_function = _update_daily_posts
 
 
 @bot.event
@@ -137,8 +124,17 @@ async def on_ready():
     Fired when bot is ready
     '''
     logging.info('Bot is ready!')
+    await update_function()
+
+    sys.exit()
 
 
-bot.loop.create_task(start())
-
-bot.run(TOKEN)
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print('Not enough arguments. Usage: python3 bot.py weekly|daily')
+        sys.exit()
+    if sys.argv[1] == 'weekly':
+        update_function = _update_weekly_posts
+    elif sys.argv[1] == 'daily':
+        update_function = _update_daily_posts
+    bot.run(TOKEN)

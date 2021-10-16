@@ -3,6 +3,7 @@ Contains the functions to fetch data from devrant API
 '''
 
 import logging
+
 import requests
 
 

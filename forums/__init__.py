@@ -2,13 +2,13 @@
 APIs for getting posts from forums like slashdot and hackernews
 '''
 
-from .slashdot import fetch_slashdot_posts
 from .hackernews import fetch_hackernews_posts
+from .slashdot import fetch_slashdot_posts
 
 
 def get_forum_posts(forum: str, limit: int) -> list:
     '''
-    Get slashdot posts
+    Get forum posts
     '''
 
     if forum == 'slashdot':
