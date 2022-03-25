@@ -4,4 +4,4 @@ discord.py==1.6.0
 praw==7.1.0
 opml==0.5
 feedparser==6.0.2
-python-dotenv==0.19.1
+python-dotenv==0.20.0
