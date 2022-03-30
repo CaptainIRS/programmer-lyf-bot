@@ -19,7 +19,7 @@ jobs:
         python-version: 3.9
     - name: Attempt to use cached dependencies
       id: cache-python
-      uses: actions/cache@v2
+      uses: actions/cache@v3.0.1
       with:
         path: ${{ env.pythonLocation }}
         key: ${{ env.pythonLocation }}-${{ hashFiles('requirements-dev.txt') }}
