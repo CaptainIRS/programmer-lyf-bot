@@ -1,4 +1,4 @@
-markdownify==0.6.1
+markdownify==0.11.1
 markdown==3.3.4
 discord.py==1.6.0
 praw==7.1.0
