@@ -10,7 +10,7 @@ def load_config(file_name: str):
     '''
     pwd = dirname(realpath(__file__))
 
-    with open(f'{pwd}/../config/{file_name}') as infile:
+    with open(f'{pwd}/../config/{file_name}', encoding='utf-8') as infile:
         config_file = json.load(infile)
 
     return config_file

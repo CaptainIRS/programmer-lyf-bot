@@ -2,11 +2,11 @@
 APIs for getting feeds
 '''
 
-from .fetch import fetch_feed
+from .fetch import submit_feed_updates
 
 
-def get_feed(data_file, limit, frequency):
+def submit_updates(queue, blog, data_file, limit, frequency):
     '''
-    Get feed
+    Submit feed updates to queue
     '''
-    return fetch_feed(data_file, limit, frequency)
+    submit_feed_updates(queue, blog, data_file, limit, frequency)

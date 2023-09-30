@@ -12,12 +12,12 @@ repos:
       - id: autopep8
         name: autopep8
         language: system
-        entry: autopep8 --exit-code -iar feeds/ devrant/ forums/ reddit/ util/ ./main.py
+        entry: autopep8 --exit-code -iar feeds/ forums/ reddit/ util/ ./main.py
         pass_filenames: false
       - id: pylint
         name: pylint
         language: system
-        entry: pylint feeds/ devrant/ forums/ reddit/ util/ ./main.py
+        entry: pylint feeds/ forums/ reddit/ util/ ./main.py
         pass_filenames: false
       - id: isort
         name: isort
@@ -27,5 +27,5 @@ repos:
       - id: pycodestyle
         name: pycodestyle
         language: system
-        entry: pycodestyle --show-source --show-pep8 feeds/ devrant/ forums/ reddit/ util/ ./main.py
+        entry: pycodestyle --show-source --show-pep8 feeds/ forums/ reddit/ util/ ./main.py
         pass_filenames: false

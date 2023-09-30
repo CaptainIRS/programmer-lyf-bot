@@ -5,8 +5,8 @@ Utilities for parsing feeds
 import collections
 import logging
 import re
+from calendar import timegm
 from datetime import datetime, timedelta
-from time import mktime
 
 import feedparser
 
@@ -87,8 +87,9 @@ def _feed_to_post(feed, feed_entry, details):
 
 def _check_if_within_time(published_time, time_delta):
     try:
-        return datetime.fromtimestamp(mktime(published_time)) \
-            > datetime.utcnow() - time_delta
+        published_timestamp = datetime.utcfromtimestamp(timegm(published_time))
+        current_timestamp = datetime.utcnow()
+        return current_timestamp - time_delta < published_timestamp <= current_timestamp
     except Exception as exception:  # pylint: disable=broad-except
         logging.error(exception)
         return False
@@ -128,7 +129,7 @@ def transform_feed(feed_data, details, limit, time_delta=timedelta(1)):  # pylin
     else:
         if feed_object.entries and hasattr(feed_object.entries[0], 'published_parsed'):
             try:
-                last_published = datetime.fromtimestamp(mktime(feed_object.entries[0].published_parsed))
+                last_published = datetime.utcfromtimestamp(timegm(feed_object.entries[0].published_parsed))
                 delta = datetime.utcnow() - last_published
                 stale = ''
                 if delta.days > 365:

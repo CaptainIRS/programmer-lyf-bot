@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>News</title>
+  </head>
+  <body>
+    <outline text="News" title="New">
+        <outline text="Ars Technica" title="Ars Technica" type="rss" xmlUrl="https://arstechnica.com/information-technology/feed/" htmlUrl="https://arstechnica.com/"/>
+        <outline text="Bleeping Computer" title="Bleeping Computer" type="rss" xmlUrl="https://www.bleepingcomputer.com/feed/" htmlUrl="https://www.bleepingcomputer.com/"/>
+        <outline text="Coin Desk" title="Coin Desk" type="rss" xmlUrl="https://www.coindesk.com/arc/outboundfeeds/rss/" htmlUrl="https://www.coindesk.com/"/>
+        <outline text="Computer Weekly" title="Computer Weekly" type="rss" xmlUrl="https://www.computerweekly.com/rss/RSS-Feed.xml" htmlUrl="https://www.computerweekly.com/"/>
+        <outline text="Computer World" title="Computer World" type="rss" xmlUrl="https://www.computerworld.com/in/index.rss" htmlUrl="https://www.computerworld.com/"/>
+        <outline text="Extreme Tech" title="Extreme Tech" type="rss" xmlUrl="https://www.extremetech.com/feed" htmlUrl="https://www.extremetech.com/"/>
+        <outline text="Fast Company" title="Fast Company" type="rss" xmlUrl="https://www.fastcompany.com/technology/rss" htmlUrl="https://www.fastcompany.com/technology"/>
+        <outline text="Information Week" title="Information Week" type="rss" xmlUrl="https://www.informationweek.com/rss.xml" htmlUrl="https://www.informationweek.com/"/>
+        <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com/"/>
+        <outline text="Tech Crunch" title="Tech Crunch" type="rss" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
+        <outline text="Tech Wire Asia" title="Tech Wire Asia" type="rss" xmlUrl="https://techwireasia.com/feed/" htmlUrl="https://techwireasia.com/"/>
+        <outline text="Tech Xplore" title="Tech Xplore" type="rss" xmlUrl="https://techxplore.com/rss-feed/computer-sciences-news/" htmlUrl="https://techxplore.com/"/>
+        <outline text="Techmeme" title="Techmeme" type="rss" xmlUrl="https://www.techmeme.com/feed.xml" htmlUrl="https://www.techmeme.com/"/>
+        <outline text="The Information" title="The Information" type="rss" xmlUrl="https://www.theinformation.com/feed" htmlUrl="https://www.theinformation.com/"/>
+        <outline text="Venture Beat" title="Venture Beat" type="rss" xmlUrl="https://feeds.feedburner.com/venturebeat/SZYF" htmlUrl="https://venturebeat.com/"/>
+        <outline text="Vox" title="Vox" type="rss" xmlUrl="https://www.vox.com/rss/technology/index.xml" htmlUrl="https://www.vox.com/technology"/>
+    </outline>
+  </body>
+</opml>

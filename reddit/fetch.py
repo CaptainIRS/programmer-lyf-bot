@@ -2,6 +2,7 @@
 Contains functions to fetch reddit posts
 '''
 
+import logging
 from datetime import datetime
 
 from markdown import Markdown
@@ -43,7 +44,6 @@ def _create_post_list(selected_posts):
 
 
 def _fetch_top_posts(subreddit, unwanted_flairs, frequency, limit):
-
     posts = subreddit.top(time_filter=frequency)
     selected_posts = []
 
@@ -77,20 +77,23 @@ def fetch_reddit_posts(reddit, subreddits, limit):
     result = {'subreddits': []}
 
     for obj in subreddits:
+        try:
+            subreddit = reddit.subreddit(obj['subreddit'])
 
-        subreddit = reddit.subreddit(obj['subreddit'])
+            unwanted_flairs = obj['unwanted_flairs']
+            frequency = frequency_map[obj['frequency']]
 
-        unwanted_flairs = obj['unwanted_flairs']
-        frequency = frequency_map[obj['frequency']]
+            data = {}
+            data['subreddit'] = obj['subreddit']
+            data['category'] = obj['category']
+            data['frequency'] = obj['frequency']
+            data['posts'] = _fetch_top_posts(subreddit, unwanted_flairs, frequency, limit)
+            data['subreddit_url'] = 'https://www.reddit.com' + subreddit.url
+            data['subreddit_icon'] = subreddit.icon_img
 
-        data = {}
-        data['subreddit'] = obj['subreddit']
-        data['category'] = obj['category']
-        data['frequency'] = obj['frequency']
-        data['posts'] = _fetch_top_posts(subreddit, unwanted_flairs, frequency, limit)
-        data['subreddit_url'] = 'https://www.reddit.com' + subreddit.url
-        data['subreddit_icon'] = subreddit.icon_img
-
-        result['subreddits'].append(data)
+            result['subreddits'].append(data)
+        except Exception as exception:  # pylint: disable=broad-except
+            logging.error('Error fetching subreddit %s: %s', obj['subreddit'], exception)
+            continue
 
     return result

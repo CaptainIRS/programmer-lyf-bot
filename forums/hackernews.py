@@ -1,8 +1,8 @@
 '''
 APIs for fetching hackernews posts
 '''
-import concurrent.futures as futures
 import json
+from concurrent import futures
 
 from util.requests import fetch_from_server
 

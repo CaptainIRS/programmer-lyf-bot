@@ -1,11 +1,13 @@
 '''
-Utils for converting from other data formats to discord embeds
+Utils for converting from other data formats to discord/telegram embeds
 '''
 import logging
+from dataclasses import dataclass
 
 from discord import Colour, embeds
 
 from util.load_config import load_config
+from util.markdown import htmlify
 
 
 class ValidEmbed():
@@ -135,34 +137,6 @@ def create_blog_embed(post):
     return embed.valid_embed()
 
 
-def create_devrant_embed(rant):
-    '''
-    Create devrant embed from JSON
-    '''
-    embed = ValidEmbed(
-        name='',
-        description=rant['text'],
-        colour=0xf99a66,
-    )
-
-    embed.set_author(
-        name='devRant',
-        url='https://devrant.com',
-        icon_url='https://devrant.com/static/devrant/img/favicon32.png'
-    )
-
-    if 'user_avatar' in rant and 'i' in rant['user_avatar']:
-        embed.set_footer(
-            text=f'By {rant["user_username"]}',
-            icon_url=f'https://avatars.devrant.com/{rant["user_avatar"]["i"]}'
-        )
-
-    if 'attached_image' in rant and 'url' in rant['attached_image']:
-        embed.set_image(url=rant["attached_image"]["url"])
-
-    return embed.valid_embed()
-
-
 def create_reddit_embed(subreddit, post):
     '''
     Create reddit post embed from subreddit JSON
@@ -221,3 +195,127 @@ def create_forum_embed(forum, post):
     )
 
     return embed.valid_embed()
+
+
+@dataclass
+class TelegramPost:
+    '''
+    Telegram post
+    '''
+    message: str
+    image_url: str
+    show_preview: bool = False
+
+
+def create_reddit_telegram_post(subreddit, post):
+    '''
+    Create reddit post embed from subreddit JSON
+    '''
+    message = f'💬 r/{subreddit["subreddit"]}'
+    message += f'\n\n**[{post["title"]}]({post["url"]})**'
+    if post["selftext"]:
+        if len(post["selftext"]) > 1000:
+            post["selftext"] = post["selftext"][:1000] + '...'
+        message += f'\n\n{post["selftext"].strip()}'
+    message += '\n‎'
+
+    return TelegramPost(
+        message=htmlify(message),
+        image_url=post["media"]["url"] if 'media' in post and 'url' in post['media'] else ''
+    )
+
+
+def create_forum_telegram_post(forum, post):
+    '''
+    Create forum embed from JSON
+    '''
+    config = load_config('forums.json')[forum]
+
+    message = f'💬 {config["publisher"]}'
+    message += f'\n\n**[{post["title"]}]({post["url"]})**'
+    if post["description"]:
+        if len(post["description"]) > 1000:
+            post["description"] = post["description"][:1000] + '...'
+        message += f'\n\n{post["description"]}'
+    if 'comments_link' in post:
+        while '  ' in post['comments_link']:
+            post['comments_link'] = post['comments_link'].replace('  ', ' ')
+        message += f'\n\n{post["comments_link"]}'
+    message += '\n‎'
+
+    return TelegramPost(
+        message=htmlify(message),
+        show_preview=True,
+        image_url=post["image"][0]["url"] if 'image' in post and len(
+            post['image']) > 0 and 'url' in post['image'][0] else ''
+    )
+
+
+def create_blog_telegram_post(post):
+    '''
+    Create blog post embed from JSON
+    '''
+    message = f'📰 {post["publisher"]}'
+    message += f'\n\n**[{post["title"]}]({post["url"]})**'
+    if post["description"]:
+        if len(post["description"]) > 1000:
+            post["description"] = post["description"][:1000] + '...'
+        message += f'\n\n{post["description"].strip()}'
+    message += '\n‎'
+    while '\n\n\n' in message:
+        message = message.replace('\n\n\n', '\n\n')
+    return TelegramPost(
+        message=htmlify(message),
+        show_preview=not ('image' in post and len(post['image']) > 0),
+        image_url=post["image"] if 'image' in post and len(post['image']) > 0 else ''
+    )
+
+
+@dataclass
+class RedditPost:
+    '''
+    Reddit post
+    '''
+    title: str
+    description: str
+    url: str
+
+
+def create_forum_reddit_post(forum, post):
+    '''
+    Create forum embed from JSON
+    '''
+    config = load_config('forums.json')[forum]
+
+    title = f'💬 {config["publisher"]} - {post["title"]}'
+    description = post["description"]
+    url = None
+    if description:
+        description += f'\n\n[Link to post and comments]({post["url"]})'
+    else:
+        url = post["url"]
+
+    return RedditPost(
+        title=title,
+        description=description,
+        url=url
+    )
+
+
+def create_blog_reddit_post(post):
+    '''
+    Create blog post embed from JSON
+    '''
+    title = f'📰 {post["publisher"]} - {post["title"]}'
+    description = post["description"]
+    url = None
+    if description:
+        description += f'\n\n[Link to post]({post["url"]})'
+    else:
+        url = post["url"]
+
+    return RedditPost(
+        title=title,
+        description=description,
+        url=url
+    )

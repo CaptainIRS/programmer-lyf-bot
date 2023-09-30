@@ -2,9 +2,9 @@
 Blog fetch
 '''
 
-import concurrent.futures as futures
 import logging
 import time
+from concurrent import futures
 from datetime import timedelta
 
 import opml
@@ -29,7 +29,7 @@ def _process_feed(details, limit, frequency):
     return transform_feed(feed_data, details, limit, day_delta)
 
 
-def fetch_feed(data_file, limit, frequency):
+def submit_feed_updates(queue, blog, data_file, limit, frequency):
     '''
     Fetch feeds from collection
     '''
@@ -40,7 +40,7 @@ def fetch_feed(data_file, limit, frequency):
 
     outlines = opml.parse(data_file)[0]
     for outline in outlines:
-        feed_details.append((outline.text, outline.htmlUrl, outline.xmlUrl))
+        feed_details.append((outline.title, outline.htmlUrl, outline.xmlUrl))
 
     processes = []
     executor = futures.ThreadPoolExecutor(max_workers=30)
@@ -49,13 +49,11 @@ def fetch_feed(data_file, limit, frequency):
             executor.submit(_process_feed, feed_detail, limit, frequency)
         )
 
-    posts = []
     for process in futures.as_completed(processes):
         if process.result():
-            posts.extend(process.result())
+            for post in process.result():
+                queue.put(('blog', blog, post))
 
     logging.info(
         'Feeds fetched from %s fetched in %ss', data_file, (time.time() - start)
     )
-
-    return posts

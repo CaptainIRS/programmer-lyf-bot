@@ -1,22 +1,27 @@
 {
-    "company": {
+    "infosec": {
         "frequency": "daily",
-        "data_file": "data/blogs/company_blogs.opml",
-        "limit_per_blog": 50
+        "data_file": "data/blogs/infosec_blogs.opml",
+        "limit_per_blog": 5
     },
     "product": {
         "frequency": "daily",
         "data_file": "data/blogs/product_blogs.opml",
         "limit_per_blog": 5
     },
-    "infosec": {
+    "individual": {
         "frequency": "daily",
-        "data_file": "data/blogs/infosec_blogs.opml",
-        "limit_per_blog": 5
+        "data_file": "data/blogs/individual_blogs.opml",
+        "limit_per_blog": 10
     },
-    "podcasts": {
+    "news": {
         "frequency": "daily",
-        "data_file": "data/blogs/podcasts.opml",
-        "limit_per_blog": 5
+        "data_file": "data/blogs/news.opml",
+        "limit_per_blog": 10
+    },
+    "company": {
+        "frequency": "daily",
+        "data_file": "data/blogs/company_blogs.opml",
+        "limit_per_blog": 50
     }
 }

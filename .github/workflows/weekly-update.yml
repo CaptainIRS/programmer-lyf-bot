@@ -1,10 +1,7 @@
-name: lint
+name: Weekly Update
 
 on:
-  push:
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,14 +22,9 @@ jobs:
         key: ${{ env.pythonLocation }}-${{ hashFiles('requirements-dev.txt') }}
     - name: Install dependencies
       if: steps.cache-python.outputs.cache-hit != 'true'
-      run: pip install -r requirements-dev.txt
-    - name: Running autopep8
-      run: autopep8 --exit-code -ra --diff feeds/ forums/ reddit/ util/ ./main.py
-    - name: Running isort
-      run: isort .
-    - name: Analysing the code with pylint
+      run: pip install -r requirements.txt
+    - name: 'Create env file'
       run: |
-        pylint feeds/ forums/ reddit/ util/ ./main.py
-    - name: Analysing the code with pycodestyle (pep-8)
-      run: |
-        pycodestyle --show-source --show-pep8 feeds/ forums/ reddit/ util/ ./main.py
+        echo "${{ secrets.ENV_FILE }}" > .env
+    - name: Running the script
+      run: python main.py weekly

@@ -12,9 +12,9 @@ from util.load_config import load_config
 from .fetch import fetch_reddit_posts
 
 
-def get_reddit_posts(frequency: str, limit: int):
+def get_reddit_client():
     '''
-    Get top reddit posts
+    Get reddit client
     '''
     dotenv.load_dotenv(override=True)
 
@@ -24,11 +24,19 @@ def get_reddit_posts(frequency: str, limit: int):
     password = os.getenv('PASSWORD')
     user_agent = os.getenv('USER_AGENT')
 
-    reddit = Reddit(client_id=client_id,
-                    client_secret=client_secret,
-                    username=username,
-                    password=password,
-                    user_agent=user_agent)
+    return Reddit(client_id=client_id,
+                  client_secret=client_secret,
+                  username=username,
+                  password=password,
+                  user_agent=user_agent)
+
+
+def get_reddit_posts(frequency: str, limit: int):
+    '''
+    Get top reddit posts
+    '''
+
+    reddit = get_reddit_client()
 
     subreddit_json = load_config('reddit.json')['subreddits']
     subreddits = [s for s in subreddit_json if s["frequency"] == frequency]

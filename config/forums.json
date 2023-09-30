@@ -11,7 +11,7 @@
         "frequency": "daily",
         "publisher": "HackerNews",
         "publisher_url": "https://news.ycombinator.com/",
-        "icon_url": "https://news.ycombinator.com/y18.gif",
+        "icon_url": "https://news.ycombinator.com/y18.svg",
         "color": 16606720,
         "limit": 20
     }
