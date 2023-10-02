@@ -3,7 +3,7 @@
 [![lint](https://github.com/CaptainIRS/programmer-lyf-bot/actions/workflows/lint.yml/badge.svg)](https://github.com/CaptainIRS/programmer-lyf-bot/actions/workflows/lint.yml)
 ![](https://img.shields.io/github/license/CaptainIRS/programmer-lyf-bot)
 
-This bot brings in the latest news, the latest tech, the latest memes, and everything needed to make a programmer's life complete.
+This bot brings in the latest news, the latest tech, the latest memes, and everything needed to make a programmer's life complete. For custom deployment using GitHub Actions check out [DEPLOYMENT.md](./DEPLOYMENT.md).
 
 > [!NOTE]
 > The bot is alive in the following communities. Join the communities to get the latest updates every morning at 6AM IST from Programmer Lyf Bot:
