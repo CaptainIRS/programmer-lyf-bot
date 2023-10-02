@@ -1,6 +1,6 @@
 markdownify==0.6.1
 markdown==3.3.4
-discord.py==1.6.0
+discord.py==2.3.2
 praw==7.1.0
 opml==0.5
 feedparser==6.0.2
