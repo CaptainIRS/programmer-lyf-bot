@@ -6,9 +6,12 @@
 This bot brings in the latest news, the latest tech, the latest memes, and everything needed to make a programmer's life complete.
 
 > [!NOTE]
-> Join the communities to get the latest updates and to suggest new features:
-> [![Telegram](https://img.shields.io/badge/Telegram-%40ProgrammerLyf-blue?logo=telegram)](https://t.me/ProgrammerLyf)
-> [![Discord](https://img.shields.io/badge/Discord-Programmer%20Lyf-blue?logo=discord)](https://discord.gg/wMr5YBCCmv)
+> The bot is alive in the following communities. Join the communities to get the latest updates every morning at 6AM IST from Programmer Lyf Bot:
+> 
+> [![Telegram-@ProgrammerLyf-blue](https://github.com/CaptainIRS/programmer-lyf-bot/assets/36656347/a5aa0750-6540-4cc8-a0de-b1df5612eea2)
+](https://t.me/ProgrammerLyf)
+> [![Discord-Programmer Lyf-blue](https://github.com/CaptainIRS/programmer-lyf-bot/assets/36656347/778bbe58-befe-44da-aef9-bd47b4215b9e)
+](https://discord.gg/wMr5YBCCmv)
 
 ### Screenshots
 
