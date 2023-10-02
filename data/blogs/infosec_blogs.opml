@@ -6,6 +6,7 @@
     </head>
     <body>
         <outline text="Infosec" title="Information Security">
+
             <outline type="rss" text="ShellIntel" title="ShellIntel" xmlUrl="https://www.synercomm.com/blog/tag/shellntel/feed/" htmlUrl="https://www.synercomm.com/blog/tag/shellntel/"/>
             <outline type="rss" text="0patch Blog" title="0patch Blog" xmlUrl="https://0patch.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://blog.0patch.com/"/>
             <outline type="rss" text="4ARMED Cloud Security Professional Services" title="4ARMED Cloud Security Professional Services" xmlUrl="https://www.4armed.com/feed.xml" htmlUrl="https://www.4armed.com/"/>
