@@ -10,6 +10,7 @@ This bot brings in the latest news, the latest tech, the latest memes, and every
 >
 > [![Telegram Join Link](https://github.com/CaptainIRS/programmer-lyf-bot/assets/36656347/a5aa0750-6540-4cc8-a0de-b1df5612eea2)](https://t.me/ProgrammerLyf)
 > [![Discord Invite](https://github.com/CaptainIRS/programmer-lyf-bot/assets/36656347/778bbe58-befe-44da-aef9-bd47b4215b9e)](https://discord.gg/wMr5YBCCmv)
+> [![matrix_icon](https://github.com/user-attachments/assets/d87f1f0d-b617-4b75-84d6-6adce78c3a8f)](https://matrix.to/#/#programmer-lyf:matrix.org)
 
 ### Screenshots
 
