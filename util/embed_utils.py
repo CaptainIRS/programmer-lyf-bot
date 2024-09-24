@@ -56,7 +56,7 @@ class ValidEmbed():
         if icon_url == '':
             icon_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/' \
                 'Ic_account_circle_48px.svg/200px-Ic_account_circle_48px.svg.png'
-        icon_url = f'https: //images.weserv.nl/?url={icon_url}&output=png&bg=white&w=100&h=100&fit=contain&cbg=white'
+        icon_url = f'https://images.weserv.nl/?url={icon_url}&output=png&bg=white&w=100&h=100&fit=contain&cbg=white'
         self.embed.set_footer(
             text=text,
             icon_url=icon_url
