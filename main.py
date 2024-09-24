@@ -10,6 +10,7 @@ from multiprocessing import JoinableQueue, Process
 from time import sleep
 
 import discord
+import simplematrixbotlib as botlib
 import telegram
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -19,10 +20,12 @@ import feeds
 import forums
 import reddit
 from util.embed_utils import (RedditPost, TelegramPost, create_blog_embed,
-                              create_blog_reddit_post,
+                              create_blog_matrix_post, create_blog_reddit_post,
                               create_blog_telegram_post, create_forum_embed,
+                              create_forum_matrix_post,
                               create_forum_reddit_post,
                               create_forum_telegram_post, create_reddit_embed,
+                              create_reddit_matrix_post,
                               create_reddit_telegram_post)
 from util.load_config import load_config
 
@@ -76,6 +79,23 @@ reddit_flairs = {
         'news': os.getenv('REDDIT_NEWS'),
     },
     'forum': os.getenv('REDDIT_FORUMS'),
+}
+
+matrix_space = os.getenv('MATRIX_SPACE')
+matrix_rooms = {
+    'reddit': {
+        'fun': os.getenv('MATRIX_FUN_REDDIT'),
+        'serious': os.getenv('MATRIX_SERIOUS_REDDIT'),
+        'life': os.getenv('MATRIX_LIFE_REDDIT'),
+    },
+    'blog': {
+        'company': os.getenv('MATRIX_COMPANY_BLOGS'),
+        'product': os.getenv('MATRIX_PRODUCT_BLOGS'),
+        'infosec': os.getenv('MATRIX_INFOSEC_BLOGS'),
+        'news': os.getenv('MATRIX_NEWS'),
+        'individual': os.getenv('MATRIX_INDIVIDUAL_BLOGS'),
+    },
+    'forum': os.getenv('MATRIX_FORUMS'),
 }
 
 
@@ -137,7 +157,8 @@ class DiscordBot(commands.Bot):
 
     def __init__(self, command_prefix: str, queue: JoinableQueue):
         self.queue = queue
-        super().__init__(command_prefix=command_prefix)
+        intents = discord.Intents.default()
+        super().__init__(command_prefix=command_prefix, intents=intents)
 
     async def on_ready(self):
         '''
@@ -187,6 +208,47 @@ def run_discord_bot(queue: JoinableQueue):
     '''
     discord_bot = DiscordBot(command_prefix='./', queue=queue)
     discord_bot.run(DISCORD_TOKEN)
+
+
+def run_matrix_bot(queue: JoinableQueue):
+    '''
+    Run matrix bot
+    '''
+    creds = botlib.Creds(
+        os.getenv('MATRIX_HOMESERVER'),
+        os.getenv('MATRIX_USER'),
+        access_token=os.getenv('MATRIX_TOKEN'))
+    bot = botlib.Bot(creds)
+
+    @bot.listener.on_startup
+    async def on_startup(room_id: str):
+        if room_id != matrix_space:
+            return
+        while True:
+            message = queue.get()
+            if message is None:
+                queue.task_done()
+                break
+            source, channel, post = message
+            if source == 'reddit':
+                matrix_post = create_reddit_matrix_post(channel, post)
+                await bot.api.send_markdown_message(
+                    room_id=matrix_rooms['reddit'][channel['category']],
+                    message=matrix_post.markdown)
+            elif source == 'blog':
+                matrix_post = create_blog_matrix_post(post)
+                await bot.api.send_markdown_message(
+                    room_id=matrix_rooms['blog'][channel],
+                    message=matrix_post.markdown)
+            elif source == 'forum':
+                matrix_post = create_forum_matrix_post(channel, post)
+                await bot.api.send_markdown_message(
+                    room_id=matrix_rooms['forum'],
+                    message=matrix_post.markdown)
+            queue.task_done()
+            await asyncio.sleep(1)
+        await bot.async_client.logout()
+    bot.run()
 
 
 async def send_to_telegram_channel(telegram_bot: telegram.Bot, thread_id: str, post: TelegramPost):
@@ -325,6 +387,12 @@ def message_sender(message_queue: JoinableQueue):
         queues.append(reddit_queue)
         reddit_process = Process(target=run_reddit_bot, args=(reddit_queue,))
         reddit_process.start()
+    if os.getenv('MATRIX_USER') and os.getenv('MATRIX_TOKEN'):
+        logging.info('Starting matrix bot')
+        matrix_queue = JoinableQueue()
+        queues.append(matrix_queue)
+        matrix_process = Process(target=run_matrix_bot, args=(matrix_queue,))
+        matrix_process.start()
     while True:
         message = message_queue.get()
         if message is None:

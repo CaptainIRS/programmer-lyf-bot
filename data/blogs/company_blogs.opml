@@ -117,6 +117,7 @@
       <outline type="rss" text="Intel" title="Intel" xmlUrl="https://community.intel.com/cipcp26785/rss/Category?category.id=tech-innovation&amp;interaction.style=blog" htmlUrl="https://community.intel.com/t5/Tech-Innovation/ct-p/tech-innovation"/>
       <outline type="rss" text="Intercom" title="Intercom" xmlUrl="https://www.intercom.com/blog/engineering/feed" htmlUrl="https://engineering.intercom.io/"/>
       <outline type="rss" text="Jane Street" title="Jane Street" xmlUrl="https://blogs.janestreet.com/feed.xml" htmlUrl="https://blogs.janestreet.com/category/ocaml/"/>
+      <outline type="rss" text="JioCinema" title="JioCinema" xmlUrl="https://blog.jiocinema.com/rss/" htmlUrl="https://blog.jiocinema.com/"/>
       <outline type="rss" text="Jobandtalent" title="Jobandtalent" xmlUrl="https://jobandtalent.engineering/feed" htmlUrl="https://jobandtalent.engineering/"/>
       <outline type="rss" text="Just Eat" title="Just Eat" xmlUrl="https://tech.just-eat.com/feed/" htmlUrl="https://tech.just-eat.com/"/>
       <outline type="rss" text="King" title="King" xmlUrl="https://techblog.king.com/feed/" htmlUrl="https://techblog.king.com/"/>

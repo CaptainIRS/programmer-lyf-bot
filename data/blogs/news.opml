@@ -10,7 +10,6 @@
         <outline text="Coin Desk" title="Coin Desk" type="rss" xmlUrl="https://www.coindesk.com/arc/outboundfeeds/rss/" htmlUrl="https://www.coindesk.com/"/>
         <outline text="Computer Weekly" title="Computer Weekly" type="rss" xmlUrl="https://www.computerweekly.com/rss/RSS-Feed.xml" htmlUrl="https://www.computerweekly.com/"/>
         <outline text="Computer World" title="Computer World" type="rss" xmlUrl="https://www.computerworld.com/in/index.rss" htmlUrl="https://www.computerworld.com/"/>
-        <outline text="Extreme Tech" title="Extreme Tech" type="rss" xmlUrl="https://www.extremetech.com/feed" htmlUrl="https://www.extremetech.com/"/>
         <outline text="Fast Company" title="Fast Company" type="rss" xmlUrl="https://www.fastcompany.com/technology/rss" htmlUrl="https://www.fastcompany.com/technology"/>
         <outline text="Information Week" title="Information Week" type="rss" xmlUrl="https://www.informationweek.com/rss.xml" htmlUrl="https://www.informationweek.com/"/>
         <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com/"/>
