@@ -189,7 +189,7 @@ class DiscordBot(commands.Bot):
             await asyncio.sleep(3)
         channel = self.get_channel(discord_channels['debug'])
         await channel.send(file=discord.File('/tmp/debug.log'))
-        await self.logout()
+        await self.close()
 
     async def send_embed(self, channel_id: int, embed: discord.Embed):
         '''
@@ -204,7 +204,7 @@ class DiscordBot(commands.Bot):
 
     async def on_error(self, event_method, *args, **kwargs):
         await super().on_error(event_method, *args, **kwargs)
-        await self.logout()
+        await self.close()
 
 
 def run_discord_bot(queue: JoinableQueue):
