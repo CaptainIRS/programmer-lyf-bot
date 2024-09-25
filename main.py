@@ -4,16 +4,20 @@ Bot functions
 
 import asyncio
 import logging
+import mimetypes
 import os
 import sys
+import tempfile
 from multiprocessing import JoinableQueue, Process
 from time import sleep
 
+import aiofiles
 import discord
 import simplematrixbotlib as botlib
 import telegram
 from discord.ext import commands
 from dotenv import load_dotenv
+from nio.responses import UploadResponse
 from praw import Reddit
 
 import feeds
@@ -28,6 +32,7 @@ from util.embed_utils import (RedditPost, TelegramPost, create_blog_embed,
                               create_reddit_matrix_post,
                               create_reddit_telegram_post)
 from util.load_config import load_config
+from util.requests import fetch_image_to_file
 
 logging.basicConfig(level=logging.INFO)
 
@@ -220,6 +225,26 @@ def run_matrix_bot(queue: JoinableQueue):
         password=os.getenv('MATRIX_PASSWORD'))
     bot = botlib.Bot(creds)
 
+    async def get_matrix_content_uri(image_url: str):
+        image_filepath = os.path.join(tempfile.gettempdir(), os.path.basename(image_url))
+        if not fetch_image_to_file(image_url, image_filepath):
+            return None
+        mime_type = mimetypes.guess_type(image_filepath)[0]
+
+        file_stat = await aiofiles.os.stat(image_filepath)
+        async with aiofiles.open(image_filepath, "r+b") as file:
+            resp, _ = await bot.api.async_client.upload(
+                file,
+                content_type=mime_type,
+                filename=os.path.basename(image_filepath),
+                filesize=file_stat.st_size,
+                encrypt=False,
+            )
+        if not isinstance(resp, UploadResponse):
+            logging.error("Failed Upload Response: %s", resp)
+            return None
+        return resp.content_uri
+
     @bot.listener.on_startup
     async def on_startup(room_id: str):
         if room_id != matrix_space:
@@ -232,11 +257,21 @@ def run_matrix_bot(queue: JoinableQueue):
             source, channel, post = message
             if source == 'reddit':
                 matrix_post = create_reddit_matrix_post(channel, post)
+                if matrix_post.image_url:
+                    matrix_content_uri = await get_matrix_content_uri(matrix_post.image_url)
+                    if matrix_content_uri:
+                        matrix_post.markdown = matrix_post.markdown.replace(
+                            matrix_post.image_url, matrix_content_uri)
                 await bot.api.send_markdown_message(
                     room_id=matrix_rooms['reddit'][channel['category']],
                     message=matrix_post.markdown)
             elif source == 'blog':
                 matrix_post = create_blog_matrix_post(post)
+                if matrix_post.image_url:
+                    matrix_content_uri = await get_matrix_content_uri(matrix_post.image_url)
+                    if matrix_content_uri:
+                        matrix_post.markdown = matrix_post.markdown.replace(
+                            matrix_post.image_url, matrix_content_uri)
                 await bot.api.send_markdown_message(
                     room_id=matrix_rooms['blog'][channel],
                     message=matrix_post.markdown)

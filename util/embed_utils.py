@@ -327,6 +327,7 @@ class MatrixPost:
     Matrix post
     '''
     markdown: str
+    image_url: str = None
 
 
 def create_forum_matrix_post(forum, post):
@@ -335,7 +336,7 @@ def create_forum_matrix_post(forum, post):
     '''
     config = load_config('forums.json')[forum]
 
-    message = f'💬 {config["publisher"]}'
+    message = f'***\n\n💬 {config["publisher"]}'
     message += f'\n\n**[{post["title"]}]({post["url"]})**'
     if post["description"]:
         if len(post["description"]) > 1000:
@@ -356,11 +357,11 @@ def create_blog_matrix_post(post):
     '''
     Create blog post embed from JSON
     '''
-    message = f'📰 {post["publisher"]}'
+    message = f'***\n\n📰 {post["publisher"]}'
     message += f'\n\n**[{post["title"]}]({post["url"]})**'
     image_url = post["image"] if 'image' in post and len(post['image']) > 0 else ''
     if image_url:
-        message += f'\n\n![{post["title"]}]({image_url})'
+        message += f'\n\n![]({image_url})'
     if post["description"]:
         if len(post["description"]) > 1000:
             post["description"] = post["description"][:1000] + '...'
@@ -370,7 +371,8 @@ def create_blog_matrix_post(post):
         message = message.replace('\n\n\n', '\n\n')
 
     return MatrixPost(
-        markdown=message
+        markdown=message,
+        image_url=image_url
     )
 
 
@@ -378,11 +380,11 @@ def create_reddit_matrix_post(subreddit, post):
     '''
     Create reddit post embed from subreddit JSON
     '''
-    message = f'💬 r/{subreddit["subreddit"]}'
+    message = f'***\n\n💬 r/{subreddit["subreddit"]}'
     message += f'\n\n**[{post["title"]}]({post["url"]})**'
     image_url = post["media"]["url"] if 'media' in post and 'url' in post['media'] else ''
     if image_url:
-        message += f'\n\n![{post["title"]}]({image_url})'
+        message += f'\n\n![]({image_url})'
     if post["selftext"]:
         if len(post["selftext"]) > 1000:
             post["selftext"] = post["selftext"][:1000] + '...'
@@ -390,5 +392,6 @@ def create_reddit_matrix_post(subreddit, post):
     message += '\n‎'
 
     return MatrixPost(
-        markdown=message
+        markdown=message,
+        image_url=image_url
     )
