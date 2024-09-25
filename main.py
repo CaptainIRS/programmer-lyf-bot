@@ -217,7 +217,7 @@ def run_matrix_bot(queue: JoinableQueue):
     creds = botlib.Creds(
         os.getenv('MATRIX_HOMESERVER'),
         os.getenv('MATRIX_USER'),
-        access_token=os.getenv('MATRIX_TOKEN'))
+        password=os.getenv('MATRIX_PASSWORD'))
     bot = botlib.Bot(creds)
 
     @bot.listener.on_startup
@@ -387,7 +387,7 @@ def message_sender(message_queue: JoinableQueue):
         queues.append(reddit_queue)
         reddit_process = Process(target=run_reddit_bot, args=(reddit_queue,))
         reddit_process.start()
-    if os.getenv('MATRIX_USER') and os.getenv('MATRIX_TOKEN'):
+    if os.getenv('MATRIX_USER') and os.getenv('MATRIX_PASSWORD'):
         logging.info('Starting matrix bot')
         matrix_queue = JoinableQueue()
         queues.append(matrix_queue)
