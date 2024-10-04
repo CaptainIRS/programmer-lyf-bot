@@ -20,7 +20,6 @@ jobs:
         sudo apt-get update && sudo apt-get install cloudflare-warp
         warp-cli --accept-tos registration new
         warp-cli --accept-tos connect
-        curl https://www.cloudflare.com/cdn-cgi/trace/
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
       uses: actions/setup-python@v1
