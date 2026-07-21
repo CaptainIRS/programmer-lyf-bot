@@ -17,7 +17,7 @@
       <outline type="rss" text="Microsoft Edge" title="Microsoft Edge" xmlUrl="https://blogs.windows.com/msedgedev/rss" htmlUrl="https://blogs.windows.com/msedgedev/"/>
       <outline type="rss" text=".NET" title=".NET" xmlUrl="https://blogs.msdn.microsoft.com/dotnet/feed/" htmlUrl="https://blogs.msdn.microsoft.com/dotnet/"/>
       <outline type="rss" text="React" title="React" xmlUrl="https://reactjs.org/feed.xml" htmlUrl="https://reactjs.org/blog/"/>
-      <outline type="rss" text="React Native" title="React Native" xmlUrl="https://facebook.github.io/react-native/blog/atom.xml" htmlUrl="https://facebook.github.io/react-native/blog/"/>
+      <outline type="rss" text="React Native" title="React Native" xmlUrl="https://reactnative.dev/blog/rss.xml" htmlUrl="https://reactnative.dev/blog"/>
       <outline type="rss" text="Red" title="Red" xmlUrl="https://www.red-lang.org/feeds/posts/default" htmlUrl="https://www.red-lang.org"/>
       <outline type="rss" text="RocksDB" title="RocksDB" xmlUrl="https://rocksdb.org/feed.xml" htmlUrl="https://rocksdb.org/blog"/>
       <outline type="rss" text="Rust" title="Rust" xmlUrl="https://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/"/>
