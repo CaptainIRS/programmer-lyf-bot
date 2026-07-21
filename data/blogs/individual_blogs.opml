@@ -31,7 +31,6 @@
         <outline title="Andrea Bergia's Website" htmlUrl="https://andreabergia.com" xmlUrl="https://andreabergia.com/index.xml" />
         <outline title="andrestc.com · André Carvalho" htmlUrl="https://andrestc.com" xmlUrl="https://andrestc.com/index.xml" />
         <outline title="Learn how to Master Software Engineering, DevOps and Cloud" htmlUrl="https://andrewodendaal.com" xmlUrl="https://andrewodendaal.com/index.xml" />
-        <outline title="To Be Determined - index" htmlUrl="https://aneksteind.github.io" xmlUrl="https://aneksteind.github.io/rss.xml" />
         <outline title="Perspective by Ankit Agarwal" htmlUrl="https://ankitag9.substack.com" xmlUrl="https://ankitag9.substack.com/feed" />
         <outline title="Antoine Vastel Blog" htmlUrl="https://antoinevastel.com" xmlUrl="https://antoinevastel.com/feed.xml" />
         <outline title="Ale — my personal blog" htmlUrl="https://apogliaghi.com" xmlUrl="https://apogliaghi.com/index.xml" />
@@ -42,14 +41,12 @@
         <outline title="Avik Das" htmlUrl="https://avikdas.com" xmlUrl="https://avikdas.com/feed.xml" />
         <outline title="La Vita è Bear" htmlUrl="https://b.yuxuan.org" xmlUrl="https://b.yuxuan.org/rss.xml" />
         <outline title="Bartlomiej Mika" htmlUrl="https://bartlomiejmika.com" xmlUrl="https://bartlomiejmika.com/index.xml" />
-        <outline title="Byron’s Blog | A blog about web, software, computer science and related fields." htmlUrl="https://battesonb.github.io" xmlUrl="https://battesonb.github.io/feed.xml" />
         <outline title="Brett Mullins – Researcher - Data Scientist" htmlUrl="https://bcmullins.github.io" xmlUrl="https://bcmullins.github.io/feed.xml" />
         <outline title="Hello | Ben's Blog" htmlUrl="https://ben.bolte.cc" xmlUrl="https://ben.bolte.cc/feed.xml" />
         <outline title="Ben Calderon's Web Page" htmlUrl="https://benjcal.space" xmlUrl="https://benjcal.space/feed.xml" />
         <outline title="Max Bernstein" htmlUrl="https://bernsteinbear.com" xmlUrl="https://bernsteinbear.com/feed.xml" />
         <outline title="Blocking Queue" htmlUrl="https://blog.blockingqueue.com" xmlUrl="https://blog.blockingqueue.com/rss.xml" />
         <outline title="Chandler's Dev Blog" htmlUrl="https://blog.chand1012.dev" xmlUrl="https://blog.chand1012.dev/index.xml" />
-        <outline title="Dev On Track!" htmlUrl="https://blog.devontrack.com" xmlUrl="https://blog.devontrack.com/feed.xml" />
         <outline title="Eldridge's Blog" htmlUrl="https://blog.eldrid.ge" xmlUrl="https://blog.eldrid.ge/post/index.xml" />
         <outline title="Erethon's Corner" htmlUrl="https://blog.erethon.com" xmlUrl="https://blog.erethon.com/index.xml" />
         <outline title="The Ideotec Blog | The Ideotec Blog" htmlUrl="https://blog.ideotec.es" xmlUrl="https://blog.ideotec.es/index.xml" />
@@ -57,7 +54,6 @@
         <outline title="JonLuca’s Blog | JonLuca’s Blog - A blog about tech, programming, and finance" htmlUrl="https://blog.jonlu.ca" xmlUrl="https://blog.jonlu.ca/feed.xml" />
         <outline title="Igor Kulman" htmlUrl="https://blog.kulman.sk" xmlUrl="https://blog.kulman.sk/index.xml" />
         <outline title="Lawrence Jones" htmlUrl="https://blog.lawrencejones.dev" xmlUrl="https://blog.lawrencejones.dev/feed.xml" />
-        <outline title="thoughts of a deer" htmlUrl="https://blog.ledeniz.de" xmlUrl="https://blog.ledeniz.de/index.xml" />
         <outline title="Michi's Blog" htmlUrl="https://blog.lohr.dev" xmlUrl="https://blog.lohr.dev/rss.xml" />
         <outline title="Andrew Nolan's Blog" htmlUrl="https://andrewnolan.dev/blogs" xmlUrl="https://andrewnolan.dev/rss.xml" />
         <outline title="N=1 (marcua’s blog)" htmlUrl="https://blog.marcua.net" xmlUrl="https://blog.marcua.net/feed.xml" />
@@ -67,7 +63,6 @@
         <outline title="Fabrice Aneche" htmlUrl="https://blog.nobugware.com" xmlUrl="https://blog.nobugware.com/index.xml" />
         <outline title="Dominik Picheta's blog" htmlUrl="https://blog.picheta.me" xmlUrl="https://blog.picheta.me/rss.xml" />
         <outline title="Sumit's Diary" htmlUrl="https://blog.reachsumit.com" xmlUrl="https://blog.reachsumit.com/index.xml" />
-        <outline title="RMRubert's blog: RMRubert's Blog" htmlUrl="https://blog.rmrubert.eu" xmlUrl="https://blog.rmrubert.eu/index.xml" />
         <outline title="Scott Logic Blog" htmlUrl="https://blog.scottlogic.com" xmlUrl="https://blog.scottlogic.com/feed.xml" />
         <outline title="Tafkas Blog" htmlUrl="https://blog.tafkas.net" xmlUrl="https://blog.tafkas.net/index.xml" />
         <outline title="Tyblog" htmlUrl="https://blog.tjll.net" xmlUrl="https://blog.tjll.net/feed.xml" />
@@ -79,8 +74,6 @@
         <outline title="ENOSUCHBLOG" htmlUrl="https://blog.yossarian.net" xmlUrl="https://blog.yossarian.net/feed.xml" />
         <outline title="boricj’s entropy-increasing blog | Increasing entropy inside the universe." htmlUrl="https://boricj.net" xmlUrl="https://boricj.net/feed.xml" />
         <outline title="Ben E. C. Boyter | Ben E. C. Boyter" htmlUrl="https://boyter.org" xmlUrl="https://boyter.org/index.xml" />
-        <outline title="Siddhartha Bariker🚀" htmlUrl="https://bsid.io" xmlUrl="https://bsid.io/index.xml" />
-        <outline title="All posts | Candace's Dev Blog" htmlUrl="https://candace.dev" xmlUrl="https://candace.dev/rss.xml" />
         <outline title="Hello, I'm Cendyne" htmlUrl="https://cendyne.dev" xmlUrl="https://cendyne.dev/feed.xml" />
         <outline title="Chris' Full Stack Blog" htmlUrl="https://chrisfrew.in" xmlUrl="https://chrisfrew.in/rss.xml" />
         <outline title="Codakuma | iOS apps and more" htmlUrl="https://codakuma.com" xmlUrl="https://codakuma.com/feed.xml" />
@@ -122,10 +115,8 @@
         <outline title="Eleanor on Everything | Eleanor Berger" htmlUrl="https://everything.intellectronica.net" xmlUrl="https://everything.intellectronica.net/feed" />
         <outline title="Eric Jang | Personal website and blog of Eric Jang." htmlUrl="https://evjang.com" xmlUrl="https://evjang.com/feed.xml" />
         <outline title="expLog" htmlUrl="https://explog.in" xmlUrl="https://explog.in/rss.xml" />
-        <outline title="Technical Blog" htmlUrl="https://explosionduck.com" xmlUrl="https://explosionduck.com/wp/feed.xml" />
         <outline title="Forward Scattering - The Weblog of Nicholas Chapman" htmlUrl="https://forwardscattering.org" xmlUrl="https://forwardscattering.org/rss" />
         <outline title="François Best" htmlUrl="https://francoisbest.com" xmlUrl="https://francoisbest.com/posts/feed/rss.xml" />
-        <outline title="Fred Wu - Engineering, Design, Photography, Leadership" htmlUrl="https://fredwu.me" xmlUrl="https://fredwu.me/rss.xml" />
         <outline title="FREST Substack | Guyren Howe" htmlUrl="https://frest.substack.com" xmlUrl="https://frest.substack.com/feed" />
         <outline title="Gaganpreet Arora" htmlUrl="https://gaganpreet.in" xmlUrl="https://gaganpreet.in/index.xml" />
         <outline title="~gallant" htmlUrl="https://gallant.dev" xmlUrl="https://gallant.dev/feed.atom" />
@@ -133,14 +124,12 @@
         <outline title="Gavin D. Howard" htmlUrl="https://gavinhoward.com" xmlUrl="https://gavinhoward.com/index.xml" />
         <outline title="Geography &amp; Coding" htmlUrl="https://geo.rocks" xmlUrl="https://geo.rocks/index.xml" />
         <outline title="Gero Gerke — Freelancer" htmlUrl="https://gero.dev" xmlUrl="https://gero.dev/feed.xml" />
-        <outline title="Gokberk Yaltirakli - Gokberk Yaltirakli" htmlUrl="https://gkbrk.com" xmlUrl="https://www.gkbrk.com/feed.xml" />
         <outline title="glthr" htmlUrl="https://www.glthr.com" xmlUrl="https://www.glthr.com/rss.xml" />
         <outline title="Greg Navis | Fractional CTO and Product Engineer" htmlUrl="https://gregnavis.com" xmlUrl="https://www.gregnavis.com/feed.xml" />
         <outline title="Greg's Half Ideas" htmlUrl="https://gregraiz.com" xmlUrl="https://gregraiz.com/feed.xml" />
         <outline title="The Art of Living" htmlUrl="https://gustavohidalgo.com" xmlUrl="https://gustavohidalgo.com/feed.xml" />
         <outline title="Tyler Hallada" htmlUrl="https://hallada.net" xmlUrl="https://hallada.net/feed.xml" />
         <outline title="HashRust - experience the joy of Rust" htmlUrl="https://hashrust.com" xmlUrl="https://hashrust.com/rss.xml" />
-        <outline title="Sonal's Blog 🎉" htmlUrl="https://hipenguin.in" xmlUrl="https://hipenguin.in/index.xml" />
         <outline title="Fabian's public notepad" htmlUrl="https://holzer.online" xmlUrl="https://holzer.online/feed.xml" />
         <outline title="Honeypot.net | Kirk Strauser" htmlUrl="https://honeypot.net" xmlUrl="https://honeypot.net/index.xml" />
         <outline title="Blog - Hugo Tunius" htmlUrl="https://hugotunius.se" xmlUrl="https://hugotunius.se/feed.xml" />
@@ -149,7 +138,6 @@
         <outline title="Imran Nazar: Articles and other writings" htmlUrl="https://imrannazar.com" xmlUrl="https://imrannazar.com/rss.xml" />
         <outline title="Infinite Limit" htmlUrl="https://infinitelimit.net" xmlUrl="https://infinitelimit.net/posts/index.xml" />
         <outline title="James Brooks" htmlUrl="https://james.brooks.page" xmlUrl="https://james.brooks.page/rss/feed.xml" />
-        <outline title="J.S. Cruz's Webpage" htmlUrl="https://jcruz.eu" xmlUrl="https://jcruz.eu/posts/index.xml" />
         <outline title="Jiby's toolbox - Jb Doyon's personal website" htmlUrl="https://jiby.tech" xmlUrl="https://jiby.tech/index.xml" />
         <outline title="Julio Merino (jmmv.dev)" htmlUrl="https://jmmv.dev" xmlUrl="https://jmmv.dev/feed.xml" />
         <outline title="home" htmlUrl="https://jmreiche.github.io" xmlUrl="https://jmreiche.github.io/feed.xml" />
@@ -165,7 +153,6 @@
         <outline title="Kai Kaufman's tech blog" htmlUrl="https://ktkaufman03.github.io" xmlUrl="https://ktkaufman03.github.io/feed.xml" />
         <outline title="Ashton Wiersdorf | Lambda Land" htmlUrl="https://lambdaland.org" xmlUrl="https://lambdaland.org/index.xml" />
         <outline title="Luca Lanziani" htmlUrl="https://lanziani.com" xmlUrl="https://lanziani.com/index.xml" />
-        <outline title="Law Gimenez" htmlUrl="https://law.gmnz.xyz" xmlUrl="https://law.gmnz.xyz/feed.xml" />
         <outline title="Learn and Burn | Unbox Research" htmlUrl="https://learnandburn.ai" xmlUrl="https://learnandburn.ai/feed" />
         <outline title="Logically" htmlUrl="https://logical.li" xmlUrl="https://logical.li/blog/rss.xml" />
         <outline title="Lucas F. Costa" htmlUrl="https://lucasfcosta.com" xmlUrl="https://lucasfcosta.com/feed.xml" />
@@ -190,7 +177,6 @@
         <outline title="Muxup - Adventures in collaborative open source development" htmlUrl="https://muxup.com" xmlUrl="https://muxup.com/feed.xml" />
         <outline title="Mark Vasilkov" htmlUrl="https://mvasilkov.animuchan.net" xmlUrl="https://mvasilkov.animuchan.net/rss.xml" />
         <outline title="Kailash Nadh / Personal homepage - Developer, Tinkerer, Absurdist" htmlUrl="https://nadh.in" xmlUrl="https://nadh.in/index.xml" />
-        <outline title="Nano Tips for Vim" htmlUrl="https://nanotipsforvim.prose.sh" xmlUrl="https://nanotipsforvim.prose.sh/rss" />
         <outline title="Nelson Figueroa" htmlUrl="https://nelson.cloud" xmlUrl="https://nelson.cloud/index.xml" />
         <outline title="Neuroning : Neuroning" htmlUrl="https://neuroning.com" xmlUrl="https://neuroning.com/feed.atom" />
         <outline title="Nick Olinger's blog | Software Engineer" htmlUrl="https://nickolinger.com" xmlUrl="https://nickolinger.com/rss.xml" />
@@ -201,7 +187,6 @@
         <outline title="Notes and ramblings — Alin Panaitiu" htmlUrl="https://notes.alinpanaitiu.com" xmlUrl="https://notes.alinpanaitiu.com/index.xml" />
         <outline title="Notes on software development | notes.eatonphil.com" htmlUrl="https://notes.eatonphil.com" xmlUrl="https://notes.eatonphil.com/rss.xml" />
         <outline title="npilk // Notes" htmlUrl="https://notes.npilk.com" xmlUrl="https://notes.npilk.com/feed.xml" />
-        <outline title="DevOps Blog - Nicolas Paris" htmlUrl="https://nsirap.com" xmlUrl="https://nsirap.com/feed/feed.xml" />
         <outline title="Oliver Gilan" htmlUrl="https://olivergilan.com" xmlUrl="https://olivergilan.com/rss.xml" />
         <outline title="Abid Omar" htmlUrl="https://omarabid.com" xmlUrl="https://omarabid.com/feed.xml" />
         <outline title="./techtipsy — Herman's blog" htmlUrl="https://ounapuu.ee" xmlUrl="https://ounapuu.ee/index.xml" />
@@ -220,7 +205,6 @@
         <outline title="Rodrigo Pombo" htmlUrl="https://pomb.us" xmlUrl="https://pomb.us/rss.xml" />
         <outline title="Prasham H Trivedi" htmlUrl="https://prashamhtrivedi.in" xmlUrl="https://prashamhtrivedi.in/index.xml" />
         <outline title="PRBS23 - PRBS23" htmlUrl="https://prbs23.com" xmlUrl="https://prbs23.com/blog/index.xml" />
-        <outline title="Pavel Timofeev" htmlUrl="https://ptimofeev.com" xmlUrl="https://ptimofeev.com/feed.xml" />
         <outline title="Rachit Singh" htmlUrl="https://rachitsingh.com" xmlUrl="https://rachitsingh.com/rss.xml" />
         <outline title="Raesene's Ramblings" htmlUrl="https://raesene.github.io" xmlUrl="https://raesene.github.io/feed.xml" />
         <outline title="RailsNotes" htmlUrl="https://railsnotes.xyz" xmlUrl="https://railsnotes.xyz/feed.xml" />
@@ -288,7 +272,6 @@
         <outline title="Jay Mody" htmlUrl="https://jaykmody.com" xmlUrl="https://jaykmody.com/feed.xml" />
         <outline title="paperclips please" htmlUrl="https://paperclipmaximizer.net" xmlUrl="https://paperclipmaximizer.net/feed.xml" />
         <outline title="Diyar Ciftci" htmlUrl="https://diyarciftci.xyz" xmlUrl="https://diyarciftci.xyz/index.xml" />
-        <outline title="bhankas | bhankas" htmlUrl="https://bhankas.org" xmlUrl="https://bhankas.org/blog/index.xml" />
         <outline title="Alex DeLorenzo - Software Engineer" htmlUrl="https://alexdelorenzo.dev" xmlUrl="https://alexdelorenzo.dev/feed.xml" />
         <outline title="Amit Chaudhary" htmlUrl="https://amitness.com" xmlUrl="https://amitness.com/feed.xml" />
         <outline title="Andeers.com" htmlUrl="https://andeers.com" xmlUrl="https://andeers.com/feed/feed.xml" />

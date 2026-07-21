@@ -14,7 +14,6 @@
       <outline type="rss" text="Klipse" title="Klipse" xmlUrl="https://blog.klipse.tech//feed.xml" htmlUrl="https://blog.klipse.tech/"/>
       <outline type="rss" text="Kotlin" title="Kotlin" xmlUrl="https://blog.jetbrains.com/kotlin/feed/" htmlUrl="https://blog.jetbrains.com/kotlin/"/>
       <outline type="rss" text="Laravel" title="Laravel" xmlUrl="https://feed.laravel-news.com/" htmlUrl="https://laravel-news.com/blog/"/>
-      <outline type="rss" text="Microsoft Edge" title="Microsoft Edge" xmlUrl="https://blogs.windows.com/msedgedev/rss" htmlUrl="https://blogs.windows.com/msedgedev/"/>
       <outline type="rss" text=".NET" title=".NET" xmlUrl="https://blogs.msdn.microsoft.com/dotnet/feed/" htmlUrl="https://blogs.msdn.microsoft.com/dotnet/"/>
       <outline type="rss" text="React" title="React" xmlUrl="https://reactjs.org/feed.xml" htmlUrl="https://reactjs.org/blog/"/>
       <outline type="rss" text="React Native" title="React Native" xmlUrl="https://reactnative.dev/blog/rss.xml" htmlUrl="https://reactnative.dev/blog"/>
@@ -22,7 +21,6 @@
       <outline type="rss" text="RocksDB" title="RocksDB" xmlUrl="https://rocksdb.org/feed.xml" htmlUrl="https://rocksdb.org/blog"/>
       <outline type="rss" text="Rust" title="Rust" xmlUrl="https://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/"/>
       <outline type="rss" text="Sketch" title="Sketch" xmlUrl="https://www.sketch.com/blog/feed.xml" htmlUrl="https://blog.sketchapp.com/"/>
-      <outline type="rss" text="Vertabelo" title="Vertabelo" xmlUrl="https://www.vertabelo.com/blog/index.xml" htmlUrl="https://www.vertabelo.com/blog"/>
     </outline>
   </body>
 </opml>
