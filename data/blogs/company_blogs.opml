@@ -31,7 +31,6 @@
       <outline type="rss" text="Blender" title="Blender" xmlUrl="https://code.blender.org/rss" htmlUrl="https://code.blender.org/"/>
       <outline type="rss" text="Bloomberg" title="Bloomberg" xmlUrl="https://feeds.bloomberg.com/technology/news.rss" htmlUrl="https://www.bloomberg.com/company/stories/category/tech-at-bloomberg/"/>
       <outline type="rss" text="Booking.com" title="Booking.com" xmlUrl="https://medium.com/feed/booking-com-development/" htmlUrl="https://medium.com/booking-com-development/"/>
-      <outline type="rss" text="Buzzfeed" title="Buzzfeed" xmlUrl="https://www.buzzfeed.com/index.xml" htmlUrl="https://www.buzzfeed.com/"/>
       <outline type="rss" text="Canva" title="Canva" xmlUrl="https://www.canva.dev/blog/engineering/feed.xml" htmlUrl="https://www.canva.dev/blog/engineering/"/>
       <outline type="rss" text="Capgemini" title="Capgemini" xmlUrl="https://capgemini.github.io/feed.xml" htmlUrl="https://capgemini.github.io/"/>
       <outline type="rss" text="Cerner" title="Cerner" xmlUrl="https://engineering.cerner.com/index.xml" htmlUrl="https://engineering.cerner.com/"/>
