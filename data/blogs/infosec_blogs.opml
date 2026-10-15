@@ -104,6 +104,15 @@
             <outline type="rss" text="David Buchanan | Consensus" title="David Buchanan | Consensus" htmlUrl="https://www.da.vidbuchanan.co.uk/blog/" xmlUrl="https://www.da.vidbuchanan.co.uk/blog/rss.xml" />
             <outline type="rss" text="Matthew Green | Consensus" title="Matthew Green | Consensus" htmlUrl="https://blog.cryptographyengineering.com/" xmlUrl="https://blog.cryptographyengineering.com/feed" />
             <outline type="rss" text="Nicholas Carlini | Consensus" title="Nicholas Carlini | Consensus" htmlUrl="https://nicholas.carlini.com/" xmlUrl="https://nicholas.carlini.com/writing/feed.xml" />
+            <outline type="rss" text="nns.ee Ethical Hacking and Cybersecurity Blog" title="nns.ee Ethical Hacking and Cybersecurity Blog" htmlUrl="https://blog.nns.ee/" xmlUrl="https://blog.nns.ee/index.xml" />
+            <outline type="rss" text="bobdahacker" title="bobdahacker" htmlUrl="https://bobdahacker.com/blog/" xmlUrl="https://bobdahacker.com/feed.xml" />
+            <outline type="rss" text="Buchodi's Threat Intel" title="Buchodi's Threat Intel" htmlUrl="https://www.buchodi.com/" xmlUrl="https://www.buchodi.com/rss/" />
+            <outline type="rss" text="watchTowr Labs" title="watchTowr Labs" htmlUrl="https://labs.watchtowr.com/" xmlUrl="https://labs.watchtowr.com/rss/" />
+            <outline type="rss" text="Paged Out!" title="Paged Out!" htmlUrl="https://pagedout.institute/" xmlUrl="https://pagedout.institute/rss.xml" />
+            <outline type="rss" text="sigma star gmbh Blog" title="sigma star gmbh Blog" htmlUrl="https://sigma-star.at/blog/" xmlUrl="https://sigma-star.at/blog/index.xml" />
+            <outline type="rss" text="ZK/SEC Quarterly" title="ZK/SEC Quarterly" htmlUrl="https://blog.zksecurity.xyz/" xmlUrl="https://blog.zksecurity.xyz/feed.xml" />
+            <outline type="rss" text="Calif Newsletter" title="Calif Newsletter" htmlUrl="https://blog.calif.io/" xmlUrl="https://blog.calif.io/feed" />
+            <outline type="rss" text="Let's Encrypt" title="Let's Encrypt" htmlUrl="https://letsencrypt.org/blog/" xmlUrl="https://letsencrypt.org/feed.xml" />
         </outline>
     </body>
 </opml>

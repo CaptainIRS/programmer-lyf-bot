@@ -342,6 +342,183 @@
         <outline type="rss" text="Made of Bugs" title="Made of Bugs" xmlUrl="https://blog.nelhage.com/atom.xml" htmlUrl="https://blog.nelhage.com/"/>
         <outline type="rss" text="Techno Enthusiast's Blog" title="Techno Enthusiast's Blog" xmlUrl="https://blog.anantshri.info/feed/" htmlUrl="https://blog.anantshri.info"/>
         <outline type="rss" text="ma.ttias.be" title="ma.ttias.be" xmlUrl="https://ma.ttias.be/feed/" htmlUrl="https://ma.ttias.be"/>
+        <outline type="rss" text="Beyond The Code by adlrocha" title="Beyond The Code by adlrocha" htmlUrl="https://adlrocha.substack.com/" xmlUrl="https://adlrocha.substack.com/feed" />
+        <outline type="rss" text="Rings of Saturn" title="Rings of Saturn" htmlUrl="https://32bits.substack.com/" xmlUrl="https://32bits.substack.com/feed" />
+        <outline type="rss" text="Addy Osmani" title="Addy Osmani" htmlUrl="https://addyosmani.com/blog/" xmlUrl="https://addyosmani.com/rss.xml" />
+        <outline type="rss" text="Alex Edwards" title="Alex Edwards" htmlUrl="https://www.alexedwards.net/blog" xmlUrl="https://www.alexedwards.net/static/feed.rss" />
+        <outline type="rss" text="Alex Kritchevsky" title="Alex Kritchevsky" htmlUrl="https://alexkritchevsky.com/tech" xmlUrl="https://alexkritchevsky.com/atom.xml" />
+        <outline type="rss" text="Benedict Evans Essays" title="Benedict Evans Essays" htmlUrl="https://www.ben-evans.com/essays" xmlUrl="https://www.ben-evans.com/benedictevans?format=rss" />
+        <outline type="rss" text="Lyc8503's blog" title="Lyc8503's blog" htmlUrl="https://blog.lyc8503.net/en/" xmlUrl="https://blog.lyc8503.net/en/atom.xml" />
+        <outline type="rss" text="The Blog of Maxime Heckel" title="The Blog of Maxime Heckel" htmlUrl="https://blog.maximeheckel.com/" xmlUrl="https://blog.maximeheckel.com/rss.xml" />
+        <outline type="rss" text="Senko Rašić" title="Senko Rašić" htmlUrl="https://blog.senko.net/" xmlUrl="https://blog.senko.net/feed/" />
+        <outline type="rss" text="Luna’s Blog" title="Luna’s Blog" htmlUrl="https://blog.xoria.org/" xmlUrl="https://blog.xoria.org/atom.xml" />
+        <outline type="rss" text="Bumbershoot Software" title="Bumbershoot Software" htmlUrl="https://bumbershootsoft.wordpress.com/" xmlUrl="https://bumbershootsoft.wordpress.com/feed/" />
+        <outline type="rss" text="Causality" title="Causality" htmlUrl="https://causality.blog/" xmlUrl="https://causality.blog/rss.xml" />
+        <outline type="rss" text="Cemrehan Çavdar" title="Cemrehan Çavdar" htmlUrl="https://cemrehancavdar.com/" xmlUrl="https://cemrehancavdar.com/feed.xml" />
+        <outline type="rss" text="Chris Morgan" title="Chris Morgan" htmlUrl="https://chrismorgan.info/web" xmlUrl="https://chrismorgan.info/web.feed" />
+        <outline type="rss" text="Construction Physics" title="Construction Physics" htmlUrl="https://www.construction-physics.com/p/how-an-oil-refinery-works" xmlUrl="https://www.construction-physics.com/feed" />
+        <outline type="rss" text="CSSence: Essays" title="CSSence: Essays" htmlUrl="https://cssence.com/" xmlUrl="https://cssence.com/essays/rss.xml" />
+        <outline type="rss" text="datagubbe.se" title="datagubbe.se" htmlUrl="https://datagubbe.se/" xmlUrl="https://datagubbe.se/atom.xml" />
+        <outline type="rss" text="Andros Fenollosa Blog" title="Andros Fenollosa Blog" htmlUrl="https://en.andros.dev/blog/" xmlUrl="https://en.andros.dev/blog/feed/en/" />
+        <outline type="rss" text="Tales on the wire – Projects" title="Tales on the wire – Projects" htmlUrl="https://essenceia.github.io/projects/" xmlUrl="https://essenceia.github.io/projects/index.xml" />
+        <outline type="rss" text="Faza" title="Faza" htmlUrl="https://fazamhd.com/" xmlUrl="https://fazamhd.com/rss.xml" />
+        <outline type="rss" text="Fergus Finn" title="Fergus Finn" htmlUrl="https://fergusfinn.com/" xmlUrl="https://fergusfinn.com/rss.xml" />
+        <outline type="rss" text="Giles' blog" title="Giles' blog" htmlUrl="https://www.gilesthomas.com/" xmlUrl="https://www.gilesthomas.com/feed/rss.xml" />
+        <outline type="rss" text="Ethan Hawksley's Blog" title="Ethan Hawksley's Blog" htmlUrl="https://hawksley.dev/blog" xmlUrl="https://hawksley.dev/rss.xml" />
+        <outline type="rss" text="Hypha" title="Hypha" htmlUrl="https://hypha.pub/" xmlUrl="https://hypha.pub/rss.xml" />
+        <outline type="rss" text="Internals for Interns" title="Internals for Interns" htmlUrl="https://internals-for-interns.com/" xmlUrl="https://internals-for-interns.com/index.xml" />
+        <outline type="rss" text="Signal Through the Noise" title="Signal Through the Noise" htmlUrl="https://www.ivanturkovic.com/category/software-engineering/" xmlUrl="https://www.ivanturkovic.com/category/software-engineering/feed/" />
+        <outline type="rss" text="jola.dev" title="jola.dev" htmlUrl="https://jola.dev/" xmlUrl="https://jola.dev/rss.xml" />
+        <outline type="rss" text="Sylvain Kerkour" title="Sylvain Kerkour" htmlUrl="https://kerkour.com/blog" xmlUrl="https://kerkour.com/feed.xml" />
+        <outline type="rss" text="Kiran Gopinathan — Kiran’s Blog" title="Kiran Gopinathan — Kiran’s Blog" htmlUrl="https://kirancodes.me/posts.html" xmlUrl="https://kirancodes.me/rss.xml" />
+        <outline type="rss" text="Lighthouse AI: Under the Hood" title="Lighthouse AI: Under the Hood" htmlUrl="https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think" xmlUrl="https://www.lighthousenewsletter.com/feed?sectionId=449944" />
+        <outline type="rss" text="Max Woolf" title="Max Woolf" htmlUrl="https://minimaxir.com/" xmlUrl="https://minimaxir.com/post/index.xml" />
+        <outline type="rss" text="Mark Nottingham’s Blog" title="Mark Nottingham’s Blog" htmlUrl="https://mnot.net/blog/" xmlUrl="https://mnot.net/blog/index.atom" />
+        <outline type="rss" text="movq.de Blog (English)" title="movq.de Blog (English)" htmlUrl="https://movq.de/blog/" xmlUrl="https://movq.de/blog/feeds/en.atom" />
+        <outline type="rss" text="Read the Tea Leaves (Nolan Lawson)" title="Read the Tea Leaves (Nolan Lawson)" htmlUrl="https://nolanlawson.com/category/software-engineering/" xmlUrl="https://nolanlawson.com/category/software-engineering/feed/" />
+        <outline type="rss" text="not-not-p blog" title="not-not-p blog" htmlUrl="https://notnotp.com/" xmlUrl="https://notnotp.com/feed.xml" />
+        <outline type="rss" text="OS/2 Museum" title="OS/2 Museum" htmlUrl="https://www.os2museum.com/wp/" xmlUrl="https://www.os2museum.com/wp/feed/" />
+        <outline type="rss" text="Pikuma" title="Pikuma" htmlUrl="https://pikuma.com/blog" xmlUrl="https://pikuma.com/feed" />
+        <outline type="rss" text="POP RDI; RET;" title="POP RDI; RET;" htmlUrl="https://pop.rdi.sh/" xmlUrl="https://pop.rdi.sh/index.xml" />
+        <outline type="rss" text="RTFM: Linux, DevOps, and system administration" title="RTFM: Linux, DevOps, and system administration" htmlUrl="https://rtfm.co.ua/en/" xmlUrl="https://rtfm.co.ua/en/feed/" />
+        <outline type="rss" text="Sander Dieleman" title="Sander Dieleman" htmlUrl="https://sander.ai/posts/" xmlUrl="https://sander.ai/feed.xml" />
+        <outline type="rss" text="Sandor Dargo's Blog" title="Sandor Dargo's Blog" htmlUrl="https://www.sandordargo.com/" xmlUrl="https://www.sandordargo.com/feed.xml" />
+        <outline type="rss" text="Elia Scotto" title="Elia Scotto" htmlUrl="https://scotto.me/blog/" xmlUrl="https://scotto.me/techFeed.xml" />
+        <outline type="rss" text="Unplanned Obsolescence" title="Unplanned Obsolescence" htmlUrl="https://unplannedobsolescence.com/" xmlUrl="https://unplannedobsolescence.com/atom.xml" />
+        <outline type="rss" text="var0.xyz" title="var0.xyz" htmlUrl="https://var0.xyz/" xmlUrl="https://var0.xyz/feed.xml" />
+        <outline type="rss" text="Vicki Boykis" title="Vicki Boykis" htmlUrl="https://vickiboykis.com/" xmlUrl="https://vickiboykis.com/index.xml" />
+        <outline type="rss" text="WerWolv’s Blog" title="WerWolv’s Blog" htmlUrl="https://werwolv.net/posts/" xmlUrl="https://werwolv.net/rss.xml" />
+        <outline type="rss" text="マリウス" title="マリウス" htmlUrl="https://xn--gckvb8fzb.com/" xmlUrl="https://xn--gckvb8fzb.com/index.xml" />
+        <outline type="rss" text="Charlie's Blog" title="Charlie's Blog" htmlUrl="https://www.chiply.dev/" xmlUrl="https://www.chiply.dev/rss.xml" />
+        <outline type="rss" text="Drew Breunig" title="Drew Breunig" htmlUrl="https://www.dbreunig.com/" xmlUrl="https://www.dbreunig.com/feed.xml" />
+        <outline type="rss" text="Dmitry.GR" title="Dmitry.GR" htmlUrl="https://dmitry.gr/" xmlUrl="https://dmitry.gr/rss.php" />
+        <outline type="rss" text="Arpit Bhayani" title="Arpit Bhayani" htmlUrl="https://arpitbhayani.me/blogs/" xmlUrl="https://arpitbhayani.me/rss.xml" />
+        <outline type="rss" text="astrid.tech" title="astrid.tech" htmlUrl="https://astrid.tech/blog/" xmlUrl="https://astrid.tech/feed.xml" />
+        <outline type="rss" text="Beej's Bit Bucket" title="Beej's Bit Bucket" htmlUrl="https://beej.us/blog/" xmlUrl="https://beej.us/blog/rss.xml" />
+        <outline type="rss" text="Christopher Meiklejohn" title="Christopher Meiklejohn" htmlUrl="https://christophermeiklejohn.com/archive.html" xmlUrl="https://christophermeiklejohn.com/feed.xml" />
+        <outline type="rss" text="gingerBill - Articles" title="gingerBill - Articles" htmlUrl="https://www.gingerbill.org/" xmlUrl="https://www.gingerbill.org/article/index.xml" />
+        <outline type="rss" text="iczelia (Kamila Szewczyk)" title="iczelia (Kamila Szewczyk)" htmlUrl="https://iczelia.net/blog/" xmlUrl="https://iczelia.net/feed.xml" />
+        <outline type="rss" text="Will Keleher" title="Will Keleher" htmlUrl="https://will-keleher.com/posts" xmlUrl="https://will-keleher.com/posts/feed.xml" />
+        <outline type="rss" text="Mario Zechner" title="Mario Zechner" htmlUrl="https://mariozechner.at/" xmlUrl="https://mariozechner.at/rss.xml" />
+        <outline type="rss" text="Matthew Brunelle's Blog" title="Matthew Brunelle's Blog" htmlUrl="https://blog.matthewbrunelle.com/" xmlUrl="https://blog.matthewbrunelle.com/rss/" />
+        <outline type="rss" text="Box of Cables" title="Box of Cables" htmlUrl="https://www.boxofcables.dev/" xmlUrl="https://www.boxofcables.dev/rss/" />
+        <outline type="rss" text="Arcane Nibble" title="Arcane Nibble" htmlUrl="https://arcanenibble.com/archives.html" xmlUrl="https://arcanenibble.com/feeds/all.atom.xml" />
+        <outline type="rss" text="David Álvarez Rosa" title="David Álvarez Rosa" htmlUrl="https://david.alvarezrosa.com/" xmlUrl="https://david.alvarezrosa.com/index.xml" />
+        <outline type="rss" text="Blain Smith" title="Blain Smith" htmlUrl="https://blainsmith.com/articles/" xmlUrl="https://blainsmith.com/rss.xml" />
+        <outline type="rss" text="pagetable.com – Some Assembly Required" title="pagetable.com – Some Assembly Required" htmlUrl="https://pagetable.com/" xmlUrl="https://pagetable.com/feed.xml" />
+        <outline type="rss" text="Rahul's Blog" title="Rahul's Blog" htmlUrl="https://rahuljuliato.com/" xmlUrl="https://rahuljuliato.com/rss.xml" />
+        <outline type="rss" text="Raymii.org" title="Raymii.org" htmlUrl="https://raymii.org/s/blog/" xmlUrl="https://raymii.org/s/feed.xml" />
+        <outline type="rss" text="Larvitz Blog" title="Larvitz Blog" htmlUrl="https://blog.hofstede.it/" xmlUrl="https://blog.hofstede.it/feeds/all.rss.xml" />
+        <outline type="rss" text="Overreacted (Dan Abramov)" title="Overreacted (Dan Abramov)" htmlUrl="https://overreacted.io/" xmlUrl="https://overreacted.io/atom.xml" />
+        <outline type="rss" text="DSHR's Blog" title="DSHR's Blog" htmlUrl="https://blog.dshr.org/" xmlUrl="https://blog.dshr.org/feeds/posts/default" />
+        <outline type="rss" text="Makefile.feld" title="Makefile.feld" htmlUrl="https://blog.feld.me/" xmlUrl="https://blog.feld.me/feeds/all.atom.xml" />
+        <outline type="rss" text="Deciphering Glyph" title="Deciphering Glyph" htmlUrl="https://blog.glyph.im/" xmlUrl="https://blog.glyph.im/feeds/all.atom.xml" />
+        <outline type="rss" text="Jim Nielsen’s Blog" title="Jim Nielsen’s Blog" htmlUrl="https://blog.jim-nielsen.com/" xmlUrl="https://blog.jim-nielsen.com/feed.xml" />
+        <outline type="rss" text="Master.dev Blog" title="Master.dev Blog" htmlUrl="https://blog.master.dev/" xmlUrl="https://blog.master.dev/feed/" />
+        <outline type="rss" text="David Crawshaw’s Blog" title="David Crawshaw’s Blog" htmlUrl="https://crawshaw.io/" xmlUrl="https://crawshaw.io/atom.xml" />
+        <outline type="rss" text="Daniel Mangum" title="Daniel Mangum" htmlUrl="https://danielmangum.com/posts/" xmlUrl="https://danielmangum.com/posts/index.xml" />
+        <outline type="rss" text="Robin’s blog" title="Robin’s blog" htmlUrl="https://dreamstation.systems/personal/blog.html" xmlUrl="https://dreamstation.systems/personal/feed.xml" />
+        <outline type="rss" text="Ian Duncan" title="Ian Duncan" htmlUrl="https://www.iankduncan.com/engineering" xmlUrl="https://www.iankduncan.com/rss.xml" />
+        <outline type="rss" text="Lewis Campbell's Blog" title="Lewis Campbell's Blog" htmlUrl="https://lewiscampbell.tech/blog" xmlUrl="https://lewiscampbell.tech/blog/feed.xml" />
+        <outline type="rss" text="Ahead of AI" title="Ahead of AI" htmlUrl="https://magazine.sebastianraschka.com/" xmlUrl="https://magazine.sebastianraschka.com/feed" />
+        <outline type="rss" text="Miod Vallat" title="Miod Vallat" htmlUrl="http://miod.online.fr/index.html" xmlUrl="http://miod.online.fr/rss.xml" />
+        <outline type="rss" text="mmap(blog)" title="mmap(blog)" htmlUrl="https://mmapped.blog/" xmlUrl="https://mmapped.blog/feed.xml" />
+        <outline type="rss" text="Adolfo Ochagavía" title="Adolfo Ochagavía" htmlUrl="https://ochagavia.nl/blog/" xmlUrl="https://ochagavia.nl/blog/index.xml" />
+        <outline type="rss" text="Patrick McCanna" title="Patrick McCanna" htmlUrl="https://patrickmccanna.net/" xmlUrl="https://patrickmccanna.net/feed/" />
+        <outline type="rss" text="rmoff's random ramblings" title="rmoff's random ramblings" htmlUrl="https://rmoff.net/" xmlUrl="https://rmoff.net/index.xml" />
+        <outline type="rss" text="The Cat House" title="The Cat House" htmlUrl="https://www.scd31.com/" xmlUrl="https://www.scd31.com/posts.rss" />
+        <outline type="rss" text="Thereallo" title="Thereallo" htmlUrl="https://thereallo.dev/blog/claude-code-prompt-steganography" xmlUrl="https://thereallo.dev/rss.xml" />
+        <outline type="rss" text="Vale.Rocks" title="Vale.Rocks" htmlUrl="https://vale.rocks/posts" xmlUrl="https://vale.rocks/posts/feed.xml" />
+        <outline type="rss" text="Vivian Voss — Blog" title="Vivian Voss — Blog" htmlUrl="https://www.vivianvoss.net/blog" xmlUrl="https://www.vivianvoss.net/feed" />
+        <outline type="rss" text="Unfinished Side Projects" title="Unfinished Side Projects" htmlUrl="https://blog.jakesaunders.dev/" xmlUrl="https://blog.jakesaunders.dev/index.xml" />
+        <outline type="rss" text="seg6" title="seg6" htmlUrl="https://seg6.space/posts/" xmlUrl="https://seg6.space/posts/rss.xml" />
+        <outline type="rss" text="cakehonolulu's blog" title="cakehonolulu's blog" htmlUrl="https://cakehonolulu.github.io/" xmlUrl="https://cakehonolulu.github.io/rss.xml" />
+        <outline type="rss" text="Niklas Gruhn - Blog" title="Niklas Gruhn - Blog" htmlUrl="https://gruhn.me/" xmlUrl="https://gruhn.me/feed.xml" />
+        <outline type="rss" text="Doug Turnbull's Blog" title="Doug Turnbull's Blog" htmlUrl="https://softwaredoug.com/" xmlUrl="https://softwaredoug.com/feed.xml" />
+        <outline type="rss" text="Joe’s Blog — jointhefreeworld" title="Joe’s Blog — jointhefreeworld" htmlUrl="https://jointhefreeworld.org/blog/" xmlUrl="https://jointhefreeworld.org/rss.xml" />
+        <outline type="rss" text="antirez" title="antirez" htmlUrl="https://antirez.com/latest/0" xmlUrl="https://antirez.com/rss" />
+        <outline type="rss" text="Predrag Gruevski’s blog" title="Predrag Gruevski’s blog" htmlUrl="https://predr.ag/blog/" xmlUrl="https://predr.ag/atom.xml" />
+        <outline type="rss" text="Bram’s Thoughts" title="Bram’s Thoughts" htmlUrl="https://bramcohen.com/" xmlUrl="https://bramcohen.com/feed" />
+        <outline type="rss" text="Signs of Triviality — J. Schaumann" title="Signs of Triviality — J. Schaumann" htmlUrl="https://netmeister.org/blog/" xmlUrl="https://netmeister.org/blog/rss.xml" />
+        <outline type="rss" text="Colin's things that might be useful or interesting" title="Colin's things that might be useful or interesting" htmlUrl="https://pointinthecloud.com/" xmlUrl="https://pointinthecloud.com/blog.xml" />
+        <outline type="rss" text="xlii.space" title="xlii.space" htmlUrl="https://xlii.space/" xmlUrl="https://xlii.space/index.xml" />
+        <outline type="rss" text="Haskell for all" title="Haskell for all" htmlUrl="https://haskellforall.com/" xmlUrl="https://haskellforall.com/rss.xml" />
+        <outline type="rss" text="Ian Erik Varatalu" title="Ian Erik Varatalu" htmlUrl="https://iev.ee/blog/" xmlUrl="https://iev.ee/rss.xml" />
+        <outline type="rss" text="PhobosLab" title="PhobosLab" htmlUrl="https://phoboslab.org/" xmlUrl="https://phoboslab.org/log/feed" />
+        <outline type="rss" text="Joshua Barretto's Blog" title="Joshua Barretto's Blog" htmlUrl="https://blog.jsbarretto.com/" xmlUrl="https://blog.jsbarretto.com/rss.xml" />
+        <outline type="rss" text="Bruno Croci" title="Bruno Croci" htmlUrl="https://crocidb.com/" xmlUrl="https://crocidb.com/index.xml" />
+        <outline type="rss" text="Evan Hahn (dot com)" title="Evan Hahn (dot com)" htmlUrl="https://evanhahn.com/blog/" xmlUrl="https://evanhahn.com/blog/index.xml" />
+        <outline type="rss" text="xssfox" title="xssfox" htmlUrl="https://sprocketfox.io/xssfox/" xmlUrl="https://sprocketfox.io/xssfox/index.xml" />
+        <outline type="rss" text="Boris Cherny" title="Boris Cherny" htmlUrl="https://borischerny.com/" xmlUrl="https://borischerny.com/feed.xml" />
+        <outline type="rss" text="Danny" title="Danny" htmlUrl="https://blog.dmcc.io/" xmlUrl="https://blog.dmcc.io/index.xml" />
+        <outline type="rss" text="Stuffedcow Blog" title="Stuffedcow Blog" htmlUrl="https://blog.stuffedcow.net/" xmlUrl="https://blog.stuffedcow.net/feed/" />
+        <outline type="rss" text="A journey into a wild pointer" title="A journey into a wild pointer" htmlUrl="https://carette.xyz/posts/" xmlUrl="https://carette.xyz/posts/index.xml" />
+        <outline type="rss" text="Jason Eckert's Website and Blog" title="Jason Eckert's Website and Blog" htmlUrl="https://jasoneckert.github.io/" xmlUrl="https://jasoneckert.github.io/index.xml" />
+        <outline type="rss" text="Armin Ronacher’s Thoughts and Writings" title="Armin Ronacher’s Thoughts and Writings" htmlUrl="https://lucumr.pocoo.org/" xmlUrl="https://lucumr.pocoo.org/feed.atom" />
+        <outline type="rss" text="Maurycy's blog" title="Maurycy's blog" htmlUrl="https://maurycyz.com/" xmlUrl="https://maurycyz.com/index.xml" />
+        <outline type="rss" text="Michael Heap" title="Michael Heap" htmlUrl="https://michaelheap.com/blog/" xmlUrl="https://michaelheap.com/rss" />
+        <outline type="rss" text="mitxela.com Projects" title="mitxela.com Projects" htmlUrl="https://mitxela.com/projects" xmlUrl="http://mitxela.com/feed" />
+        <outline type="rss" text="Facundo Olano" title="Facundo Olano" htmlUrl="https://olano.dev/blog/" xmlUrl="https://olano.dev/feed.xml" />
+        <outline type="rss" text="A Final Ward" title="A Final Ward" htmlUrl="https://sockpuppet.org/blog/archives/" xmlUrl="https://sockpuppet.org/atom.xml" />
+        <outline type="rss" text="Tuan-Anh Tran" title="Tuan-Anh Tran" htmlUrl="https://tuananh.net/posts/" xmlUrl="https://tuananh.net/posts/feed.xml" />
+        <outline type="rss" text="Will Wang" title="Will Wang" htmlUrl="https://iamwillwang.com/" xmlUrl="https://iamwillwang.com/rss.xml" />
+        <outline type="rss" text="Cam Pedersen" title="Cam Pedersen" htmlUrl="https://campedersen.com/" xmlUrl="https://campedersen.com/feed.xml" />
+        <outline type="rss" text="Beyond Loom" title="Beyond Loom" htmlUrl="https://beyondloom.com/blog/index.html" xmlUrl="https://beyondloom.com/blog/rss.xml" />
+        <outline type="rss" text="The Observation Deck" title="The Observation Deck" htmlUrl="https://bcantrill.dtrace.org/" xmlUrl="https://bcantrill.dtrace.org/index.xml" />
+        <outline type="rss" text="Adrian Krebs" title="Adrian Krebs" htmlUrl="https://www.adriankrebs.ch/blog" xmlUrl="https://www.adriankrebs.ch/rss.xml" />
+        <outline type="rss" text="growingSWE" title="growingSWE" htmlUrl="https://growingswe.com/blog" xmlUrl="https://growingswe.com/feed.xml" />
+        <outline type="rss" text="Martin Fowler" title="Martin Fowler" htmlUrl="https://martinfowler.com/" xmlUrl="https://martinfowler.com/feed.atom" />
+        <outline type="rss" text="technically a blog | Nicole Tietz-Sokolskaya" title="technically a blog | Nicole Tietz-Sokolskaya" htmlUrl="https://ntietz.com/blog/" xmlUrl="https://ntietz.com/atom.xml" />
+        <outline type="rss" text="Old Vintage Computing Research" title="Old Vintage Computing Research" htmlUrl="https://oldvcr.blogspot.com/" xmlUrl="https://oldvcr.blogspot.com/feeds/posts/default" />
+        <outline type="rss" text="Filip Roséen - refp.se" title="Filip Roséen - refp.se" htmlUrl="https://refp.se/articles" xmlUrl="https://refp.se/rss.xml" />
+        <outline type="rss" text="Sandbox Spirit" title="Sandbox Spirit" htmlUrl="https://sandboxspirit.com/blog" xmlUrl="https://sandboxspirit.com/rss.xml" />
+        <outline type="rss" text="Steve Hanov's Blog" title="Steve Hanov's Blog" htmlUrl="https://stevehanov.ca/blog" xmlUrl="https://stevehanov.ca/blog/feed" />
+        <outline type="rss" text="Redowan's Reflections" title="Redowan's Reflections" htmlUrl="https://rednafi.com/" xmlUrl="https://rednafi.com/index.xml" />
+        <outline type="rss" text="PerThirtySix Learn" title="PerThirtySix Learn" htmlUrl="https://perthirtysix.com/section/learn" xmlUrl="https://perthirtysix.com/section/learn/rss.xml" />
+        <outline type="rss" text="Anna Liberty" title="Anna Liberty" htmlUrl="https://gracefulliberty.com/" xmlUrl="https://gracefulliberty.com/atom.xml" />
+        <outline type="rss" text="Small Things Retro" title="Small Things Retro" htmlUrl="https://nand2mario.github.io/" xmlUrl="https://nand2mario.github.io/feed.xml" />
+        <outline type="rss" text="Sebastian Raschka, PhD" title="Sebastian Raschka, PhD" htmlUrl="https://sebastianraschka.com/blog/" xmlUrl="https://sebastianraschka.com/rss_feed.xml" />
+        <outline type="rss" text="The Eclectic Light Company – Macs" title="The Eclectic Light Company – Macs" htmlUrl="https://eclecticlight.co/category/macs/" xmlUrl="https://eclecticlight.co/category/macs/feed/" />
+        <outline type="rss" text="Jake Gold" title="Jake Gold" htmlUrl="https://jacob.gold/" xmlUrl="https://jacob.gold/index.xml" />
+        <outline type="rss" text="lcamtuf’s thing" title="lcamtuf’s thing" htmlUrl="https://blog.coredump.cx/" xmlUrl="https://blog.coredump.cx/feed" />
+        <outline type="rss" text="John Wang" title="John Wang" htmlUrl="https://johnjwang.com/" xmlUrl="https://johnjwang.com/post/index.xml" />
+        <outline type="rss" text="Stephen Wolfram Writings" title="Stephen Wolfram Writings" htmlUrl="https://writings.stephenwolfram.com/" xmlUrl="https://writings.stephenwolfram.com/feed/atom/" />
+        <outline type="rss" text="Tenderlove Making" title="Tenderlove Making" htmlUrl="https://tenderlovemaking.com/" xmlUrl="https://tenderlovemaking.com/atom.xml" />
+        <outline type="rss" text="Lalit Maganti" title="Lalit Maganti" htmlUrl="https://lalitm.com/" xmlUrl="https://lalitm.com/index.xml" />
+        <outline type="rss" text="Drew DeVault" title="Drew DeVault" htmlUrl="https://drewdevault.com/" xmlUrl="https://drewdevault.com/blog/index.xml" />
+        <outline type="rss" text="lzon.ca - Blog" title="lzon.ca - Blog" htmlUrl="https://lzon.ca/posts/" xmlUrl="https://lzon.ca/posts/atom.xml" />
+        <outline type="rss" text="Marginalia.nu Weblog" title="Marginalia.nu Weblog" htmlUrl="https://www.marginalia.nu/log/" xmlUrl="https://www.marginalia.nu/log/index.xml" />
+        <outline type="rss" text="La Vita Nouva (Saleh)" title="La Vita Nouva (Saleh)" htmlUrl="https://lr0.org/blog/" xmlUrl="https://lr0.org/blog/index.xml" />
+        <outline type="rss" text="Big Muddy" title="Big Muddy" htmlUrl="https://muddy.jprs.me/" xmlUrl="https://muddy.jprs.me/posts/index.xml" />
+        <outline type="rss" text="Leonardo de Moura" title="Leonardo de Moura" htmlUrl="https://leodemoura.github.io/blog/" xmlUrl="https://leodemoura.github.io/feed.xml" />
+        <outline type="rss" text="su3.io" title="su3.io" htmlUrl="https://su3.io/" xmlUrl="https://su3.io/api/feed" />
+        <outline type="rss" text="malisper.me (Mal’s Blog)" title="malisper.me (Mal’s Blog)" htmlUrl="https://malisper.me/" xmlUrl="https://malisper.me/feed/" />
+        <outline type="rss" text="Andrew Nesbitt" title="Andrew Nesbitt" htmlUrl="https://nesbitt.io/" xmlUrl="https://nesbitt.io/feed.xml" />
+        <outline type="rss" text="Acko.net" title="Acko.net" htmlUrl="https://acko.net/" xmlUrl="https://acko.net/atom.xml" />
+        <outline type="rss" text="Anthony Templeton" title="Anthony Templeton" htmlUrl="https://atempleton.bearblog.dev/blog/" xmlUrl="https://atempleton.bearblog.dev/feed/" />
+        <outline type="rss" text="One Happy Fellow - blog" title="One Happy Fellow - blog" htmlUrl="https://blog.happyfellow.dev/" xmlUrl="https://blog.happyfellow.dev/feed/?type=rss" />
+        <outline type="rss" text="Daniel D. McKinnon" title="Daniel D. McKinnon" htmlUrl="https://www.ddmckinnon.com/" xmlUrl="https://www.ddmckinnon.com/feed/" />
+        <outline type="rss" text="Lina’s Blog" title="Lina’s Blog" htmlUrl="https://lina.sh/blogs/" xmlUrl="https://lina.sh/blog/rss.xml" />
+        <outline type="rss" text="Mat Duggan" title="Mat Duggan" htmlUrl="https://matduggan.com/" xmlUrl="https://matduggan.com/rss/" />
+        <outline type="rss" text="REPL Yell!" title="REPL Yell!" htmlUrl="https://atgreen.github.io/repl-yell/posts/" xmlUrl="https://atgreen.github.io/repl-yell/posts/index.xml" />
+        <outline type="rss" text="Anton Zhiyanov" title="Anton Zhiyanov" htmlUrl="https://antonz.org/all/" xmlUrl="https://antonz.org/index.xml" />
+        <outline type="rss" text="Chris' Blog" title="Chris' Blog" htmlUrl="https://blog.chrislewis.au/" xmlUrl="https://blog.chrislewis.au/index.xml" />
+        <outline type="rss" text="blinry’s homepage" title="blinry’s homepage" htmlUrl="https://blinry.org/" xmlUrl="https://blinry.org/feed/" />
+        <outline type="rss" text="Jeff Johnson — The Desolation of Blog" title="Jeff Johnson — The Desolation of Blog" htmlUrl="https://lapcatsoftware.com/articles/" xmlUrl="https://lapcatsoftware.com/articles/atom.xml" />
+        <outline type="rss" text="Daniel Lawrence Lu" title="Daniel Lawrence Lu" htmlUrl="https://daniel.lawrence.lu/blog/" xmlUrl="https://daniel.lawrence.lu/blog/rss.xml" />
+        <outline type="rss" text="the singularity is nearer" title="the singularity is nearer" htmlUrl="https://geohot.github.io/blog/" xmlUrl="https://geohot.github.io/blog/feed.xml" />
+        <outline type="rss" text="Jacob Young — Writing" title="Jacob Young — Writing" htmlUrl="https://jry.io/" xmlUrl="https://jry.io/writing/atom.xml" />
+        <outline type="rss" text="Andrej Karpathy blog" title="Andrej Karpathy blog" htmlUrl="https://karpathy.github.io/" xmlUrl="https://karpathy.github.io/feed.xml" />
+        <outline type="rss" text="The Autodidacts" title="The Autodidacts" htmlUrl="https://www.autodidacts.io/" xmlUrl="https://www.autodidacts.io/rss/" />
+        <outline type="rss" text="A Dinosaur In Space" title="A Dinosaur In Space" htmlUrl="https://green.spacedino.net/" xmlUrl="https://green.spacedino.net/rss/" />
+        <outline type="rss" text="Understory — Brooklyn Zelenka" title="Understory — Brooklyn Zelenka" htmlUrl="https://notes.brooklynzelenka.com/" xmlUrl="https://notes.brooklynzelenka.com/feed.xml" />
+        <outline type="rss" text="Farid Zakaria’s Blog" title="Farid Zakaria’s Blog" htmlUrl="https://fzakaria.com/" xmlUrl="https://fzakaria.com/feed.xml" />
+        <outline type="rss" text="Philip O'Toole" title="Philip O'Toole" htmlUrl="https://philipotoole.com/" xmlUrl="https://philipotoole.com/feed/" />
+        <outline type="rss" text="James Somers — the jsomers.net blog" title="James Somers — the jsomers.net blog" htmlUrl="https://jsomers.net/blog/" xmlUrl="https://jsomers.net/blog/feed" />
+        <outline type="rss" text="What’s New — Terence Tao" title="What’s New — Terence Tao" htmlUrl="https://terrytao.wordpress.com/" xmlUrl="https://terrytao.wordpress.com/feed/" />
+        <outline type="rss" text="Ken Jin’s Blog" title="Ken Jin’s Blog" htmlUrl="https://fidget-spinner.github.io/" xmlUrl="https://fidget-spinner.github.io/feed.xml" />
+        <outline type="rss" text="Simon Willison’s Weblog" title="Simon Willison’s Weblog" htmlUrl="https://simonwillison.net/" xmlUrl="https://simonwillison.net/atom/everything/" />
+        <outline type="rss" text="Sutter’s Mill" title="Sutter’s Mill" htmlUrl="https://herbsutter.com/" xmlUrl="https://herbsutter.com/feed/" />
     </outline>
     </body>
 </opml>

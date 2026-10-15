@@ -94,6 +94,34 @@
       <outline type="rss" text="Zalando" title="Zalando" xmlUrl="https://engineering.zalando.com/atom.xml" htmlUrl="https://engineering.zalando.com/"/>
       <outline type="rss" text="Zendesk" title="Zendesk" xmlUrl="https://medium.com/feed/zendesk-engineering" htmlUrl="https://medium.com/zendesk-engineering"/>
       <outline type="rss" text="CERT Blogs" title="CERT Blogs" xmlUrl="https://insights.sei.cmu.edu/cert/atom.xml" htmlUrl="https://insights.sei.cmu.edu/cert/"/>
+      <outline type="rss" text="Doubleword Blog" title="Doubleword Blog" htmlUrl="https://blog.doubleword.ai/" xmlUrl="https://blog.doubleword.ai/rss.xml" />
+      <outline type="rss" text="Epoch AI — Latest" title="Epoch AI — Latest" htmlUrl="https://epoch.ai/" xmlUrl="https://epoch.ai/atom.xml" />
+      <outline type="rss" text="Floe Blog" title="Floe Blog" htmlUrl="https://floedb.ai/blog/tag/engineering" xmlUrl="https://floedb.ai/blog/rss.xml" />
+      <outline type="rss" text="METR" title="METR" htmlUrl="https://metr.org/research/" xmlUrl="https://metr.org/feed.xml" />
+      <outline type="rss" text="corrode" title="corrode" htmlUrl="https://corrode.dev/blog/" xmlUrl="https://corrode.dev/rss.xml" />
+      <outline type="rss" text="Tweede golf Blog" title="Tweede golf Blog" htmlUrl="https://tweedegolf.nl/en/blog/" xmlUrl="https://tweedegolf.nl/feed.xml" />
+      <outline type="rss" text="Ink &amp; Switch" title="Ink &amp; Switch" htmlUrl="https://www.inkandswitch.com/" xmlUrl="https://www.inkandswitch.com/index.xml" />
+      <outline type="rss" text="APNIC Blog" title="APNIC Blog" htmlUrl="https://blog.apnic.net/" xmlUrl="https://blog.apnic.net/feed/" />
+      <outline type="rss" text="American Express Technology" title="American Express Technology" htmlUrl="https://americanexpress.io/posts/" xmlUrl="https://americanexpress.io/feed.xml" />
+      <outline type="rss" text="Hatchet Blog" title="Hatchet Blog" htmlUrl="https://hatchet.run/blog" xmlUrl="https://hatchet.run/rss.xml" />
+      <outline type="rss" text="Stripe Dot Dev Blog" title="Stripe Dot Dev Blog" htmlUrl="https://stripe.dev/blog" xmlUrl="https://stripe.dev/blog/feed" />
+      <outline type="rss" text="Together AI Blog" title="Together AI Blog" htmlUrl="https://www.together.ai/blog" xmlUrl="https://www.together.ai/blog/rss.xml" />
+      <outline type="rss" text="exe.dev Engineering Blog" title="exe.dev Engineering Blog" htmlUrl="https://blog.exe.dev/" xmlUrl="https://blog.exe.dev/rss.xml" />
+      <outline type="rss" text="Planet Igalia" title="Planet Igalia" htmlUrl="https://planet.igalia.com/" xmlUrl="https://planet.igalia.com//rss20.xml" />
+      <outline type="rss" text="turbopuffer Blog" title="turbopuffer Blog" htmlUrl="https://turbopuffer.com/blog" xmlUrl="https://turbopuffer.com/blog/rss.xml" />
+      <outline type="rss" text="Amazon Science" title="Amazon Science" htmlUrl="https://www.amazon.science/" xmlUrl="https://www.amazon.science/index.rss" />
+      <outline type="rss" text="Mendral Blog" title="Mendral Blog" htmlUrl="https://mendral.com/blog" xmlUrl="https://mendral.com/api/rss.xml" />
+      <outline type="rss" text="Planet VideoLAN — Developers Blog" title="Planet VideoLAN — Developers Blog" htmlUrl="https://planet.videolan.org/" xmlUrl="https://planet.videolan.org/rss20.xml" />
+      <outline type="rss" text="PlanetScale Blog" title="PlanetScale Blog" htmlUrl="https://planetscale.com/blog" xmlUrl="https://planetscale.com/blog/feed.atom" />
+      <outline type="rss" text="Antithesis blog" title="Antithesis blog" htmlUrl="https://antithesis.com/learn/" xmlUrl="https://antithesis.com/blog/rss.xml" />
+      <outline type="rss" text="NVIDIA Technical Blog" title="NVIDIA Technical Blog" htmlUrl="https://developer.nvidia.com/blog/" xmlUrl="http://feeds.feedburner.com/nvidia/parallelforall" />
+      <outline type="rss" text="Mixedbread" title="Mixedbread" htmlUrl="https://www.mixedbread.com/blog" xmlUrl="https://www.mixedbread.com/blog/feed.xml" />
+      <outline type="rss" text="Bytecode Alliance" title="Bytecode Alliance" htmlUrl="https://bytecodealliance.org/articles/" xmlUrl="https://bytecodealliance.org/feed.xml" />
+      <outline type="rss" text="Neon Engineering Blog" title="Neon Engineering Blog" htmlUrl="https://neon.com/blog/category/engineering" xmlUrl="https://neon.com/blog/rss.xml" />
+      <outline type="rss" text="Modular Blog — Engineering category and site-wide RSS" title="Modular Blog — Engineering category and site-wide RSS" htmlUrl="https://www.modular.com/categories/engineering" xmlUrl="https://www.modular.com/blog/rss.xml" />
+      <outline type="rss" text="Spritely Institute" title="Spritely Institute" htmlUrl="https://spritely.institute/" xmlUrl="https://spritely.institute/feed.xml" />
+      <outline type="rss" text="Posit Open Source" title="Posit Open Source" htmlUrl="https://opensource.posit.co/blog/" xmlUrl="https://opensource.posit.co/blog/index.xml" />
+      <outline type="rss" text="VectorWare Blog" title="VectorWare Blog" htmlUrl="https://www.vectorware.com/blog/" xmlUrl="https://www.vectorware.com/blog/rss.xml" />
     </outline>
   </body>
 </opml>

@@ -11,6 +11,8 @@
         <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com/"/>
         <outline text="Venture Beat" title="Venture Beat" type="rss" xmlUrl="https://feeds.feedburner.com/venturebeat/SZYF" htmlUrl="https://venturebeat.com/"/>
         <outline title="Learn and Burn | Unbox Research" htmlUrl="https://learnandburn.ai" xmlUrl="https://learnandburn.ai/feed" />
+        <outline type="rss" text="More Than Moore" title="More Than Moore" htmlUrl="https://morethanmoore.substack.com/" xmlUrl="https://morethanmoore.substack.com/feed" />
+        <outline type="rss" text="Chips and Cheese" title="Chips and Cheese" htmlUrl="https://chipsandcheese.com/" xmlUrl="https://chipsandcheese.com/feed" />
     </outline>
   </body>
 </opml>

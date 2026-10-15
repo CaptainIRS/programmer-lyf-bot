@@ -26,6 +26,36 @@
       <outline title="Hexops' devlog" htmlUrl="https://devlog.hexops.com" xmlUrl="https://devlog.hexops.com/feed.xml" />
       <outline title="Weird." htmlUrl="https://blog.muni.town/" xmlUrl="https://blog.muni.town/rss/" />
       <outline type="rss" text="Erin Catto | Consensus" title="Erin Catto | Consensus" htmlUrl="https://box2d.org/" xmlUrl="https://box2d.org/index.xml" />
+      <outline type="rss" text="Zig Devlog" title="Zig Devlog" htmlUrl="https://ziglang.org/devlog/" xmlUrl="https://ziglang.org/devlog/index.xml" />
+      <outline type="rss" text="PgDog Blog" title="PgDog Blog" htmlUrl="https://pgdog.dev/blog" xmlUrl="https://pgdog.dev/feed.xml" />
+      <outline type="rss" text="ParadeDB Blog" title="ParadeDB Blog" htmlUrl="https://www.paradedb.com/blog" xmlUrl="https://www.paradedb.com/feed.xml" />
+      <outline type="rss" text="Ziggit – A Zig community" title="Ziggit – A Zig community" htmlUrl="https://ziggit.dev/" xmlUrl="https://ziggit.dev/latest.rss" />
+      <outline type="rss" text="DBOS Blog" title="DBOS Blog" htmlUrl="https://dbos.dev/blog/" xmlUrl="https://dbos.dev/blog/rss.xml" />
+      <outline type="rss" text="Pyrefly Blog" title="Pyrefly Blog" htmlUrl="https://pyrefly.org/blog/" xmlUrl="https://pyrefly.org/blog/rss.xml" />
+      <outline type="rss" text="DuckDB Blog" title="DuckDB Blog" htmlUrl="https://duckdb.org/news/" xmlUrl="https://duckdb.org/feed.xml" />
+      <outline type="rss" text="Pi (Earendil)" title="Pi (Earendil)" htmlUrl="https://earendil.com/posts/" xmlUrl="https://earendil.com/posts/feed.atom" />
+      <outline type="rss" text="Ubuntu Blog" title="Ubuntu Blog" htmlUrl="https://ubuntu.com/blog" xmlUrl="https://ubuntu.com/blog/feed" />
+      <outline type="rss" text="Buf Blog" title="Buf Blog" htmlUrl="https://buf.build/blog" xmlUrl="https://buf.build/blog/rss.xml" />
+      <outline type="rss" text="Butler's Log" title="Butler's Log" htmlUrl="https://blog.gitbutler.com/" xmlUrl="https://blog.gitbutler.com/rss" />
+      <outline type="rss" text="Media over QUIC (MoQ) Project Blog" title="Media over QUIC (MoQ) Project Blog" htmlUrl="https://moq.dev/blog/" xmlUrl="https://moq.dev/rss.xml" />
+      <outline type="rss" text="Asahi Linux" title="Asahi Linux" htmlUrl="https://asahilinux.org/blog/" xmlUrl="https://asahilinux.org/blog/index.xml" />
+      <outline type="rss" text="Elixir Blog" title="Elixir Blog" htmlUrl="https://elixir-lang.org/blog/" xmlUrl="https://elixir-lang.org/atom.xml" />
+      <outline type="rss" text="Futhark Developer Blog" title="Futhark Developer Blog" htmlUrl="https://futhark-lang.org/blog.html" xmlUrl="https://futhark-lang.org/atom.xml" />
+      <outline type="rss" text="Deno Blog" title="Deno Blog" htmlUrl="https://deno.com/blog" xmlUrl="https://deno.com/feed" />
+      <outline type="rss" text="Planet Gentoo" title="Planet Gentoo" htmlUrl="https://planet.gentoo.org/" xmlUrl="https://planet.gentoo.org/atom.xml" />
+      <outline type="rss" text="Iroh" title="Iroh" htmlUrl="https://www.iroh.computer/blog" xmlUrl="https://www.iroh.computer/rss.xml" />
+      <outline type="rss" text="NetBSD Blog" title="NetBSD Blog" htmlUrl="https://blog.netbsd.org/" xmlUrl="http://blog.netbsd.org/tnf/feed/entries/rss" />
+      <outline type="rss" text="C3 Programming Language Blog" title="C3 Programming Language Blog" htmlUrl="https://c3-lang.org/blog/" xmlUrl="https://c3-lang.org/feed_rss_created.xml" />
+      <outline type="rss" text="Podman Development Blog" title="Podman Development Blog" htmlUrl="https://blog.podman.io/" xmlUrl="https://blog.podman.io/feed/" />
+      <outline type="rss" text="Linebender" title="Linebender" htmlUrl="https://linebender.org/blog/" xmlUrl="https://linebender.org/atom.xml" />
+      <outline type="rss" text="Khronos Blog" title="Khronos Blog" htmlUrl="https://www.khronos.org/blog/" xmlUrl="https://www.khronos.org/feeds/blog_feed" />
+      <outline type="rss" text="Bun Blog" title="Bun Blog" htmlUrl="https://bun.com/blog" xmlUrl="https://bun.com/rss.xml" />
+      <outline type="rss" text="Servo Blog" title="Servo Blog" htmlUrl="https://servo.org/blog/" xmlUrl="https://servo.org/blog/feed.xml" />
+      <outline type="rss" text="Ladybird Browser Posts" title="Ladybird Browser Posts" htmlUrl="https://ladybird.org/" xmlUrl="https://ladybird.org/posts.rss" />
+      <outline type="rss" text="Astral Blog" title="Astral Blog" htmlUrl="https://astral.sh/blog" xmlUrl="https://astral.sh/blog/rss.xml" />
+      <outline type="rss" text="Clojure News" title="Clojure News" htmlUrl="https://clojure.org/news/news" xmlUrl="https://clojure.org/feed.xml" />
+      <outline type="rss" text="Haiku Project Blog" title="Haiku Project Blog" htmlUrl="https://www.haiku-os.org/blog/" xmlUrl="https://www.haiku-os.org/blog/index.xml" />
+      <outline type="rss" text="Chrome for Developers Blog" title="Chrome for Developers Blog" htmlUrl="https://developer.chrome.com/blog" xmlUrl="https://developer.chrome.com/static/blog/feed.xml" />
     </outline>
   </body>
 </opml>
