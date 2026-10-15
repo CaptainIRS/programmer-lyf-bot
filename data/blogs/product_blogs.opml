@@ -9,18 +9,23 @@
       <outline type="rss" text="Bootstrap.com" title="Bootstrap.com" xmlUrl="https://blog.getbootstrap.com/feed.xml" htmlUrl="https://blog.getbootstrap.com/"/>
       <outline type="rss" text="Crystal" title="Crystal" xmlUrl="https://crystal-lang.org/feed.xml" htmlUrl="https://crystal-lang.org/"/>
       <outline type="rss" text="Go" title="Go" xmlUrl="https://blog.golang.org/feed.atom" htmlUrl="https://blog.golang.org/"/>
-      <outline type="rss" text="IPFS" title="IPFS" xmlUrl="https://ipfs.io/blog/index.xml" htmlUrl="https://ipfs.io/blog/"/>
+      <outline type="rss" text="IPFS" title="IPFS" xmlUrl="https://blog.ipfs.tech/index.xml" htmlUrl="https://blog.ipfs.tech/"/>
       <outline type="rss" text="jOOQ" title="jOOQ" xmlUrl="https://blog.jooq.org/feed/" htmlUrl="https://blog.jooq.org/"/>
-      <outline type="rss" text="Klipse" title="Klipse" xmlUrl="https://blog.klipse.tech//feed.xml" htmlUrl="https://blog.klipse.tech/"/>
       <outline type="rss" text="Kotlin" title="Kotlin" xmlUrl="https://blog.jetbrains.com/kotlin/feed/" htmlUrl="https://blog.jetbrains.com/kotlin/"/>
       <outline type="rss" text="Laravel" title="Laravel" xmlUrl="https://feed.laravel-news.com/" htmlUrl="https://laravel-news.com/blog/"/>
       <outline type="rss" text=".NET" title=".NET" xmlUrl="https://blogs.msdn.microsoft.com/dotnet/feed/" htmlUrl="https://blogs.msdn.microsoft.com/dotnet/"/>
-      <outline type="rss" text="React" title="React" xmlUrl="https://reactjs.org/feed.xml" htmlUrl="https://reactjs.org/blog/"/>
+      <outline type="rss" text="React" title="React" xmlUrl="https://react.dev/rss.xml" htmlUrl="https://react.dev/blog"/>
       <outline type="rss" text="React Native" title="React Native" xmlUrl="https://reactnative.dev/blog/rss.xml" htmlUrl="https://reactnative.dev/blog"/>
       <outline type="rss" text="Red" title="Red" xmlUrl="https://www.red-lang.org/feeds/posts/default" htmlUrl="https://www.red-lang.org"/>
       <outline type="rss" text="RocksDB" title="RocksDB" xmlUrl="https://rocksdb.org/feed.xml" htmlUrl="https://rocksdb.org/blog"/>
       <outline type="rss" text="Rust" title="Rust" xmlUrl="https://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/"/>
-      <outline type="rss" text="Sketch" title="Sketch" xmlUrl="https://www.sketch.com/blog/feed.xml" htmlUrl="https://blog.sketchapp.com/"/>
+      <outline type="rss" text="Blender" title="Blender" xmlUrl="https://code.blender.org/rss" htmlUrl="https://code.blender.org/"/>
+      <outline type="rss" text="CodeName One" title="CodeName One" xmlUrl="https://www.codenameone.com/feed.xml" htmlUrl="https://www.codenameone.com/blog.html"/>
+      <outline type="rss" text="Postmark" title="Postmark" xmlUrl="https://postmarkapp.com/blog/feed.atom" htmlUrl="https://postmarkapp.com/blog"/>
+      <outline type="rss" text="Gagallium" title="Gagallium" xmlUrl="https://gallium.inria.fr/blog/index.rss" htmlUrl="https://gallium.inria.fr/blog/index.rss"/>
+      <outline title="Hexops' devlog" htmlUrl="https://devlog.hexops.com" xmlUrl="https://devlog.hexops.com/feed.xml" />
+      <outline title="Weird." htmlUrl="https://blog.muni.town/" xmlUrl="https://blog.muni.town/rss/" />
+      <outline type="rss" text="Erin Catto | Consensus" title="Erin Catto | Consensus" htmlUrl="https://box2d.org/" xmlUrl="https://box2d.org/index.xml" />
     </outline>
   </body>
 </opml>

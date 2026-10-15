@@ -28,6 +28,8 @@ jobs:
     - name: Install dependencies
       if: steps.cache-python.outputs.cache-hit != 'true'
       run: pip install -r requirements-dev.txt
+    - name: Run feed regression tests
+      run: python -m unittest discover -s tests -v
     - name: Running autopep8
       run: autopep8 --exit-code -ra --diff feeds/ forums/ reddit/ util/ ./main.py
     - name: Running isort

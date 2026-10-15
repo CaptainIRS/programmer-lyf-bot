@@ -85,14 +85,23 @@ def _feed_to_post(feed, feed_entry, details):
     return data
 
 
-def _check_if_within_time(published_time, time_delta):
-    try:
-        published_timestamp = datetime.utcfromtimestamp(timegm(published_time))
-        current_timestamp = datetime.utcnow()
-        return current_timestamp - time_delta < published_timestamp <= current_timestamp
-    except Exception as exception:  # pylint: disable=broad-except
-        logging.error(exception)
+def _get_entry_timestamp(entry):
+    '''Prefer the publication date, falling back to a usable update date.'''
+    for date_field in ('published_parsed', 'updated_parsed'):
+        parsed_time = entry.get(date_field)
+        if parsed_time:
+            try:
+                return datetime.utcfromtimestamp(timegm(parsed_time))
+            except (IndexError, OverflowError, TypeError, ValueError):
+                continue
+    return None
+
+
+def _check_if_within_time(published_timestamp, time_delta):
+    if published_timestamp is None:
         return False
+    current_timestamp = datetime.utcnow()
+    return current_timestamp - time_delta < published_timestamp <= current_timestamp
 
 
 def transform_feed(feed_data, details, limit, time_delta=timedelta(1)):  # pylint: disable=too-many-locals
@@ -114,28 +123,29 @@ def transform_feed(feed_data, details, limit, time_delta=timedelta(1)):  # pylin
             exception
         )
         return []
-    feed_entries = feed_object.entries[:limit]
+    feed_entries = feed_object.entries
     if time_delta:
         feed_entries = [
             entry for entry in feed_entries
-            if (hasattr(entry, 'published_parsed') and entry.published_parsed
-                and _check_if_within_time(entry.published_parsed, time_delta)) or
-            (not hasattr(entry, 'published_parsed') and hasattr(entry, 'updated_parsed')
-                and entry.updated_parsed
-                and _check_if_within_time(entry.updated_parsed, time_delta))
+            if _check_if_within_time(_get_entry_timestamp(entry), time_delta)
         ]
+    feed_entries = feed_entries[:limit]
     if feed_entries:
         logging.info('Fetching %d articles from %s', len(feed_entries), publisher_url)
     else:
-        if feed_object.entries and hasattr(feed_object.entries[0], 'published_parsed'):
-            try:
-                last_published = datetime.utcfromtimestamp(timegm(feed_object.entries[0].published_parsed))
+        if feed_object.entries:
+            timestamps = [_get_entry_timestamp(entry) for entry in feed_object.entries]
+            last_published = max((timestamp for timestamp in timestamps if timestamp is not None), default=None)
+            if last_published is not None:
                 delta = datetime.utcnow() - last_published
-                stale = ''
-                if delta.days > 365:
-                    stale = 'Stale publication. '
-                logging.info('%sNo article for %s, last published %s days ago', stale, publisher_url, delta.days)
-            except Exception:  # pylint: disable=broad-except
+                if delta.total_seconds() < 0:
+                    logging.info('No article for %s, latest entry is dated in the future', publisher_url)
+                else:
+                    stale = ''
+                    if delta.days > 365:
+                        stale = 'Stale publication. '
+                    logging.info('%sNo article for %s, last published %s days ago', stale, publisher_url, delta.days)
+            else:
                 logging.error('Timestamps invalid in %s', feed_url)
         else:
             logging.error('Invalid feed entry for %s at %s. Please check.', publisher_url, feed_url)
@@ -143,8 +153,6 @@ def transform_feed(feed_data, details, limit, time_delta=timedelta(1)):  # pylin
     posts = []
 
     for feed_entry in feed_entries:
-        if 'published_parsed' not in feed_entry:
-            feed_entry.published_parsed = feed_entry.updated_parsed
         post = _feed_to_post(feed_object.feed, feed_entry, details)
         posts.append(post)
 
