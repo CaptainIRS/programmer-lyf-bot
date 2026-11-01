@@ -122,6 +122,14 @@
       <outline type="rss" text="Spritely Institute" title="Spritely Institute" htmlUrl="https://spritely.institute/" xmlUrl="https://spritely.institute/feed.xml" />
       <outline type="rss" text="Posit Open Source" title="Posit Open Source" htmlUrl="https://opensource.posit.co/blog/" xmlUrl="https://opensource.posit.co/blog/index.xml" />
       <outline type="rss" text="VectorWare Blog" title="VectorWare Blog" htmlUrl="https://www.vectorware.com/blog/" xmlUrl="https://www.vectorware.com/blog/rss.xml" />
+      <outline type="rss" text="GO-JEK Engineering" title="GO-JEK Engineering" htmlUrl="https://medium.com/gojekengineering" xmlUrl="https://medium.com/feed/gojekengineering" />
+      <outline type="rss" text="Intuit Engineering" title="Intuit Engineering" htmlUrl="https://medium.com/intuit-engineering" xmlUrl="https://medium.com/feed/intuit-engineering" />
+      <outline type="rss" text="Rapido Labs" title="Rapido Labs" htmlUrl="https://medium.com/rapido-labs" xmlUrl="https://medium.com/feed/rapido-labs" />
+      <outline type="rss" text="CLYSO technical blog" title="CLYSO technical blog" htmlUrl="https://docs.clyso.com/blog/" xmlUrl="https://docs.clyso.com/blog/rss.xml" />
+      <outline type="rss" text="Dream11 Engineering" title="Dream11 Engineering" htmlUrl="https://tech.dream11.in/blog" xmlUrl="https://tech.dream11.in/index.xml" />
+      <outline type="rss" text="Numaproj" title="Numaproj" htmlUrl="https://blog.numaproj.io/" xmlUrl="https://blog.numaproj.io/feed" />
+      <outline type="rss" text="PhonePe Tech Blog" title="PhonePe Tech Blog" htmlUrl="https://tech.phonepe.com/" xmlUrl="https://tech.phonepe.com/rss.xml" />
+      <outline type="rss" text="BigBinary Blog" title="BigBinary Blog" htmlUrl="https://www.bigbinary.com/blog/all" xmlUrl="https://www.bigbinary.com/blog/feed.xml" />
     </outline>
   </body>
 </opml>
